@@ -1,0 +1,1665 @@
+index,input,acp
+0,The drug desired to be prescribed is checked against the patient's drug allergies.,1
+1,The user's associated filter initially has all empty inputs for the filtering criteria before the user modifies it.,1
+2,"The HCP selects a procedure code, a priority from 1 to 3 (1=most important, 3=not as important), and Lab Technician (listed with his or her specialty and the number of pending lab procedures in his or her priority queue, grouped by priority).",1
+3,"If the confirmation screen does not show the name of the intended patient, the HCP is then prompted to input the correct patient identification information again.",1
+4,"The HCP confirms the reassignment, or cancels the reassignment .",1
+5,The user can select an office visit from the calendar to read the visit's details .,1
+6,The patient is sent a fake email that the HCP has prescribed a medication that he or she is allergic to or that has a known interaction with a drug he or she is taking.,1
+7,The public health agent may also choose to remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus) .,1
+8,"When an LHCP views a list of his or her upcoming appointments, they are presented with an option to edit or remove the appointment.",1
+9,A LHCP creates an  UAP.,1
+10,An HCP can add commentary to a pending lab procedure .,1
+11,The administrator will maintain a listing of allowable diagnoses that an LHCP can use.,1
+12,The patient has authenticated himself or herself in the iTrust Medical Records system(UC3).,1
+13,The LHCP does not confirm the selection and can try again.,1
+14,The message will display the risk factors that the patients exhibit.,1
+15,The data for personnel can be edited according to Data Format 6.2 (all fields mandatory except for associated MID and Street Address 2) .,1
+16,The sending HCP does not confirm the selection and is prompted to try again.,1
+17,The medication is checked against the patient's current and future prescriptions.,1
+18,The HCP can choose to graph the height or weight of the patient.,1
+19,"The patient may choose to view the list sorted by the role of the accessor relative to the patient (personal health representative, LHCP, UAP, Emergency Responder; any order is fine as long as the list is sorted by role) as well as by date for each role type, most recent access first.",1
+20,The system shall store (1) reason id number for the reason ; and (2) up to 80 alphanumeric characters giving the name of the reason.,1
+21,Both patients and LHCPs can view a list of their upcoming appointments .,1
+22,A patient may view his or her own lab procedure.,1
+23,The administrator has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+24,"The patient may optionally enter a zip code (match on first three numbers of zip code), in addition to the name possibly and possibly specialty.",1
+25,The iTrust user (patient) has been authenticated in the iTrust Medical Records system (UC3).,1
+26,"In the list of in transit lab procedures , the Lab Technician can update the status to received when the sample has been received in his or her lab.",1
+27,The LHCP is presented with a list of other appointments that conflict with the new one.,1
+28,"The HCP may sort the list of referrals by patient name, receiving HCP name, time generated, possibly and possibly priority.",1
+29,The patient can also add a LHCP to their provider list by searching for the name possibly and possibly specialty of a LHCP  and then selecting to add the HCP to their list of providers.,1
+30,"The patient or personal health representative can see an abbreviated health history of their siblings, parents, and both sets of grandparents for which MIDs are available in iTrust.",1
+31,"The user selects a prescription from the calendar to read its details by clicking the Read Details link beside or below the medication displayed for the prescription, and then the details for the prescription shall be displayed in a new page, including the medications prescribed (i.e., NDC, see Data Format 6.6), date prescribed, start date, end date for each prescription, and the name of the doctor who prescribed the medication.",1
+32,The HCP is notified that required fields contain no input.,1
+33,The HCP's medical identification number should also be maintained.,1
+34,The LHCP is provided a bar chart of diagnosis counts during the specified time period as well as a yes or no answer on whether an epidemic is occurring during any consecutive two weeks during the time period.,1
+35,An LHCP can delete a patient from his or her monitoring list by the LHCP typing the the patient's MID .,1
+36,"The LHCP chooses to examine a patient for which the preconditions do not apply (e.g., an adult shouldn't be tested for child diabetes) and the LHCP is prompted that no analysis can occur.",1
+37,"The HCP can view patient name, lab procedure code, current lab procedure status, timestamp, and Lab Technician name.",1
+38,"The LHCP requests a comprehensive report for all patients with a specified gender, age, and diagnosis .",1
+39,The HCP selects a patient by typing in the MID of the patient .,1
+40,An HCP may enter or edit their own demographic information according to data format 6.2.,1
+41,"A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID, drug, and symptoms.",1
+42,"A patient can select to report height, weight, possibly and possibly pedometer readings for those for whom he or she is a patient representative.",1
+43,A user chooses to view physician satisfaction survey results.,1
+44,An LHCP can view a list of their upcoming appointment requests .,1
+45,A patient may view his or her own lab procedure results .,1
+46,"The sending HCP must select a receiving HCP by either entering the HCP's MID and confirming the selection, or by searching for the HCP by name.",1
+47,He or she can report his or her blood pressure (systolic and diastolic)  possibly and possibly glucose levels .,1
+48,"If the requested appointment time does conflict with an existing appointments, the patient is presented with a list of the three next non-overlapping available appointment times within 7 days of the requested date.",1
+49,The LHCP clicks this number to view the physiologic data monitoring details of his or her patients for the current date.,1
+50,"If answer to security question is correct, allow user to change their password.",1
+51,The iTrust user (HCP or patient) has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+52,"The data in the database is analyzed according to the malaria epidemic heuristic to determine if an epidemic is occurring in the region defined by the zip code that match the first three numbers in the provided zip code (e.g. if zip code 27695 is provided, all data with zip code 276xx is analyzed, where each x is any digit from 0-9).",1
+53,An LHCP or patient or representative may view a message .,1
+54,A user (an LHCP or patient) chooses to display his or her appointments in the current month on a calendar for the current month.,1
+55,"The status of a laboratory procedure has been updated (UC26, S3).",1
+56,The administrator chooses a drug from each list to record an interaction between the two drugs.,1
+57,"The hcp documents the office visit date; hospital location of the office visit, if any, (the default should be the HCP's home location); and notes about an office visit.",1
+58,The iTrust user (patient or HCP) has been authenticated in the iTrust Medical Records system (UC3).,1
+59,The administrator types an invalid hospital ID and is prompted to try again.,1
+60,"Upon sending a referral, the patient, sending HCP, and receiving HCP receive a message summarizing the newly created referral information (sending HCP name & specialty, receiving HCP name & specialty, patient name, referral notes, and referral creation timestamp); additionally, the sending and receiving HCP messages include the referral priority.",1
+61,A session that has been inactive for more than ten minutes is terminated .,1
+62,A patient can select to report physiologic measurements for those whose at least one physiologic data type is specified to be under monitoring and for whom he or she is a patient representative.,1
+63,"Additionally, the HCP can document none, one, or more medications (NDC, see Data Format 6.6) prescribed ; none, one, or more lab procedures that are ordered (LOINC code, see Data Format 6.11)(UC26); none, one, or more diagnoses (via the ICD-9CM code); none, one, or more medical procedures (CPT code) performed; and none, one, or more immunizations given (CPT Code, see UC15, S1) chosen from appropriate pull-down lists.",1
+64,"Through the Personal Health Records page, an LHCP chooses a chronic disease and a patient.",1
+65,"A user (a patient) chooses to display his or her appointments in the current month together with his or her office visit dates, prescription dates, and lab procedure dates of the current month on a calendar for the current month.",1
+66,An administrator chooses to maintain the hospital listing .,1
+67,An LHCP views the number of submitted physiologic data monitoring reports of his or her patients for the current date.,1
+68,"He or she can report the height, weight, possibly and possibly pedometer reading  for the patient.",1
+69,"A patient may have up to 10 physiologic data points in any one day, reported by him or herself, a UAP, or a personal representative .",1
+70,"The HCP chooses a specific referral from the list to view complete details about the referral: patient name, receiving HCP name and specialty, time generated, priority, office visit date, and notes.",1
+71,"A user (an LHCP or patient) wishes to view a list of his or her upcoming appointments (i.e., a list including appointments whose appointment date and start time is equal or later than the current date or time).",1
+72,A user can sort messages in his or her message outbox by the recipient's last name or timestamp (but not both) in either ascending or descending order.,1
+73,Only the applicable input entries (those whose corresponding data types of the patient are specified to be under monitoring) are displayed to the UAP.,1
+74,The licensed health care professional making a diagnosis determines if a patient is granted the ability to restrict viewing of the diagnosis.,1
+75,"The administrator will store (1) the CPT code (The CPT code set accurately describes medical, surgical, and diagnostic services and is designed to communicate uniform information about medical services and procedures among physicians, coders, patients, accreditation organizations, and payers for administrative, financial, and analytical purposes.",1
+76,The user chooses to open his or her upcoming appointment list.,1
+77,The LHCP types an invalid age range and is prompted to try again.,1
+78,An HCP can view a previously created lab procedure for a given office visit.,1
+79,"The system shall enable multiple simultaneous users, each with his or her own exclusive authentication.",1
+80,An LHCP or UAP creates a list of patients (by MID) for which he or she will monitor remotely .,1
+81,A patient is added to the list by the LHCP or UAP typing in the patient's MID  or name.,1
+82,"At this point, the LHCP can view a prescription list for that patient , sorted by start date (the later date is ranked earlier).",1
+83,"The HCP must provide instructions (can neither be empty nor the default form field value), or else they cannot add the prescription.",1
+84,The iTrust user (LHCP or ER) has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+85,"After the patient logs in, an activity feed is displayed .",1
+86,The HCP can graph height or weight of the patient over the last 3 calendar years .,1
+87,All email notifications should be executed through the fake email utility.,1
+88,LOINC data from this file is added to a listing of allowable physical services (including laboratory procedures that an HCP can use).,1
+89,The administrator will store (1) hospital Id number for the hospital ; and (2) up to 30 alphanumeric characters giving the name of the hospital.,1
+90,"An administrator chooses to maintain the standards list for immunizations , diagnoses , allowable drugs , or allowable physical services .",1
+91,The HCP can select a medication from a pull down list and add it to the list of medications the patient is allergic to.,1
+92,The iTrust user has been authenticated in the iTrust Medical Records system (UC3).,1
+93,"If the LHCP is not one of the patient's DLHCP or the UAP associated with one of their DLHCP, a message is sent to the patient and their personal representative .",1
+94,An HCP can reassign a previously created lab procedure .,1
+95,The patient can select to view contact information of a selected LHCP shown in the expired prescription list .,1
+96,The HCP types an invalid medical identification number and is prompted to try again.,1
+97,"The patient, UAP, or personal representative tries to enter more than ten physiologic data points for one day and is told additional data cannot be entered.",1
+98,The LHCP is presented with a screen upon which he or she can choose a date range.,1
+99,The administrator will store information of a LOINC code (Logical Observation Identifiers Names and Codes (LOINC) is a database and universal standard for identifying medical laboratory observations.,1
+100,An HCP can reassign a previously created lab procedure to a different Lab Technician if the lab procedure is not yet in the testing state.,1
+101,The user is prompted to try again.,1
+102,The LHCP or ER does not confirm the selection and is prompted to try again.,1
+103,"An admin creates a LHCP, an ER, a Laboratory Technician (LT), or a public health agent (PHA) .",1
+104,The LHCP views his or her message inbox.,1
+105,His or her appointments in the current month shall be displayed on the calendar .,1
+106,The LHCP has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+107,A Lab Technician can view his or her assigned lab procedures.,1
+108,He or she can report the blood pressure (systolic and diastolic)  possibly and possibly glucose levels  for the patient.,1
+109,A message of the removal is sent to the adverse event reporter and to the LHCP involved in the report (because the LHCP prescribed the drug or administered the immunization).,1
+110,"An administrator enters a LHCP, ER, or public health agent as a user of iTrust Medical Records system, initially only the name and email are provided.",1
+111,The patient chooses to view his or her access log or that for a person for whom they are a personal health representative.,1
+112,"The lab technician can specialize in blood work, tissue work, or general.",1
+113,"A user (a patient, patient representative, or LHCP) wishes to read a message from the message inbox or outbox.",1
+114,The LHCP clicks this number to view the weight or pedometer monitoring details of his or her patients for the current date.,1
+115,"The user selects a laboratory procedure from the calendar to read its details by clicking the Read Details link beside or below the LOINC code displayed for the laboratory procedure, and then the details for the laboratory procedure shall be displayed in a new page, including laboratory procedure code, status, commentary, results, and office visit date when the laboratory procedure was ordered.",1
+116,"A patient either chooses to input his or her physiologic measurements (blood pressure possibly and possibly glucose levels) , or to input his or her weight, height, possibly and possibly pedometer readings .",1
+117,"After entering all required information, the HCP selects the Add button .",1
+118,An LHCP  views his or her iTrust homepage.,1
+119,A Lab Technician can update the status of a lab procedure as received .,1
+120,"The patient clicks on the name of the LHCP for an expired prescription, and is presented with the contact information for that LHCP (including First Name Last Name, LHCP Type, Street Address 1, Street Address 2, City, State, Zip Code, Phone, and Contact Email); if any type of contact information is missing or the whole contact information for the LHCP is not available in the database, the corresponding missing types of information are simply shown as blank.",1
+121,The sending HCP may edit the priority of the referral possibly and possibly the referral notes.,1
+122,The administrator will maintain  a listing of allowable physical services (including laboratory procedures) that an HCP can use.,1
+123,The user clicks this number to view his or her message inbox.,1
+124,"A patient is only given the choice to restrict viewing on selected diagnostic information, such as those related to mental illness, substance abuse, and cosmetic surgery.",1
+125,A sending HCP edits a previously created patient referral as long as the referral has not been viewed by the receiving HCP.,1
+126,The HCP is presented with a listing of patients for whom they are a DLHCP who need care because of satisfying the one of preceding conditions.,1
+127,The iTrust user (HCP) or administrator has been authenticated in the iTrust Medical Records system (UC3).,1
+128,The LHCP clicks an appointment to view more details.,1
+129,An LHCP or patient can click the View Appointment Calendar link to view his or her appointments in the current month displayed on a calendar for the current month .,1
+130,The administrator will maintain  a listing of allowable immunizations that an HCP can use.,1
+131,The HCP uploads a comma-seperated value file containing one patient per row.,1
+132,"A user (a patient or personal health representative) can choose to view a list of his or her upcoming appointments for himself or herself, as well as appointments for the patients he or she represents (i.e., a list including appointments whose appointment date and start time is equal or later than the current date or time, sorted by time with soonest upcoming first).",1
+133,A fake email is sent to the LHCP alerting the user that a new message has arrived.,1
+134,"On the patient homepage, the Patient views a notification center.",1
+135,The user may try three times.,1
+136,HIPAA rules protect patients' information and also allow a patient to dictate who can access this information.,1
+137,The iTrust user (LCHP) has been authenticated in the iTrust Medical Records system (UC3).,1
+138,The public health agent can select to see the detail of a specific report.,1
+139,The HCP is notified that the required fields contain too many characters.,1
+140,An HCP can remove a previously created lab procedure for a given office visit.,1
+141,"The HCP has authenticated himself or herself in the iTrust Medical Records system (UC2),(UC3).",1
+142,A public health agent (PHA) selects a specific time period for which he or she would like to see a detailed listing of all adverse events related to prescription drugs  or immunizations  or to see trends in adverse events relate to prescription drugs  or immunizations .,1
+143,A patient or personal health representative chooses to view medical records  including family history .,1
+144,"The patient looks for an hospital with experience in physical services, as specified by LOINC codes of the office visits (UC15) and is given a list of the 5 most experienced Hospitals in that particular field.",1
+145,An LHCP can schedule an appointment with a patient .,1
+146,The user (patient) has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+147,The administrator selects a file containing LOINC information and chooses to upload it.,1
+148,A receiving HCP views a list of received referrals .,1
+149,The user can choose to examine recent trends in diagnoses.,1
+150,"The user selects a message from the list to read by clicking the 'Read' link beside the row for the message, and then the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+151,The HCP can choose to remove the lab procedure as long as the status is either in transit or received.,1
+152,A Lab Technician can view his or her priority queue of lab procedures .,1
+153,A sending HCP refers the patient to another receiving HCP .,1
+154,The system directs the user to make a different choice.,1
+155,"Similar to an administrator, a software tester is added by directly entering the software tester into the database by an administrator that has access to the database.",1
+156,"Upon reading the report, the public health agent can choose to send a fake email message to the adverse event reporter to gain more information about the report.",1
+157,"A patient can click View Full Calendar link to view his or her appointments in the current month together with his or her office visit dates, prescription dates, and lab procedure dates in the current month displayed on a calendar for the current month .",1
+158,The user inputs the MID of a patient who is deceased and is prompted to try again.,1
+159,The HCP can edit the patient according to data format 6.4  with all initial values (except patient MID) defaulting to null possibly and possibly 0 as appropriate.,1
+160,"An LHCP can see the blood pressure and glucose levels , or weight, height, and pedometer readings  for the patients he or she is monitoring, with two separate lists for physiologic and height or weight or pedometer readings .",1
+161,A Lab Technician can record the results of a lab procedure .,1
+162,The HCP types a invalid zip code (zip codes are five digits) and is prompted to try again.,1
+163,The HCP can choose to add or remove another registered user as a personal health representative to that patient.,1
+164,An HCP can create a lab procedure for a given office visit .,1
+165,A patient has just been diagnosed with a condition and wants to find the LHCPs in the area who have handled that condition.,1
+166,The LHCP chooses to schedule an appointment with a patient (it is assumed that the LHCP and patient have already worked out the details of the appointment in person or via telephone outside of the system).,1
+167,"An HCP chooses Office Visit Reminders and then to identify chronic patients who need an office visit , older patients who need a flu shot , or any patient who is overdue for an immunization .",1
+168,"The patient chooses a specific referral from the list to view complete details about the referral: sending HCP name and specialty, receiving HCP name and specialty, time generated, priority, office visit date, and notes.",1
+169,An LHCP wants to send a message to a patient possibly and possibly that patient's personal representative  or a patient or personal representative wants to send a message to one of their DLHCP or that of a person they are representing .,1
+170,The patients can choose to toggle between designating or undesignating any LHCP as being a DLHCP for themselves.,1
+171,The user can select an appointment from the calendar to read the appointment's details .,1
+172,The patient or representative views his or her message inbox.,1
+173,The patient chooses to view all LHCPs the patient has ever had an office visit with and those whom he or she had designated .,1
+174,"The LHCP can view of the comprehensive patient report for the specified group, including the information below.",1
+175,The user inputs invalid information and is prompted to try again.,1
+176,A sending HCP cancels a previously sent patient referral .,1
+177,The form validation of the system shall show the errors of all the fields in a form at the same time.,1
+178,The administrator will store (1) the National Drug Code (The National Drug Code (NDC) is a universal product identifier used in the United States for drugs intended for human use).,1
+179,"The iTrust user (Lab Technician, patient, or HCP) has been authenticated in the iTrust Medical Records system (UC3).",1
+180,The administrator types an invalid code information and is prompted to try again.,1
+181,"A patient or personal health representative can answer any of the following questions relative to a previous (in UC9, S1) office visit according to Data Format 6.13.",1
+182,The HCP has authenticated himself or herself in the iTrust Medical Records system(UC3).,1
+183,"The receiving HCP then selects a referral to view details and is presented with the name and specialty of the sending HCP, the patient's name, the referral notes, the referral priority, the office visit date with a link to the office visit, and the time the referral was created.",1
+184,"Once entered, the enterer or editor is presented a screen of the input to approve .",1
+185,The HCP may also add a patient referral (UC33).,1
+186,The LHCP types an invalid MID and is prompted to try again.,1
+187,"By default, the messages in the list should be ordered by timestamp, the most recent first.",1
+188,"The user selects a message from the message inbox or outbox to read by clicking the Read link beside the row for the message, and then the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+189,"For the diagnostic information which a patient can restrict viewing, he or she can choose to enable designated licensed health care professionals, possibly and possibly other licensed health care professionals, possibly and possibly no one.",1
+190,"A patient may have at most one height data point, one weight data point, and one pedometer data point in any one day, reported by him or herself, a UAP, or a personal representative .",1
+191,The LHCP is able to view the comprehensive group report .,1
+192,A patient views the details of his or her referrals .,1
+193,"A sending HCP cancels a previously sent patient referral by visiting the office visit page, viewing the details of a previously sent patient referral , and choosing cancel.",1
+194,An HCP can remove a previously created lab procedure .,1
+195,The two drugs and a textual description of the possible effects of the interaction are stored.,1
+196,A patient chooses to view their patient specific instructions by selecting a link named Patient Specific Instructions under the View heading in the left hand menu .,1
+197,"The user has successfully changed his or her password (UC3, S2).",1
+198,The LHCP does not confirm the selection and is prompted to try again.,1
+199,The HCP selects one or more reasons out the nine reasons listed here for the overriding.,1
+200,The health care professional does not confirm the selection and is prompted to try again.,1
+201,An LHCP chooses to view the height or weight or pedometer data monitoring details.,1
+202,An HCP chooses to enter or edit personal health information.,1
+203,"For each patient from the monitoring list, the LHCP can choose to edit which types of remote monitoring information (blood pressure, glucose levels, height, weight, and pedometer readings) should be submitted by the patient.",1
+204,Administrator: The administrator assigns medical identification numbers and passwords to LHCPs.,1
+205,The iTrust user (patient) has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+206,A sending HCP views a list of previously sent patient referrals .,1
+207,Only the applicable input entries (those whose corresponding data types of the patient are specified to be under monitoring) are displayed to the patient.,1
+208,An LHCP wishes to reply to a message.,1
+209,The user can select a laboratory procedure from the calendar to read the laboratory procedure's details .,1
+210,The administrator chooses to maintain the overriding reasons that an HCP can select from .,1
+211,The HCP is prompted to confirm that he or she wishes to remove the lab procedure.,1
+212,"The LHCP's name, specialty, and address are provided.",1
+213,"The input data, a timestamp, and the fact that the status was reported by case manager and his or her MID are saved.",1
+214,"The patient's assigned MID and a secret key (the initial password) are personally provided to the user, with which the user can reset his or her password.",1
+215,"The patient, UAP, or personal representative enters a glucose level outside the range 0-250.",1
+216,The system shall append 20 more activities to the end of the currently listed activities on the same page.,1
+217,An LHCP or UAP can add and delete patients from his or her monitoring list.,1
+218,"The patient chooses 'My Diagnoses and is presented with a listing of all their own diagnoses, sorted by diagnosis date (more recent first).",1
+219,"The patient, UAP, or personal representative enters a systolic blood pressure outside the range 40-240 or a diastolic blood pressure outside the range 40-150.",1
+220,The user chooses to open his or her message inbox or outbox.,1
+221,The HCP selects a patient to deactivate.,1
+222,The LHCP is able to view the comprehensive patient report  from a list of his or her requests.,1
+223,"The HCP selects a different Lab Technician from the list of available Lab Technicians (displayed with Lab Technician specialty and the number of pending lab procedures in his or her priority queue, grouped by priority).",1
+224,The patient or personal health representative clicks an appointment to view more details.,1
+225,"A user (a patient, patient representative, or LHCP) views the number of unread messages from his or her message inbox.",1
+226,An HCP may upload a photo of the patient as part of the patient's demographic records.,1
+227,LHCPs and patients or representatives may reply to messages .,1
+228,"Then, this person's electronic records are accessible via the iTrust Medical Records system.",1
+229,The HCP types an invalid date and is prompted to try again.,1
+230,The patient can choose to click this link.,1
+231,"A secret key is personally provided to the user, with which the user can reset his or her password.",1
+232,The patient and receiving HCP receive a message (UC30) indicating that the referral was canceled.,1
+233,"The LHCP can view of the comprehensive patient report for the specified patient, including the information below.",1
+234,"A user (a patient or personal health representative) views basic information about his or her designated LHCPs, including the name, phone number, and contact email information .",1
+235,The LHCP chooses to view all patients with which he or she has ever had an office visit with.,1
+236,The LHCP is unable to edit or remove any past appointments.,1
+237,The LHCP types an invalid medical identification number and is prompted to try again.,1
+238,"After a message is sent, the patient or personal representative is directed to his or her message outbox.",1
+239,The user is asked to try again.,1
+240,"The HCP provides the dosage in milligrams, the start and end date for the prescription, and any special instructions.",1
+241,The patient selects an LHCP from his or her provider list.,1
+242,The HCP has selected a medication prescribed from a pull down list.,1
+243,A patient or personal health representative  views his or her iTrust homepage.,1
+244,The health care personnel does not confirm the selection and is prompted to try again.,1
+245,The LHCP enters and confirms the patient or representative's MID .,1
+246,"While documenting an office visit, the HCP selects to prescribe a patient a drug by selecting its NDC and name .",1
+247,The HCP has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+248,A LHCP enters an UAP as a user of iTrust Medical Records system according to data format 6.2 (all fields mandatory) .,1
+249,The LHCP is presented with an option to approve or reject each pending appointment request.,1
+250,"The LHCP views a list of requests he or she has made for reports, with the status and pertinent information about the requests.",1
+251,The iTrust user (admin) has been authenticated in the iTrust Medical Records system (UC3).,1
+252,"The admin must specify a specialty for a new LHCP (general physician, heart surgeon, OB-GYN, pediatrician, surgeon) and for a new LT ( blood, tissue, or general).",1
+253,A patient or patient representative wishes to reply to a message.,1
+254,The user can select a prescription from the calendar to read the prescription's details .,1
+255,An LHCP chooses to send a message to a patient or representative (no multiple recipients allowed in a single message).,1
+256,A patient can request to schedule an appointment with an LHCP .,1
+257,"The patient types a last name or partial last name, possibly and possibly providing the specialty.",1
+258,A UAP can select to report height or weight or pedometer measurements.,1
+259,The HCP selects a different procedure code.,1
+260,"A UAP  or patient representative  can input the blood pressure, glucose levels, height, weight, or pedometer readings for a patient.",1
+261,A patient or personal health representative may enter or edit their own demographic information including their security question or answer according to data format 6.1.,1
+262,"When a person logs into iTrust, if he or she is a personal representative, they view their own records or those of the person or people they are representing.",1
+263,An HCP chooses to document  or edit  an office visit.,1
+264,The administrator records  or deletes  a drug interaction between two prescription drugs.,1
+265,"The patient, UAP, or personal representative tries to enter more than one weight data point or more than one pedometer data point for the day and is told additional data cannot be entered.",1
+266,The HCP does not have the ability to enter or edit or view the patient's security question or password.,1
+267,"The notification center also displays a list of the patient and patient representee upcoming appointments , the information of his or her designated HCP , and the number of unread messages from his or her message inbox , number of new referrals (UC33), and number of unviewed completed lab procedures (UC26).",1
+268,An administrator can manage a standardized list of appointment types .,1
+269,"The patient selects the relevant physical services he is interested in, and is then presented with the top five hospitals with that experience.",1
+270,The patient then chooses the beginning and end date for the period of time they would like to view their access log for .,1
+271,"The user selects an office visit from the calendar to read its details by clicking the Read Details link beside or below the ICD-9CM code (i.e., diagnose) displayed for the visit, and then the details for the visit shall be displayed in a new page, including date of office visit, note text, diagnoses (i.e., ICD-9CM codes), medical procedures performed (i.e., CPT code) , lab procedures ordered (LOINC code, see Data Format 6.11), medications prescribed (i.e., NDC, see Data Format 6.6), immunizations given (i.e., CPT Code, see UC15, S1), and the name of the doctor who prescribed the medication.",1
+272,"On the LHCP homepage, the LHCP views a notification center with a list of his or her upcoming appointments for the current date , number of physiologic data monitoring reports of his or her patients for the current date , number of weight or pedometer data monitoring reports of his or her patients for the current date , number of unread messages from his or her message inbox , number of new referrals (UC33), number of pending lab procedures (UC26), and number of pending appointment requests (UC22).",1
+273,The LHCP can select a patient to obtain additional information about a patient .,1
+274,A patient views a list of his or her referrals.,1
+275,The administrator will maintain  a listing of allowable drugs that an HCP can use.,1
+276,The system shall display a default placeholder image for patients who do not have a photograph on file.,1
+277,A sending HCP edits a previously sent patient referral .,1
+278,A patient or personal health representative  or LHCP  chooses to view prescription reports.,1
+279,A fake email is sent to the patient or representative alerting the patient or representative that a new message reply has arrived.,1
+280,"The patient chooses My Expired Prescription Reports and is presented with a list of the patient's expired prescriptions , sorted by start date (the later date is ranked earlier closer to the top).",1
+281,"In both cases, the LHCP is presented the name of the patient and must confirm the add or delete.",1
+282,The HCP is notified if any of the fields contain characters that are not in the above list.,1
+283,A patient selects to reports an event related to a prescription drug  or immunization  reaction.,1
+284,The HCP enters a comment for a lab procedure with status as pending.,1
+285,A patient whose at least one physiologic data type is specified to be under monitoring chooses to report their physiologic data.,1
+286,An HCP chooses to view received referrals.,1
+287,The drug desired to be prescribed is checked for interactions between other drugs currently taken by the patient.,1
+288,A UAP can select to report physiologic measurements.,1
+289,The patient chooses the immunization for which to report the adverse event.,1
+290,Only the name and email are provided.,1
+291,The iTrust user (LHCP or patient) has been authenticated in the iTrust Medical Records system (UC3).,1
+292,"The data in the database is analyzed according to the influenza epidemic heuristic to determine if an epidemic is occurring in the region defined by the zip code that match the first three numbers in the provided zip code (e.g. if zip code 27695 is provided, all data with zip code 276xx is analyzed, where each x is any digit from 0-9).",1
+293,"The sending HCP then chooses a priority from 1-3 (1 is most important, 3 is least important) for the referral.",1
+294,The iTrust user has authenticated himself or herself in the iTrust Medical Records system(UC3).,1
+295,"The administrator will store (1) the ICD-9CM code (The International Statistical Classification of Diseases and Related Health Problems (most commonly known by the abbreviation ICD) provides codes to classify diseases and a wide variety of signs, symptoms, abnormal findings, complaints, social circumstances and external causes of injury or disease.",1
+296,The user (patient or personal health representative) can choose to view a list of their own prescriptions or  the prescriptions for whom the user is a person health representative by choosing one patient from a a list of these patients.,1
+297,The HCP does not confirm the selection and is prompted to try again.,1
+298,The administrator selects one drug and is presented with a listing of all drug interactions with that drug.,1
+299,"The input data, a timestamp, and the fact that the status is self-reported are saved.",1
+300,"When the LHCP approves or rejects an appointment request, a message is sent to the Patient indicating the requests's status.",1
+301,The user (LHCP) selects a patient from the list of requested reports.,1
+302,The HCP is notified of drug allergy.,1
+303,"A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms.",1
+304,The administrator types an invalid name and is prompted to try again.,1
+305,A fake email is sent to the LHCP alerting the LHCP that a new message reply has arrived.,1
+306,The Patient requests the closest hospitals so that only nearby hospitals are presented.,1
+307,An LHCP or patient or representative can sort his or her message inbox and message outbox .,1
+308,"The LHCP chooses to view a report of all patients of a single or either gender, in a specified age range , with none, one, or more diagnoses.",1
+309,"Once the date range is selected, the LHCP can see the patient name; patient phone number; personal representative (name and phone number), if applicable; and the blood pressure, glucose levels, height, weight, and pedometer readings as well as whom reported the data (patient, UAP name, personal representative name) for that date range.",1
+310,"After a message is sent, the LHCP is directed to to his or her message outbox.",1
+311,The patient has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+312,"The Lab Technician sees a list of all lab procedures assigned to him or her that have a status of received, followed by a list of lab procedures that remain in transit.",1
+313,The HCP enters a patient as a new user of iTrust Medical Records system.,1
+314,An HCP can create a lab procedure for a given office visit.,1
+315,The iTrust user has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+316,The HCP can add the prescription to the list of medications (UC37).,1
+317,The LHCP requests a comprehensive patient report for a particular patient .,1
+318,The patient chooses one or more drug(s) for which to report the adverse event.,1
+319,"The patient may sort the list of referrals by receiving HCP name, time generated, possibly and possibly priority.",1
+320,The Lab Technician enters the lab procedure numerical result and confidence interval for the lab procedure with the status of testing.,1
+321,The Patient chooses to request an appointment with an LHCP.,1
+322,"The health care personnel may enter or edit personal health information including editing historical values from Data Format 6.4.1, 6.4.2, 6.4.3, and 6.4.4, immunizations, and office visit information (date, diagnoses, medication, name of attending physician but not notes, laboratory procedures), family history (the MIDs of the patient's mother and father), Body Mass Index (BMI) , and drug allergies .",1
+323,"The user provides a zip code  or a hospital code and an (optional) physician type (from a pull-down list: see data format 6.2 - general, surgeon, heart specialist, pediatrician, OB or GYN).",1
+324,"The user selects an appointment from the calendar to read its details by clicking the Read Details link beside or below the appointment type name displayed for the appointment, and then the details for the appointment shall be displayed in a new page, including the appointment type, the appointment date and start time, comment, and the name of either the patient (only for the user being an LHCP) or the LHCP (only for the user being a patient).",1
+325,The LHCP is notified if a new or edited appointment time conflicts with another existing appointment .,1
+326,LHCPs can edit or delete future appointments .,1
+327,The HCP types an invalid diagnosis code and is prompted to try again.,1
+328,The HCP is asked to confirm the decision to cancel the referral.,1
+329,The administrator types an invalid ID and is prompted to try again.,1
+330,"When the HCP selects the Other reason, the HCP shall enter free-style text to provide the details for Other reasons.",1
+331,An LHCP selects to view additional information for a patient.,1
+332,"By default, the messages in the message inbox or outbox should be ordered by timestamp, the most recent first.",1
+333,And HCP chooses to add  or edit  patient specific instructions.,1
+334,"On the associated office visit page, the patient can see the current status of the lab procedure, the HCP name, and the timestamp.",1
+335,"He or she can report the height, weight, possibly and possibly pedometer readings  for the patient.",1
+336,The administrator may choose to upload a file containing LOINC code information .,1
+337,The administrator has authenticated himself or herself in the iTrust Medical Records system (UC2).,1
+338,"He or she can report his or her daily height (in the format of digits XXXX with the units of feet), daily weight (in the format of digits X with units of lbs), possibly and possibly pedometer readings (in the format of up to 10 digits of integer with units of footsteps) .",1
+339,Demographic information is entered possibly and possibly edited .,1
+340,An HCP chooses to refer a patient to another receiving HCP through the referral feature on a patient's office visit page (UC11).,1
+341,"Upon recording the results of the lab procedure, the status is updated to pending.",1
+342,"A user (a patient, patient representative, or LHCP) can sort messages in his or her message inbox by either the sender's last name or timestamp (but not both) in either ascending or descending order (where timestamps in descending order would have the most recent first).",1
+343,The administrator has chosen the same drug from both lists.,1
+344,"The HCP chooses Potential Prescription-Renewals and is presented with a list of patients  that satisfy all of the three conditions: (1) patients for whom the HCP is a DLHCP, (2) special-diagnosis-history patients , (3) patients whose prescriptions will expire within 7 days (including the 7th day) from the current date.",1
+345,A sending HCP views a list of previously sent patient referrals.,1
+346,The patient is also provided with the option to send a message to the receiving HCP to request that an appointment be scheduled.,1
+347,An LHCP has authenticated him or herself in the iTrust Medical Records system (UC3).,1
+348,The patient can select a diagnosis and will be presented with the LHCPs in the patient's living area (based upon the first three numbers of their zip code) who have handled this diagnosis in the last three years.,1
+349,The administrator types an invalid hospital name and is prompted to try again.,1
+350,A patient has authenticated him or herself in the iTrust Medical Records system (UC2).,1
+351,An LHCP views the number of submitted weight or pedometer data monitoring reports of his or her patients for the current date.,1
+352,An LHCP chooses to view the physiologic data monitoring details.,1
+353,The LHCP can download an XML-formatted document containing the results of the group report.,1
+354,An LHCP has authenticated him or herself in the iTrust Medical Records system (UC2).,1
+355,The iTrust HCP has authenticated himself or herself in the iTrust Medical Records system (UC3).,1
+356,An email notification is sent .,1
+357,"If the requested appointment time does not conflict with any existing appointment for the LHCP, the request is saved.",1
+358,The HCP selects a different Lab Technician.,1
+359,Patient specific instructions are listed for a patient.,1
+360,"If the lab procedure status is marked as completed, the patient can see the results and the HCP-provided comments.",1
+361,"Each appointment request is listed as being pending, approved, or rejected.",1
+362,The information is view or editied .,1
+363,The iTrust user (patient or PHA) has been authenticated in the iTrust Medical Records system (UC3).,1
+364,"An LHCP views a list of his or her upcoming appointments for the current date (sorted by time, soonest upcoming first), with each appointment displayed in the format 'HH:MM AM or PM - AppointmentType'.",1
+365,An LHCP views a list of pending appointment requests.,1
+366,The data in the database is analyzed according to the risk factors for the disease to determine if the patient exhibits one or more risk factors.,1
+367,Designated Licensed Health Care Professional (DLHCP): A licensed health care professional that is allowed by a particular patient to view all approved medical records.,1
+368,"The patient or personal health representative can see patient personal health information (including historical values), immunizations, and office visit information (date, diagnoses, medication, name of attending physician but not notes, laboratory procedures) for (a) their own records and (b) the records for whom the user is a personal representative.",1
+369,An HCP can view a previously created lab procedure for a given office visit .,1
+370,A Lab Technician can update the status of a lab procedure to received.,1
+371, The privacy policy should follow the template provided here.,1
+372,"The iTrust user (LHCP, UAP, or patient) has been authenticated in the iTrust Medical Records system (UC3).",1
+373,The implementation shall adhere to the Java Coding Standards.,1
+374,"Privacy laws require, however, that a person should have full access to any information stored about them (unless the well-being of a third party would be jeopardised by revealing the information).",1
+375,"After the user modifies the criteria, the user chooses to click the Cancel button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter),",1
+376,"After the user modifies the criteria, the user chooses to click the Test Search button to search (i.e., displaying the message inbox  including only the messages satisfying the specified filtering criteria),",1
+377,"After the user modifies the criteria, the user chooses to click the Save button to save the modified filter.",1
+378,This project involves the development of an application through which doctors can obtain and share essential patient information and,1
+379,doctors can view aggregate patient data.,1
+380,"The final product is a site where health care workers can access important patient information,",1
+381,"the non-emergency access can be controlled,",1
+382,and all access would be tracked.,1
+383,"A deactivated patient can not modified or log into the system,",1
+384,A deactivated patient can only be reactivated by the administrator.,1
+385,An HCP can add commentary to a pending lab procedure,1
+386,An HCP can update the lab procedure status to completed .,1
+387,A LHCP or PHA chooses to examine recent trends in diagnoses,1
+388,A LHCP or PHA chooses to determine if an ailment is reaching epidemic proportions in a given area.,1
+389,"The patient or representative chooses one of these DLHCP and types the subject (up to 100 characters) and text of a message (up to 1000 characters),",1
+390,The patient or representative clicks the send button.,1
+391,A LHCP or ER chooses to view an emergency report,1
+392,A LHCP or ER provides an MID .,1
+393,The LHCP or ER enters a MID,1
+394,The LHCP or ER confirms the input .,1
+395,"The LHCP enters the text of the response message (up to 1000 characters) he or she wishes to send,",1
+396,then The LHCP clicks the send button.,1
+397,The administrator can select a particular pair of drugs,1
+398,The administrator can delete the interaction between the two drugs.,1
+399,"The system shall enable the administrator to add a new entry for a reason ,",1
+400,The system shall enable the administrator to modify the reason name in an existing entry .,1
+401,"The HCP may send the referral, cancel the referral , or edit the referral .",1
+402,"If the security question or answer has been set (it is not null) , present security question.",1
+403,"If the security question or answer has been set (it is not null) , obtain answer .",1
+404,The LHCP may choose to override this warning,1
+405,The LHCP may choose to confirm the date and time,1
+406,The LHCP may cancel and return to referring page.,1
+407,The patient is then able to write a textual description which describes the symptoms of the adverse event and to save the information.,1
+408,The HCP saves the new lab procedure,1
+409,"The HCP cancels the lab procedure creation , .",1
+410,The HCP enters a MID or a patient  or name of a patient,1
+411,The HCP confirms their selection .,1
+412,A user enters their MID and their password to gain role-based entry into the iTrust Medical Records system,1
+413,A user requests that their password be changed .,1
+414,The patient selects one of these appointments,1
+415,and the request is saved.,1
+416,HCPs can return to an office visit,1
+417,HCPs can modify or delete the fields of the office visit .,1
+418,"If a patient or personal health representative has not taken an office visit satisfaction survey for an office visit yet, the patient may choose to take the survey for an office visit",1
+419,"(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey )",1
+420,"(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey)",1
+421,"An unlicensed personnel can enter and edit demographic information, diagnosis, office visit notes and other medical information,",1
+422,An unlicensed personnel can view records.,1
+423,An HCP is able to create a patient,1
+424,An HCP is disable a selected patient .,1
+425,He or she can select a patient,1
+426,then He or she can enter data.,1
+427,"The LHCP opens the message to which he or she wishes to reply ,",1
+428,The LHCP clicks the reply link above the message text.,1
+429,The health care personnel enters a MID  of a patient,1
+430,The health care personnel confirms their selection .,1
+431,The LHCP enters a patient medical identification number (MID),1
+432,The LHCP confirms his or her input .,1
+433,"The administrator shall be allowed to assign a LT to a single hospital,",1
+434,and the administrator can choose among only the hospitals provided in the hospital list pull down menu.,1
+435,The HCP is presented with a confirmation containing the name of the patient,1
+436,The HCP determines if it is the patient they intend to deactivate .,1
+437,The user can choose a malaria diagnosis,1
+438,"The user can type in the desired zip code and a week (which may be selected by start and end date, start date only, calendar control, dropdown, or any other suitable means) within the last year .",1
+439,"The patients are created,",1
+440,"the tables are populated,",1
+441,and the MIDS and temporary passwords are displayed to the HCP in a table.,1
+442,The user can choose a influenza diagnosis,1
+443,"The user can type in the desired zip code  and a week (which may be selected by start and end date, start date only, calendar control, dropdown, or any other suitable means) within the last year .",1
+444,"The administrator shall be allowed to assign a LHCP to multiple hospitals,",1
+445,the administrator can choose among only the hospitals provided in the hospital list pull down menu.,1
+446,"The LHCP enters the patient MID ,",1
+447,"The LHCP selects the type of appointment from a pull-down menu of the existing appointment types,",1
+448,"The LHCP enter the appointment date and start time (only a date or time equal or after the current date or time is allowed) (the user interface shall provide both the option of typing in a specific date in the date format and the option of selecting a date from a calendar for the current month),",1
+449,The LHCP enter comment (optional) up to 1000 characters such as reason for the appointment .,1
+450,The HCP enters a MID  or name of a patient,1
+451,The HCP confirms their selection .,1
+452,"A patient wants to renew the patient's expired prescriptions (i.e., prescriptions' end dates are earlier than the current date)",1
+453,A patient wants to find the LHCPs who earlier wrote the patient's expired prescriptions (it is assumed that the doctors who wrote prescriptions are all LHCPs so no LHCP checks on the prescription-writing doctors are needed).,1
+454,Note that the administrator is not allowed through the system interface to delete an existing entry,1
+455,Note that the administrator is not allowed through the system interface to modify the reason ID number in an existing entry.,1
+456,"An HCP chooses to add  or edit  patient specific instructions,",1
+457,An HCP chooses to document an office visit,1
+458,An HCP chooses to modify an already documented office visit.,1
+459,"The sending HCP then chooses to save the edits, cancel the edits,",1
+460,The sending HCP then chooses to re-enter the data .,1
+461,"The input data, a timestamp, and the fact that the status was reported by patient representative",1
+462,patient representative MID are saved.,1
+463,"The system shall enable the administrator to (1) add a new entry for an appointment type, including its type name with up to 30 alpha characters and duration in the unit of minutes ,",1
+464,The system shall enable the administrator to modify the duration in an existing entry .,1
+465,"The input data, a timestamp, and the fact that the status was reported by case manager",1
+466,manager MID are saved.,1
+467,"When viewing the calendar, the user selects an appointment from the list to read comment by clicking the 'Read Comments' link beside the row for the appointment,",1
+468,the comment for the appointment shall be displayed in a new page .,1
+469,"The LHCP types the subject (up to 100 characters) and the text of a message (up to 1000 characters),",1
+470,The LHCP clicks the send button.,1
+471,"The patient selects the type of appointment from a pull-down menu of the existing appointment types,",1
+472,The patient enter the appointment date and start time (only a date or time equal or after the current date or time is allowed).,1
+473,HCPs can return to an office visit,1
+474,HCPs can modify any patient specific instruction information,1
+475,HCPs can delete one or more patient specific instructions .,1
+476,Upon notice of allergies possibly and possibly interactions the HCP must either choose to proceed with the prescription,1
+477,Upon notice of allergies possibly and possibly interactions the HCP must cancel the prescription,1
+478,Upon notice of allergies possibly and possibly interactions the HCP must remain on the office visit page.,1
+479,The user can choose any diagnosis code  and,1
+480,The user can type in the desired patient zip code  and a start and end date .,1
+481,"The patient or representative opens the message to which he or she wishes to reply ,",1
+482,The patient or representative clicks the reply link above the message text.,1
+483,Note that the administrator is not allowed through the system interface to delete an existing entry.,1
+484,Note that the administrator is not allowed through the system interface modify the hospital ID number in an existing entry.,1
+485,Patient MID should be the number assigned when the patient is added to the system,1
+486,Patient MID cannot be edited.,1
+487,Note that the administrator is not allowed through the system interface to delete an existing entry,1
+488,Note that the administrator is not allowed through the system interface to modify the appointment type name in an existing entry.,1
+489,"The patient or representative enters the text of the response message (up to 1000 characters) he or she wishes to send,",1
+490,The patient or representative clicks the send button.,1
+491,An LHCP or patient or representative can modify and save his or her message displaying filter,1
+492,An LHCP or patient or representative can view his or her message inbox  including only the messages satisfying the specified filtering criteria in the saved filter.,1
+493,HCP must enter the MID of a patient,1
+494,HCP must enter or edit demographic information according to data format 6.1.,1
+495,The system shall enable the administrator to add a new entry for a hospital,1
+496,The system shall enable the administrator to modify the hospital name in an existing entry.,1
+497,The input data and a timestamp and the fact that the status was reported by patient representative,1
+498,patient representative MID are saved.,1
+499,"HCP must not enter or edit the patient's security question or password according to data format 6.1.,1500,The receiving HCP chosen is not the desired HCP".,0
+501,The LHCP is presented with a listing of all his or her patients to view weight or pedometer data reported during the current date.,0
+502,"If there are no patients satisfying the three conditions, an empty list is presented.",0
+503,Patient specific instructions for an office visit are listed.,0
+504,"NHCS Classification of Diseases, Functioning and Disability.",0
+505,Inspired by Office of the National Coordinator for Health Information Technology (ONC) Quality Detailed Use Case. . .,0
+506,"Emergency Responder (ER): Police, Fire, Emergency Medical Technicians (EMTs), and other medically trained emergency responders who provide care while at, or in transport from, the site of an emergency.",0
+507,the office visit date should link to the patient's view of the office visit (UC9).,0
+508,An alive patient under the age of 19 who has not had proper immunizations per the immunization schedule.,0
+509,"When answer to the security question is typed in, the answer should not appear on the screen (similar to how a password normally appears) and the answer should be confirmed (by the patient or personal health representative) before it is saved.",0
+510,The selected Lab Technician is not the intended Lab Technician.,0
+511,A patient is a registered user of the iTrust Medical Records system (UC1).,0
+512,The LHCP is then provided counts for the specified time period as well as a bar chart.,0
+513,"The Patient is presented with a list of physical services, populated by the LOINC codes (UC15) currently stored in iTrust.",0
+514,The create or disable patients and HCP transaction is logged (UC5).,0
+515,The MID is a unique number assigned to all roles.,0
+516,"The appointment details display the appointment type, appointment date and start time, duration, the name of the patient, and appointment comments .",0
+517,All new code shall be documented using the Java documentation system.,0
+518,Inspired by Office of the National Coordinator for Health Information Technology (ONC) Patient - Provider Secure Messaging Use Case.,0
+519,Note that the sorted order is not saved for later viewing after the message inbox or outbox is reopened again (where the default sorting is always used).,0
+520,Use cases UC1 and UC2 have been completed and a user has been created.,0
+521,"(For example, a mother could choose herself and any one of her children.)",0
+522,The LHCP is presented with a listing of all his or her patients to view physiologic data reported during the current date.,0
+523,Licensed Health Care Professional (LHCP): A licensed health care professional that is allowed by a particular patient to view all approved medical records.,0
+524,A set of reasons for ignoring a reaction warning and prescribing a medication anyways.,0
+525,Ensure that authentication is reset after a period of inactivity that exceeds ten minutes.,0
+526,"The system prompts the patient or HCP to correct the format of a required data field because the input of that data field does not match that specified in data format 6.1 or data format 6.2, as appropriate.",0
+527,An LHCP or Public Health Agent (or PHA) is a registered user of the iTrust Medical Records system (UC2).,0
+528,"The list is a static list with no link on the patient's name, phone number, or contact email address).",0
+529,Miscellaneous transaction codes 1-99 are presented in 5.5 below.,0
+530,"When a chronic special-diagnosis-history patient satisfies all three conditions and has multiple prescriptions satisfying the third condition, the patient is listed in the list only once.",0
+531,"The instructions can contain numbers, characters, space and carriage return.",0
+532,Currently available risk factors for chronic diseases are defined for Diabetes (Type 1 and Type2) and Heart Disease.,0
+533,"The list is sorted based on the ascending alphabetical order of the patients' last names, and then first names.",0
+534,"The patient, receiving HCP, referral notes, possibly and possibly referral priority are invalid, and the HCP is prompted to enter this information again.",0
+535,The system shall be implemented as a Java Server Page web application.,0
+536,A Patient is a registered user of the iTrust Medical Records system (UC1).,0
+537,Display the ICD-9CM code and the name of the diagnoses.,0
+538,An event requiring an email alert has occurred.,0
+539,Remove MID from being displayed on all pages and URLs.,0
+540,There are no chosen measurements recorded within a quarter.,0
+541,Implementation must not violate HIPAA guidelines.,0
+542,"Note to students: the iTrust system does NOT currently support actual email sending, only a fake email sending facility.",0
+543,His or her appointments shall be displayed on the calendar .,0
+544,Electronic sessions must terminate after ten minutes of inactivity.,0
+545,The values from range 1-99 are logging events which do not exist in any use case.,0
+546,"In general, a patient does not know this non-designated health care professional, such as an emergency room doctor, and the set of approved records may be smaller than that granted to a designated licensed health care professional.",0
+547,"Poliovirus (90712) four doses: at age 6 weeks, at age 4 months, at age 6 months, 4 years; catch up schedule: at least 4 weeks between dose 1 and dose 2, at least 4 weeks between dose 2 and dose 3, at least 4 weeks between doses 3 and 4, dose 4 is not required if dose 3 was administered at the age of 4 or older.",0
+548,UC1 has completed and a patient has been created.,0
+549,3.2.10 UC10 Enter or edit personal health records Use Case.,0
+550,"Patient: When an American infant is born or a foreigner requests medical care, each is assigned a medical identification number and password.",0
+551,"The notification center displays, 'You haven't entered remote monitoring information for today yet' if the patient is being monitored for telemedicine but the patient or personal health representative hasn't entered remote monitoring information for the current date yet.",0
+552,The hospital ID numbers for a LT are stored in the Medical Care Personnel Affiliation database (data format 6.11).,0
+553,3.2.13 UC13 Declare or undeclare Personal Representative Use Case.,0
+554,Lab Technician (LT): A clinical worker that runs diagnostic tests on samples gathered from patients during office visits.,0
+555,An email informing the user of the password change is sent to the user including the MID but not the password.,0
+556,There are ten roles in the iTrust Medical Records system.,0
+557,"All events are logged (UC5, S8).",0
+558,The LHCP is provided with a bar chart of diagnosis counts during the specified time period as well as a yes or no answer on whether an epidemic is occurring during any consecutive two weeks during the time period.,0
+559,The appointments are listed in the format 'MM/DD/YYYY - AppointmentType'.,0
+560,He or she is notified of an error and is prompted to try again.,0
+561,Sort by most recent first.,0
+562,Individual audit codes related to specific use cases are presented within each Use Case description.,0
+563,3.2.21 UC21 View emergency electronic health record Use Case.,0
+564,"An alive patient over 50 years old who has not had a flu shot (CPT codes 90656, 90658, 90660) during the months Sept - Dec of the last calendar year (or during the months Sept - Dec of the current calendar year if the retrieval time is between Sept - Dec).",0
+565,The row for each conflicting appointment is highlighted in bold (a conflicting appointment is one that has overlap in its appointment duration period with that of at least another appointment of the same user).,0
+566,"Upon entering a comment, the lab procedure status is updated to completed.",0
+567,"If a patient has no declared LHCP, You have no declared LHCP is displayed.",0
+568,"Varicella (90396) two doses: at age 12 months, at age 4 years; catch up schedule: at least 3 months between dose 1 and dose 2.",0
+569,Of particular interest to the software tester is the operational profile information which informs him or her of the frequency of use of the features of the system.,0
+570,Display the National Drug Code and the name of the prescription.,0
+571,Any LHCP can be a DLHCP to some patients (with whom he or she has an established relationship) and an LHCP to others (whom he or she has never or rarely seen before).,0
+572,An LHCP or patient is a registered user of the iTrust Medical Records system (UC2).,0
+573,"Diphtheria, Tetanus, Pertussis (90696) six doses: at age 6 weeks, at age 4 months, at age 6 months, at age 15 months, at age 4 years, at age 11 years; catch up schedule: at least 4 weeks between dose 1 and dose 2, at least 4 weeks between dose 2 and dose 3, at least 6 months between doses 3 and 4, at least 6 months between dose 4 and dose 5, at least 5 years between dose 5 and dose 6.",0
+574,The catch up schedule is relevant when the patient did not begin the immunizations according to the recommended schedule.,0
+575,3.2.12 UC12 Determine operational profile Use Case.,0
+576,"If the file is malformed, then no data is added, and an error message explaining the correct file structure is presented.",0
+577,"The following use cases have been retired: 7, 14,10, 39,41.",0
+578,"Similarly if there are more than the currently listed activities, a link of Older Activities shall be further displayed  and so on.",0
+579,The system shall have a privacy policy linked off of the home page.,0
+580,"Upon successful authentication, the user will be directed to a personalized home page based on their role.",0
+581,"The event is logged (UC 5, S8) and the HCP is returned in the specific office visit record to verify his or her changes.",0
+582,The role of a user determines their viewing and editing capabilities (role-based access control).,0
+583,"The fields of the  file must include at least the first name, last name, and e-mail address, with additional columns available for the other demographic values.",0
+584,The software tester authenticates himself or herself in the iTrust Medical Records system (UC2).,0
+585,"For Login Failures, the IP Address of the machine, transaction type = 1, and timestamp are recorded.",0
+586,About CPT)  and (2) up to 30 alpha characters giving the name  of the immunization.,0
+587,"A prescription list is then displayed , sorted by start date (the later date is ranked earlier).",0
+588,"Measles, Mumps, Rubella (90707) two doses: at age 12 months, at age 4 years; catch up schedule: at least 4 weeks between dose 1 and dose 2.",0
+589,The administrator will store (1) the National Drug Code (The National Drug Code (NDC) is a universal product identifier used in the United States for drugs intended for human use.,0
+590,The patient chosen is not the desired patient.,0
+591,3.2.32 UC32 Proactively Confirm Prescription-Renewal Needs Use Case.,0
+592,"An email alert is sent out to the iTrust user in the event of a changed password , status change in laboratory procedure , comprehensive report requested and generated.",0
+593,ND: The National Drug Code (NDC) is a universal product identifier used in the United States for drugs intended for human use.,0
+594,The patient's access of the instructions are logged (UC5).,0
+595,"The list of received lab procedures is sorted by priority (from most important to least important), with a secondary sort by timestamp (oldest to newest).",0
+596,The privacy policy should follow the template provided here.,0
+597,3.2.29 UC29 Find LHCPs with experience with a diagnosis.,0
+598,"Unlicensed Authorized Personnel (UAP): A health care worker such as a medical secretary, case manager, care coordinator, or other authorized clerical-type personnel.",0
+599,"Pneumococcal (90669) four doses: at age 6 weeks, at age 4 months, at age 6 months, at age 12 months; catch up schedule: at least 4 weeks between dose 1 and dose 2 and at least 4 weeks between dose 2 and dose 3 and at least 8 weeks between dose 3 and dose 4 if first dose is administered at younger than 12 months; if first dose is administered between 12 and 14 months, at least 8 weeks between dose 1 and dose 2 and dose three is canceled; if first dose is administered at or after 15 months, only one dose is required.",0
+600,"If the file contains more fields than are supported by Data Format 6.11, all fields in Data Format 6.11 will be updated.",0
+601,"A patient whose height, weight, or pedometer data type is specified to be under monitoring chooses to report his or her height or weight or pedometer data.",0
+602,"An alive patient who has not had an office visit for more than one year and who has been diagnosed with diabetes mellitus (is diagnosed with ICD code beginning with 250), asthma (is diagnosed with ICD code beginning with 493), or circulatory-system disease (is diagnosed with an ICD code between 390 and 459 inclusive).",0
+603,The information provided is invalid.,0
+604,The event is logged (UC5).,0
+605,"To control open connections to the database, all database access should be done through an object that uses the Singleton pattern.",0
+606,"However, it is not accessible by other doctors, and is often only viewed through some proprietary software so it can not be shared.",0
+607,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database (data format 6.8).,0
+608,An HCP is a registered user of the iTrust Medical Records system (UC2).,0
+609,The chosen patient is not the desired patient.,0
+610,All events are logged (UC5).,0
+611,"The appointments in the list shall be ordered by appointment date and start time, the soonest upcoming first.",0
+612,[referred to as on site care providers by Department of Health and Human Services Emergency Responder Electronic Health Record Use Case Department of Health and Human Services.,0
+613,The status of the lab procedure is marked as in transit.,0
+614,These are the standards codes used within iTrust:.,0
+615,"MIDs should be considered private, sensitive information.",0
+616,"Rotavirus (90681) three doses: at age 6 weeks, at age 4 months, at age 6 months; catch up schedule: at least 4 weeks between dose 1 and dose 2 and at least 4 weeks between dose 2 and dose 3.",0
+617,Public Health Agent: A person legally authorized view and respond to reports of adverse events.,0
+618,The implementation must use the Strategy pattern for epidemic detection and cause-of-death trends and the Singleton pattern for database connections.,0
+619,"If there are no expired prescriptions, an empty expired prescription list is presented.",0
+620,All fields are populated with the previously enter input so that the HCP can edit their entry.,0
+621,All events are logged (UC5) and the HCP remains on the office visit page to verify their changes (UC11).,0
+622,Software Tester: An information technology worker who tests the iTrust Medical Records system.,0
+623,"* asthma (is diagnosed with ICD code beginning with 493), or.",0
+624,Hepatitis A (90633) two doses: at age 12 months; at age 18 months: catch up schedule: at least 6 months between dose 1 and dose 2.,0
+625,"Currently, access to a patient's history regarding previous medical problems, previous surgery, medications, allergies and other factors is often difficult or obtainable only from a patient's recollection.",0
+626,"Hepatitis B (90371) three doses: at birth, at age 1 month, at age 6 months; catch up schedule: at least 4 weeks between dose 1 and dose 2 and at least 8 weeks between dose 2 and dose 3.",0
+627,"When the date of an appointment request has passed, it is no longer displayed.",0
+628,"Now, as more hospitals and doctor's offices are automated, this information is available electronically.",0
+629,"The date for the appointment is in the past, an error message is displayed and the appointment is not edited.",0
+630,The expired prescription report list is titled with the patient name.,0
+631,The comment is empty and the text 'No Comment' (without link) is displayed instead of the 'Read Comment' link.,0
+632,The iTrust Admin has authenticated himself or herself in the iTrust Medical Records system (UC3).,0
+633,The implementation shall run on the Windows platform in the Eclipse 3.3 environment.,0
+634,"Note: pages retrieved on January 10th, 2013.",0
+635,"ICD-9CM: The International Statistical Classification of Diseases and Related Health Problems (most commonly known by the abbreviation ICD) provides codes to classify diseases and a wide variety of signs, symptoms, abnormal findings, complaints, social circumstances and external causes of injury or disease.",0
+636,Personal Representative: A person legally authorized to make health care decisions on an individual's behalf or to act for a deceased individual.,0
+637,Security and privacy of such a system is of paramount importance.,0
+638,"Haemophilus influenzae (90645) three doses: at 6 weeks, at age 4 months, at age 12 months; catch up schedule: at least 4 weeks between dose 1 and dose 2 and at least 4 weeks between dose 2 and dose 3 if first dose is administered at younger than 12 months; if first dose is administered between 12 and 14 months, at least 8 weeks between dose 1 and dose 2 and dose three is canceled; if first dose is administered at or after 15 months, only one dose is required.",0
+639,"The fields for this use case accept the following information: letters (upper and lower case), numbers, blankspace and carriage return.",0
+640,"Login failures, valid authentication, and log outs are also logged .",0
+641,The user is presented with a list of his or her messages in the message inbox.,0
+642,3.2.4 UC4 Enter or edit Demographics Use Case.,0
+643,The answers to the survey are stored.,0
+644,3.2.16 UC16 Identify risk of chronic disease Use Case.,0
+645,"The first lab procedure in the received list is marked with a status of testing, and all other lab procedures have a status of received.",0
+646,A report is a page which opens in a separate window and contains minimal decoration.,0
+647,"The list of in transit lab procedures is sorted by timestamp, from oldest to most recent.",0
+648,Anything that is a valid field in data format 6.4 should be accepted as a column.,0
+649,"Health Care Personnel (HCP): All of designated licensed health care professionals, licensed health care professionals, and unlicensed authorized personnel, as defined below.",0
+650,LOINC: Logical Observation Identifiers Names and Codes (LOINC) is a database and universal standard for identifying medical laboratory observations.,0
+0,"Employees ranked as professors or tenured assistant professors can select from, insert into, and delete from graduate admission related tables in the database.",1
+1,"Customer Service Reps, Pharmacists, and Billing Reps can collect and use customer name and date of birth to help confirm identity.",1
+2,Customer service reps can use credit card number for the purpose of updating records if requested by a patient.,1
+3,"Customer Service Reps, Pharmacists, and Billing Reps can collect and use customer name and e-mail addresses.",1
+4,Shipping Reps can use customer name and customer mailing addresses to ship orders.,1
+5,Billing Reps can use credit card numbers for order processing.,1
+6,"Customer Service Reps can modify credit card numbers for order processing, if the customer is notified by email of the change.",1
+7,"Customer service reps, ducks or Lawyers can use credit card number for the purpose of making treatment decisions if customer has opted-in.",1
+8,Admission nurses use SSN for reviewing eligibility if requested by a patient who is returning.,1
+9,Customer service reps and managers may collect and use name and social security number for the purpose of confirming identity.,1
+10,The organisation may use email addresses to answer inquiries.,1
+11,Supervisors can collect personal information if required by law.,1
+12,Financial consultants can collect and use customer name for the purpose of confirming identity.,1
+13,Financial analysts can use customer accounts to make loan decisions.,1
+14,Management can report customer transactions if required by law.,1
+15,The director chooses options from the package to give to all employees.,1
+16,He or she also can read the information about the distribution of options.,1
+17,The director can promote an employee to be a  manager.,1
+18,"An employee can appoint another employee to be his advocate, and have read access to his bonus information – for example, this might be useful if he needs help from a trade union.",1
+19,"For example, write a check use case should be invoked by (authorized to) clerk role.",1
+20,"If the invoice’s total amount exceeds one million, then two different supervisors must authorize the invoice.",1
+21,A professor can review the same project at most one time.,1
+22,Only the business office manager and the dean can approve a project.,1
+23,The PC chair appoints the PC members.,1
+24,A PC member can resign his membership.,1
+25,The reviewer of a paper can assign the paper to be sub-reviewed by an agent who is not an author of the paper and has not been assigned the same paper by another reviewer.,1
+26,All members of Faculty can Assign both InternalGrades and ExternalGrades.,1
+27,The sole counter-example shows that a student with the freedom to assign external grades is also a ta but not a faculty member.,1
+28,All members of role Faculty Family can receive External-Grades.,1
+29,"If the subject is a faculty member, then permit that subject to assign grades.",1
+30,"If the subject is not a faculty member, then permit that subject to enroll in courses.",1
+31,"The manager has the broadest access to the information, including access to personal, financial, clinical and medical information about each resident.",1
+32,The care plan is updated in consultation with the resident or the responsible person.,1
+33,Only the manager is allowed to delete the information about a resident but here also that right is restricted.,1
+34,The health care workers are required to sign a confidentiality agreement before they have access to any resident data.,1
+35,Access to emergency details is available for all staff.,1
+36,"For a special purpose, access to an older medical record can be sought and obtained from the manager.",1
+37,"Occasionally, due to pressing circumstances, it may be necessary for a visiting doctor to examine a resident who is not normally his or her patient.",1
+38,This is permitted with the consent of the resident or the responsible person and the notification of the manager.,1
+39,"Privacy laws require, however, that a person should have full access to any information stored about them (unless the well-being of a third party would be jeopardised by revealing the information).",1
+40,A user should already grant diagnosing right to create medicine orders.,1
+41,"Only one user, here is the Pharmacy System, can load medicines to the medicine dispenser.",1
+42,Pharmacy System may get reports and status information of the medicine dispenser.,1
+43,Pharmacy System can load medicines to the dispenser only at a time interval 12:00-13:00 in a day.,1
+44,Only Doctors and Nurses can read patient records.,1
+45,Any subject with an e-mail name in the med.example.com domain can perform any action on any resource.,1
+46,"A person, identified by his or her patient number, may read any record for which he or she is the designated patient.",1
+47,"A person may read any record for which he or she is the designated parent or guardian, and for which the patient is under 16 years of age.",1
+48,"A physician may write to any medical element for which he or she is the designated primary care physician, provided an email is sent to the patient.",1
+49,Administrators can access only the administrative pages,1
+50,Guests can access all the public areas of the site,1
+51,"Owners can access their account, move funds, and review transactions.",1
+52,Planners can access the sites financial planning and tax preparation functions,1
+53,Payers can use the site's bill paying function .,1
+54,Data Owners can transfer ownership of information to other users.,1
+55,"Data Owners can determine the type of access given to other users (read, write, copy, etc.).",1
+56,"Users who do not have access to information should not be able to determine its characteristics (file size, file name, directory path, etc.)",1
+57,All users can read from a lower classification than the one they are granted (A secret user can read an unclassified document).,1
+58,All users can write to a higher classification (A secret user can post information to a Top Secret resource).,1
+59,All users are given read or write access to objects only of the same classification (a secret user can only read or write to a secret document).,1
+60,Staff can print on HP Laserjet 1.,1
+61,David can assign the manager role to Alice.,1
+62,John can assign clerk to users from department A,1
+63,Clerk can read from database.,1
+64,Owners can read Name.,1
+65,"Clerks can add and change the Name, the date of birth, the Address and the Postcode.",1
+66,All members of FACULTY can ASSIGN both INTERNALGRADES and EXTERNALGRADES.,1
+67,All members of STUDENT can RECEIVE EXTERNALGRADES.,1
+68,"During the submission phase, an author may submit a paper.",1
+69,"During the review phase, reviewer may submit a review for paper if reviewer is assigned to review paper.",1
+70,"During the meeting phase, reviewer can read the scores for paper if reviewer has submitted a review for paper.",1
+71,"In the current paper system, all the information stored about a resident is accessible to the resident by arrangement with the manager.",1
+72,Supervisor can not  execute the write a check use case.,1
+73,"For example, a user should not record and verify the same invoice.",1
+74,A subject cannot review a project he or she has submitted.,1
+75,A subject cannot approve projects he or she has reviewed or submitted.,1
+76,Authors of papers cannot be changed.,1
+77,"The PC chair can assign a paper to a PC member for reviewing, except if he is one of its authors.",1
+78,"A reviewer of a paper can resign, unless he has already appointed a sub-reviewer for the paper.",1
+79,"A sub-reviewer can resign, unless he has already submitted his review.",1
+80,There do not exist members of Student who can Assign ExternalGrades.,1
+81,No combination of roles exists such that a user with those roles can both Receive and Assign the resource ExternalGrades.,1
+82,"If the subject is a student, then do not permit that subject to assign grades.",1
+83,"So, for example, the manager should be made aware of repeated attempts by a health care worker to access information beyond their rights.",1
+84,The doctor then has temporary access to the resident’s medical records.,1
+85,In an electronic system we can allow residents to hook into the network at any time as long as they can view only their own data and cannot make arbitrary changes.,1
+86,This critical task should not be performed by a single user.,1
+87,"However, it should not perform these operations when it is loading medicines to the medicine dispenser.",1
+88,An administrator shall not be permitted to read or write to medical elements of a patient record.,1
+89,There do not exist members of STUDENT who can ASSIGN EXTERNALGRADES.,1
+90,There exists no combination of roles such that a user with those roles can both RECEIVE and ASSIGN the resource EXTERNALGRADES.,1
+91,"If a subject is not a pc-chair or admin, then he or she may not set the meeting flag.",1
+92,"If someone is not a pc-chair or admin, then he or she can never see paper-review-rc for which he or she is conflicted.",1
+93,Authors may never read scores.,1
+94,Doctors need not sign a confidentiality agreement since they are bound by a code of professional conduct.,1
+95,Requests for students to Receive ExternalGrades,1
+96,"faculty to Assign and View both InternalGrades and ExternalGrades, will succeed.",1
+97,Only the manager is allowed to add a new resident to the system and,1
+98,Only the manager is allowed to start or update the care plan of a resident.,1
+99,Their main form of access is to view the care plan for each resident,1
+100,Their main form of access is to add progress note entries based on their observations.,1
+101,A visiting doctor has access to all the medical information of residents who are his or her patients,1
+102,A visiting doctor can add entries to patients medical records.,1
+103,Managers can read and set ordinary employees’ bonuses.,1
+104,but not those of other managers or the director can read and set ordinary employees’ bonuses,1
+105,Every subject in the hierarchy can submit a project.,1
+106,except the business office manager can submit a project,1
+107,Every professor can review a project.,1
+108,"except assistant professors, can review a project",1
+109,All PC members know who are the reviewers for this paper.,1
+110,author(s) of a paper can not know who are the reviewers for this paper,1
+111,TA can view and assign InternalGrades,1
+112,"TA can not view and assign  ExternalGrades (since faculty must take final responsibility for all external grades), combined with Pol3.",1
+113,"Although she can enter the past medical records when a resident is admitted,",1
+114,she cannot subsequently add medical entries to the system.,1
+115,"Also, she cannot view the private notes of doctors",1
+116,clearly she cannot sign the legal agreement on behalf of a resident.,1
+117,Health care workers can view recent medical records of residents (up to one year old),1
+118,Health care workers cannot normally view older medical information.,1
+119,"Doctors also can add private notes about a resident, which, on the basis of doctor-patient confidentiality.",1
+120,"Private notes about a resident, which, on the basis of doctor-patient confidentiality, are not visible to health care staff or the manager.",1
+121,Pharmacy System should not read patient records,1
+122,Pharmacy System can read patient medicine orders.,1
+123,"Users can view an Owner's account,",1
+124,Users can not make changes to Owner's account,1
+125,Only administrators make changes to a resource's security label.,1
+126,not data owners make changes to a resource's security label.,1
+127,Owners cannot change any data,1
+128,Owners can read data all.,1
+129,The doctor does not have temporary access to the private notes of the resident’s usual doctor,1
+130,No user should perform more than one use case on each object.,0
+131,"For example, according to Figure 2, supervisor role inherits purchasing officer’s permissions and purchasing officer inherits clerk’s permissions.",0
+132,In our case study this means that the residents themselves must also be regarded as principals for whom we define access rights.,0
+133,"Because of the physical access control in the current paper system, the manager has an overview of who has accessed what information.",0
+134,"A bonus package with a fixed number of options, such as a-day-off, is available for employees.",0
+135,It is used to enforce authorisation rules on bonus allocation among the employees of a company.,0
+136,Each use case should be executed by an actor playing an authorized role(s) as shown in Figure 1.,0
+137,Access is authorized or restricted to objects based on the time of day depending on the labeling on the resource and the user's credentials (driven by policy).,0
+138,The principals involved in an information system are usually thought of as staff members of a certain organisation.,0
+139,Access to information is determined based on authorizations to access control lists based on user identifier and group membership.,0
+140,"In addition, the role hierarchy implicitly authorizes a specialized role to inherit permissions.",0
+141,The need to make this arrangement is only to allow the manager and resident to set a time that is convenient to both of them.,0
+142,"Use cases such as record invoice arrival, verify invoice validity, authorize payment and write a check are to be applied in the specified order.",0
+143,"All data is assigned security level that reflects its relative sensitivity, confidentiality, and protection value.",0
+144,Subreviewers are known to all PC members who are not authors of the respective papers.,0
+145,"Access is authorized or restricted to objects based on the security characteristics of the HTTP client (e.g. SSL bit length, version information, originating IP address or domain, etc.)",0
+146,A subject cannot belong to more than one role.,0
+147,PC members and authors of papers are known to everybody.,0
+148,This one type of Dynamic Separation of Duty (DSOD) policy.,0
+149,"Loading medicines to medicine dispenser, creating medicine order and picking medicines from the medicine dispenser are operations forming a critical task.",0
+150,Privacy laws require that the information be held for a certain period after a resident leaves the facility.,0
+151,This period is seven years for someone who is not of Aboriginal or Torres Strait Islander descent and nine years for someone who is.,0
+152,Special add-on or plug-in software required to apply to an HTTP client to prevent indiscriminant copying by users (cutting and pasting of information),0
+153,"In the current paper-based system, this is prevented by requiring that any new entry be signed by the doctor making that entry.",0
+154,This policy is claimed to prevent fraud and errors.,0
+155,Repetitive authorization failures to access the same resource or object generates an alarm possibly and possibly restricts the user's access,0
+156,In an electronic system this overview must be supplied by some form of logging of accesses and access attempts.,0
+157,"Clearly, the manager does not wish to be informed about every access but some logging is still necessary.",0
+0,"To support reviewers with making choices, CyberChair provides them with several webpages containing overviews of  the submitted abstracts.",1
+1,CyberChair generates a paper distribution proposal for the PCC.,1
+2,"As soon as the full paper deadline has passed, the papers can be assigned to the reviewers.",1
+3,"In step 2, the full paper must be submitted by uploading it.",1
+4,"Although CyberChair is not something to sit in (please refer to www.cyberchair.com if you are looking for that), when you are a program chair, you can sit back, relax and watch the progress of the submission and review process.",1
+5,"For this process to work smoothly, the abstracts should be submitted at least one week  before the full paper is submitted.",1
+6,"Usually, people are allowed to send their submission by email.",1
+7,"Reviewers can indicate whether they are an expert on the topic (X), no expert, but knowledgable in the subject area (Y), or an informed outsider (Z).",1
+8,Downloading of papers by the reviewers can start as soon as papers are submitted.,1
+9,"The current implementation collects the preferences (bids), expertise levels and willingness to review papers on certain topics and the conflicts of interest of the reviewers.",1
+10,"In the first step, authors must fill in a webform shown by figures 1 and 2, on which they state their names and contact information, the title of their paper, an abstract of the paper, and indicate which conference topics their paper covers.",1
+11,"In case there are less than 4 reviewers, this process is repeated with the list of reviewers who indicated a low preference for the paper.",1
+12,"The level of agreement among reviewers is indicated on each reviewer's personal page, using a coloring scheme.",1
+13,"After the meeting, the reviewers’ comments are sent back to the authors, so that they can improve their paper.",1
+14,The review process can be monitored by the chair.,1
+15,His or her personal webpage will then be updated automatically.,1
+16,"For each paper that a reviewer would like to review, the corresponding checkbox in the left part of the window should be marked.",1
+17,Other reasons are that authors are forced to use it to submit their paper.,1
+18,"You may also want to take a look at 2 posters: an overview (, 140 Kb) and a picture containing screenshots (, 1.71 Mb).",1
+19,It generates several overviews based on the reviews which support the Program Committee (PC) in selecting the best papers.,1
+20,"This is used to discover papers that have only been reviewed by non-experts, so that the PCC may ask another reviewer to review the paper.",1
+21,These overviews are currently updated at 5 minutes before the hour.,1
+22,"After the PC meeting, the PCC must inform the maintainer about the accepted papers, so that the notifications can be sent to the authors.",1
+23,Authors can submit their abstracts and papers using the web (uploading).,1
+24,"After the program committee meeting has taken place, and papers have been selected, the (anonymous) comments can be automatically sent to the authors.",1
+25,"Further, it allows reviewers to learn about each other’s opinions, which provides means for good preparation for the PC meeting.",1
+26,The authors must use the login and password combination sent after phase 1.,1
+27,"Reviews can either be submitted via a webpage, or filled in off-line and emailed.",1
+28,"To be able to protect the reviews from outsiders, each reviewer gets his or her own directory on the webserver.",1
+29,"Following Nierstrasz’s pattern Make Champions Explicit , the reviewers are asked to fill in the classification of papers on the review form.",1
+30,"When a reviewer reaches this maximum, he or she will not be part of the preference lists, because apparently his or her expertise is needed to review ’less popular’ papers.",1
+31,"Further, a high or low priority should be chosen, to indicate how eager they are to review the paper.",1
+32,The submitted bids are accumulated.,1
+33,The 4 reviewers with the least number of papers assigned so far ’get’ the paper.,1
+34,"In case the ’expertise-value’ is equal, the reviewer with the least number of papers assigned so far ’gets’ the paper.",1
+35,These overviews can be printed in case reviewers want to read the abstracts offline.,1
+36,"All review files a reviewer needs, such as the review form and other reviewers’ reviews, are written in the reviewer’s directory.",1
+37,"CyberChair supports preparation of the proceedings by generating the table of contents and author index, based on the input of the authors.",1
+38,Authors must submit their paper in two steps.,1
+39,"Finally, after the camera-ready papers have been submitted, the proceedings must be prepared by the maintainer by entering the conference sessions and the numbers of the papers within those sections in a specific template file.",1
+40,The reviewer can be added to the list of reviewers for that paper.,1
+41,The pages of the reviewers are generated once by the maintainer when the paper distribution has been done.,1
+42,"Based on the preferences and the reviewers' expertise, CyberChair calculates a paper assignment proposal for the chair, where as many as possible preferences of the reviewers are honored, provided that all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers.",1
+43,"In case a reviewer has already submitted a review of the selected paper, hyperlinks to the reviews of the other reviewers are shown, so that the reviewer can read their opinion.",1
+44,"When all submissions have arrived, suitable members of the Program Committee (PC) must be selected to review each paper.",1
+45,Reviewers are also asked to inform the maintainer of papers they do not want to review because of a conflict of interest.,1
+46,The state is based on the classification given to papers by the reviewers.,1
+47,"CyberChair provides direct reflection on submitted reviews (for easy comparison with the other reviewers' opinions), without the maintainer's interference.",1
+48,A copy of the message is sent to the PCC.,1
+49,"As soon as the reviewer has submitted his or her review, the review will be the default to be displayed in this frame when the reviewer clicks on the paper number in the top frame.",1
+50,The reviewers’ reviews are compared to the other reviews to detect conflicts.,1
+51,"This list is sorted, based on the number of papers the reviewers have already been assigned so far.",1
+52,"Moreover, since we chose to regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes, this would make it almost impossible for reviewers to enter a review form.",1
+53,"Following the patterns Experts Review Papers and Champions Review Papers , papers should be matched to domain experts in the PC.",1
+54,"It helps the PC to select the best papers for the conference, which makes it a group decision support system.",1
+55,"In case not enough reviewers can be found to review a paper, this is an indication that the script should be better tuned.",1
+56,"To avoid 'pollution' of the demo data, uploading of files has been blocked.",1
+57,The reviewers are asked to indicated their expertise of the conference topics and their willingness to review papers on those topics.,1
+58,You will see a list of overviews that are available to the chair.,1
+59,"For each paper, a list of the reviewers who indicated a high preference for the paper is generated.",1
+60,"After the review process, the authors of submitted papers should submit a camera-ready version of their paper, analogous to step 2.",1
+61,"Each time the reviewer clicks on a paper number in the top frame, CyberChair checks if the reviewer has already submitted his or her review.",1
+62,"CyberChair is composed of a set of Common Gateway Interface (CGI) scripts, which are activated by the webforms that are used by the authors and reviewers.",1
+63,"When displaying a review, the date and time of the last update of the review is shown as extra check.",1
+64,The authors may make corrections or changes to the  information that was submitted in step 1.,1
+65,"CyberChair collects abstracts, papers and reviews and can therefore be regarded as a system that provides a shared workspace.",1
+66,Reviews can be updated.,1
+67,"To enter the review process, authors must send their paper to the Program Committee Chair (PCC).",1
+68,"This way, the reviewer can always look at the latest version of the reviews.",1
+69,"If this is the case, then the reviews of the other reviewers for this paper are copied into the reviewer’s directory.",1
+70,"Reviewers can browse the overviews by conference topic, to quickly identify the papers that match their interest  and expertise (Figure 3).",1
+71,The highest and lowest classification given to a paper are taken into account.,1
+72,"The submission form in phase 2 is the same as the submission form in phase 1, except that authors must use it to upload their full paper file.",1
+73,"After clicking on a paper number several hyperlinks are generated to allow the paper to be downloaded, to display the abstract and to submit or update a review.",1
+74,Papers that have not received enough bids should be assigned based on the expertise of the reviewers.,1
+75,"Each reviewer gets a personal, password-protected webpage, that contains links to the papers (s)he is assigned to review, so they can be downloaded.",1
+76,"If the publisher allows electronic versions, the maintainer should send or upload the proceedings, for further preparation by the publisher.",1
+77,"After the paper distribution, CyberChair generates a personal, password-protected webpage for each reviewer.",1
+78,CyberChair provides web pages for the reviewers to indicate their preference for papers they would like to review.,1
+79,"Papers are classified, using the highest and the lowest classification given by the reviewers (A to D), as described in the paper mentioned above.",1
+80,The maintainer should make sure that enough disk space is available to store the papers.,1
+81,"In addition, the reviewers must indicate their overall expertise on the topics that a paper covers.",1
+82,"In case conflicting reviews exist, the reviewers can use the hyperlink that enables easy communication to the other reviewers by email.",1
+83,"When the level of agreement differs too much, the reviewers and chair may give it special attention, even before the PC meeting takes place.",1
+84,CyberChair supports PCs by using these patterns in its implementation.,1
+85,"The current version of CyberChair supports all phases of the review process, including preparation of the proceedings in the electronic format prescribed by the publisher.",1
+86,Not all reviewers like to fill in review forms on-line.,1
+87,"CyberChair significantly reduces the workload of the PC, by doing all necessary bookkeeping.",1
+88,In The Information Lens  the authors focus on sharing information among a group of people to solve problems.,1
+89,"Reviewer - Use the first and last name (in lowercase) as login and password, respectively.",1
+90,CyberChair points out conflicting reviews,1
+91,CyberChair offers the reviewers means to easily communicate to solve these conflicts.,1
+92,CyberChair assigns a unique identification to the submission and,1
+93,CyberChair sends a login and password combination for step 2 to the contact person’s email address.,1
+94,Other scripts are so-called administrative scripts which are started by the maintainer.,1
+95,Other scripts are so-called administrative scripts which are started automatically at regular intervals by the system (e.g. crontab on Unix systems).,1
+96,"After submission of a review, reviewers will be able to read the other reviewers' reviews.",1
+97,"After submission of a review, reviewers will be able to prepare for the PC meeting.",1
+98,You can submit reviews.,1
+99,You can find out what happens.,1
+100,"When a reviewer has submitted all his reviews and has time to review more papers, he may look at the overview containing all papers.",1
+101,"When a reviewer has submitted all his reviews and has time to review more papers, he may select papers for which conflicting reviews exist.",1
+102,The table of contents and author index of the proceedings are generated by CyberChair for electronic delivery to the publisher.,1
+103,The camera-ready papers are prepared for electronic delivery to the publisher.,1
+104,CyberChair can handle the paper distribution.,1
+105,CyberChair collects and categorizes all reviews.,1
+106,CyberChair prepares overviews of reviews which can be used during the PC meeting.,1
+107,CyberChair checks the review forms for correctness.,1
+108,"Further, the maintainer may need to convert submitted papers to other formats.",1
+109,"Further, the maintainer may need to ask the authors to submit the paper in another format.",1
+110,The PCC sends the papers and review forms to the reviewers.,1
+111,Reviewers must fill in the review forms.,1
+112,Reviewers must send review forms to the PCC.,1
+113,CyberChair deals with most administrative tasks that are involved in the review process.,1
+114,"CyberChair stores author information, abstracts, (camera-ready) papers and reviews.",1
+115,"If there are still not enough reviewers for the paper, the expertise level of reviewers of all topics the paper covers is calculated.",1
+116,"If there are still not enough reviewers for the paper, the paper is assigned to the reviewers with the highest overall expertise.",1
+117,"The authors of accepted papers may submit a brushed-up version of their paper, in so-called camera-ready format to the PCC.",1
+118,"PCC will send camera-ready format, together with the preface and the table of contents to the publisher to have the proceedings printed.",1
+119,CyberChair transforms review forms into a format that can be used for display in a browser.,1
+120,Other formats will be included in future versions of CyberChair.,0
+121,(Deprication warnings indicate that certain language constructs may no longer be supported in next versions of the language.),0
+122,"Moreover, collecting, maintaining and comparing reviews by the program committee chair may also become quite tedious, if not troublesome, due to the large amount of material, even when submitted by email.",0
+123,The Artefact Framework  uses html frames like Cyber-Chair.,0
+124,"CyberChair is based on the paper Identify the Champion, an organisational pattern language for programme committees, by Professor Oscar Nierstrasz (University of Berne, Switzerland).",0
+125,"In his paper Identify the Champion , O. Nierstrasz describes this review process in terms of a pattern language.",0
+126,Those parts are explained in this section.,0
+127,"at 'No', because each 'reviewer' has been assigned a bogus email address, which will bounce.",0
+128,"Using a coloring scheme, the state of reviews is indicated.",0
+129,"Typically, the review process ends by organizing a Program Committee meeting, prepared by the PCC, where papers are discussed and accepted or rejected for presentation at the conference.",0
+130,"The result is a significant decrease of the work-load of the program chair and the ease of submitting author information, papers and reviews instantly in electronic form.",0
+131,The maintainer (who might be the same person as the PCC) installs CyberChair.,0
+132,Reviewers may bid in several stages.,0
+133,Other conferences have used older versions of CyberChair.,0
+134,"We decided to automate this and provide electronic review forms, by using the World Wide Web (WWW), since all reviewers were now able to use this emerging technology.",0
+135,"There is also support for the preparation of the proceedings (using the format required for Springer Verlag, the publisher of the proceedings of ECOOP).",0
+136,The version that is currently available for download was introduced for ECOOP 2000.,0
+137,Monitoring the review process,0
+138,"For the frame to display the current state of reviews, the URL is not the name of a file, but the name of a CGI script which recalculates the state of all papers and ’prints’ its output in the frame.",0
+139,There is no need to wait until the submission process has finished.,0
+140,"Therefore, a template is provided to the reviewers which they can use to fill in reviews off-line and send them by email.",0
+141,"If a reviewer wishes, he or she may send reviews by email, and never look at his or her webpage.",0
+142,The Table of Contents and Author Index are automatically generated.,0
+143,", Springer, March 2001 (section 6.4.1, page 168).",0
+144,"As far as we know from the comments of its users, CyberChair is the only system that has implemented the patterns identified by Nierstrasz.",0
+145,Below is a description of the latest version of CyberChair.,0
+146,We showed that browsers of today are able to send requests without the user taking action.,0
+147,The authors claim that there is no provision for a server to send asynchronous updates.,0
+148,Sites like Amazon  use this style and regenerate a complete new page after every mouse click.,0
+149,Author - This only allows submission of abstracts.,0
+150,The maintainer also makes sure that overviews are generated at regular intervals.,0
+151,"Using the WWW, a commonality these days, the ones involved in the process can collaboratively use CyberChair to store possibly and possibly retrieve data from password-protected areas controlled by CyberChair.",0
+152,"When the reviewer clicks on a paper number, this causes the activation of a CGI script that in its turn generates a frameset, consisting of 3 frames (See figure 4).",0
+153,"The CGI scripts have been written in Python, a very powerful, easy-to-learn programming language, which allows rapid implementation.",0
+154,CyberChair is written in the Python programming language.,0
+155,"Nowadays it is common practise to use electronic submissions for conferences, workshops and journals.",0
+156,Other conferences and workshops that use(d) CyberChair can be found on an overview.,0
+157,"Using frames allows for updates on specific parts of the screen, so that only data that has changed can be updated without the need to refresh the complete screen.",0
+158,"The next years the system was improved and more features, such as uploading of papers, were included in the system to support the process.",0
+159,"You may try a demonstration version of CyberChair, by acting as:",0
+160,"Although, compared to sending hardcopies by surface mail, this is a big step forward, it may still be quite cumbersome to maintain the administration.",0
+161,"BSCW could therefore be used to store abstracts, papers and reviews.",0
+162,"As mentioned before, a reviewer’s page consists of several frames (a frame set).",0
+163,"The following administrative tasks can be identified during a typical review process: Author information, abstract and paper submission, paper-to-reviewer assignment, paper distribution, filling in and sending review forms, collecting review forms and ordering them, preparing the PC meeting, returning the reviewers’ comments to the authors, camera-ready paper submission and preparation of proceedings.",0
+164,"It is known to run on versions 1.5.2, 2.0.1 and 2.1.3, be it that the latter may cause deprication warnings (2.1 does not, while 2.2.1 does for sure).",0
+165,"This includes editing the files that contain the templates for the PCC and reviewer information, the file containing the main topics of the conference, and setting up a website.",0
+166,"The conflict detection and coloring scheme used to indicate the state of reviews has, as far as we know, not been used in other systems that handle review processes.",0
+167,"In this paper we describe CyberChair, a web-based group­ware application that supports the review process for technical contributions to conferences.",0
+168,Here is an overview of the activities CyberChair supports or carries out.,0
+169,"As of this writing, CyberChair has been used successfully for 10 conferences or workshops, while currently half a dozen other conferences are planning to use it.",0
+170,The tasks mentioned above have been automated by CyberChair.,0
+171,"Depending on how busy our webserver is, the copying may not be completed before you click on a link.",0
+172,Please put or leave the 'Would you like to receive a copy of your review per e-mail?',0
+173,"More conference management systems exist , although we could not find publications about them in the litterature.",0
+174,"The problematic use of groupware applications, as reported in several publications  is not affecting CyberChair.",0
+175,The reviewers' pages are regenerated frequently in order to reflect changes (such as conflicting reviews).,0
+176,"In short, CyberChair fully supports all activities that come with the review process: the abstract and (camera-ready) paper submission, the reviewer assignment (based on the reviewers' preferences and expertise), the review submission process, the notifications of acceptance and rejection, the preparation of the proceedings (according to the Springer-Verlag procedure), and the abstracts for the conference website and program booklet.",0
+177,Identifying the right reviewers for papers is a difficult task.,0
+178,"Up until its 1996 edition, the European Conference on Object-Oriented Programming (ECOOP) used hard-copy review forms.",0
+179,"When email is used for the submission of papers and reviews, the physical distribution of papers, which is still used for many conferences, is no longer needed.",0
+180,The size of this pool is influenced by the maximum number of papers that is assigned to reviewers based on their preferences.,0
+181,This problem is handled by CyberChair by the conflict detection mechanism and availability of other reviewers’ reviews.,0
+182,"When done by hand, the paper assignment usually is a very time consuming job.",0
+183,"The top frame is automatically updated every 5 minutes, to reflect the current state of the reviews of the papers.",0
+184,Figure 7 shows a part of a paper distribution as generated by CyberChair.,0
+185,"The original poster is in B1 format, so you may need to zoom in to read all details.",0
+186,"For each conference or workshop the tuning should be considered carefully, since it heavily depends on the number of submissions, the number of reviewers, their expertise and the number of papers per reviewer.",0
+187,This information is used for the paper distribution.,0
+188,"Jean-Guy Schneider, Markus Lumpe and Oscar Nierstrasz describe CyberChair in Agent Coordination via Scripting Languages, Chapter 6 of the book Coordination of Internet Agents: Models, Technologies and Applications, Andrea Omic, Fanco Zambonelli, Matthias Klusch and Robert Tolksdorf (Eds.)",0
+189,Especially that part of the browser window must be left as is while the reviewer is filling in the review form.,0
+190,We are aware that the pages could also have been created by using tables.,0
+191,Members of the PC are also called ’reviewers’,0
+192,"March 2000, CyberChair was regularly updated to include new ideas, and suggestions by its users.",0
+193,CyberChair takes care of the rest.,0
+194,"The colored boxes indicate the state of the reviews, which is determined each time a review is submitted by any of the reviewers.",0
+195,Chair -  Use chair or chair as login & password combination.,0
+196,The pattern Identify the Conflicts  is used to determine the state of the reviews.,0
+197,This section explains how the CyberChair handles the administration and supports its users during the complete reviewing process.,0
+198,"CyberChair's functionality is described in detail in a paper, which is titled CyberChair: A Web-Based Groupware Application to Facilitate the Paper Reviewing Process.",0
+199,The script is currently optimally tuned for ECOOP 2000.,0
+200,"All you have to do is prepare the PC meeting, write acceptance and rejection messages, and the preface of the proceedings.",0
+201,"This is done by showing the options for the kinds of users of CyberChair: the maintainer, the authors, the PCC and the reviewers.",0
+202,Just retry a few seconds later if this happens.,0
+203,Each of these frames is filled by using the name of a CGI script in the SRC tag of the frame definition.,0
+204,"We hope, by describing CyberChair, to have answered",0
+205,This page consists of several dynamically generated HTML frames.,0
+206,A commonality between BSCW  and CyberChair is that both provide a shared workspace.,0
+207,"This is quite inefficient, because much of the data that did not change is also regenerated.",0
+208,A commonality between CyberChair and gIBIS  is that both systems provide means to make high-quality decisions by providing the group members’ arguments to each other.,0
+209,"Further, overviews are available that contain, per conference topic, all abstracts, and an overview that contains all abstracts.",0
+210,"If you'd like to use CyberChair, but would rather not be bugged by installing and customizing CyberChair yourself (and use the latest, greatest version of CyberChairPRO, which is easier to work with, which has more tools, and streamlined versions of existing tools), you might want to consider delegating the submission and review process organization to a spin-off company specialized in managing this process, set up by the author of CyberChair: Borbala Online Conference Services.",0
+211,It is not clear to us if BSCW could also be used to create a dynamic review system.,0
+212,Like Java it runs on a virtual machine and is available for many platforms.,0
+213,"Furthermore, there is support for the preparation of the proceedings.",0
+214,Graph theory (nodes with labeled edges) is used to solve this assignment problem.,0
+215,"It eases the submission of author information, papers and reviews instantly in electronic form, using the web.",0
+216,"Although more conference management systems exist  and many conferences use electronic uploading and some kind of reviewing system, no such system was found in the literature.",0
+217,"After that, only bugfixes were made.",0
+218,"It was first developed for ECOOP'97, and has been extended since, based on new ideas and the suggestions and remarks of its users (the chairs, the reviewers and submitters).",0
+219,"Currently the script is tuned to assign as much as possible papers to reviewers based on their preferences, provided that all papers are assigned to exactly 4 reviewers and all reviewers are assigned approximately the same number of papers.",0
+220,"The top frame, containing the paper numbers in colored boxes, is updated every 5 minutes by using a so-called meta tag containing the ’refresh’ option.",0
+221,A very important issue for the conference organization is that using CyberChair will save them a lot of money on copying papers and mailing the papers to the reviewers (which might open up room to delegate the management of the submission and review process - see below).,0
+222,The version described in this paper was used for ECOOP 2000 and  the International Workshop on Software Specification and  Design (IWSSD-10).,0
+223,The resulting TeX file is according to Springer's editor's instructions.,0
+224,"If you'd like to use CyberChair, which is free software (GNU General Public License), please fill in a customization form.",0
+225,"Further, links are provided that contain all reviews of the reviewer, and all reviews of all reviewers of the paper, respectively.",0
+0,"The system retrieves and displays the Student’s current schedule (e.g., the schedule for the current semester).",1
+1,The system cancels the course offering for each schedule that contains it.,1
+2,"The system requests that the Registrar specify the function he or she would like to perform (either Add a Student, Update a Student, or Delete a Student)",1
+3,They will also need to see which students signed up for their course offerings.,1
+4,"If no alternates are available, then no substitution will be made.",1
+5,The Student also selects any course offerings to delete from the existing schedule.,1
+6,"If a course offering becomes full while a student is building a schedule including that offering, the student must be notified.",1
+7,Only Professors can enter grades for students.,1
+8,The professor selects possibly and possibly de-selects the course offerings that he or she wishes to teach for the upcoming semester.,1
+9,The professor is added to the system.,1
+10,The Student selects 4 primary course offerings and 2 alternate course offerings from the list of available offerings.,1
+11,This use case allows the Registrar to maintain student information in the registration system.,1
+12,The Student verifies the deletion.,1
+13,"If, in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist, the system displays an error message.",1
+14,Professors will be able to access the system to sign up to teach courses as well as record grades.,1
+15,"If, in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist, the system displays an error message.",1
+16,"For each selected course offering on the schedule not already marked as “enrolled in”, the system verifies that the Student has the necessary prerequisites, that the course offering is open, and that there are no schedule conflicts.",1
+17,"If, in the Update a Schedule or Delete a Schedule sub-flows, the system is unable to retrieve the Student’s schedule, an error message is displayed.",1
+18,The system requests that the Registrar enter the professor id,1
+19,"At the end of the semester, the student will be able to access the system to view an electronic report card.",1
+20,The system requests that the Registrar enter the student id.,1
+21,The system deletes the student from the system.,1
+22,"In addition, each student will indicate two alternative choices in case the student cannot be assigned to a primary selection.",1
+23,The system displays a list of course offerings the Professor taught in the previous semester.,1
+24,"If there is no conflict, the system updates the course offering information for each offering the professor selects (i.e., records the professor as the instructor for the course offering).",1
+25,"If, in the Basic Flow, the professor is not eligible to teach any course offerings in the upcoming semester, the system will display an error message.",1
+26,The system requests that the Registrar enter the professor information.,1
+27,This use case allows a Professor to submit student grades for one or more classes completed in the previous semester.,1
+28,"If the Professor wishes to skip a particular student, the grade information can be left blank and filled in at a later time.",1
+29,"Once the registration process is completed for a student, the registration system sends information to the billing system so the student can be billed for the semester.",1
+30,The Professor selects a course offering.,1
+31,The system also retrieves and displays the list of courses the professor has previously selected to teach.,1
+32,"If, in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts, an error message is displayed.",1
+33,The system retrieves and displays the student information.,1
+34,"If, in the Delete A Student  sub-flow, the Registrar decides not to delete the student, the delete is cancelled and the Basic Flow is re-started at the beginning.",1
+35,The system displays each student and any grade that was previously assigned for the offering.,1
+36,"If the use case was successful, student grades for a course offering are updated.",1
+37,The system removes the professor from teaching the de-selected course offerings.,1
+38,The system prompts the Registrar to confirm the deletion of the professor.,1
+39,"If the use case was successful, the student schedule is created, updated, or deleted.",1
+40,The system provides the Registrar with the new professor id.,1
+41,The system provides the Registrar with the new student id.,1
+42,The Professor may also change the grade for a student by entering a new grade.,1
+43,The Student may update the course selections on the current selection by deleting and adding new course offerings.,1
+44,This use case allows a Student to register for course offerings in the current semester.,1
+45,"Once the Registrar updates the necessary information, the system updates the student information.",1
+46,Only the Registrar is allowed to change any student information.,1
+47,The Registrar verifies the deletion.,1
+48,The system deletes the professor from the system.,1
+49,"For each semester, there is a period of time that students can change their schedule.",1
+50,"Once the student has made his or her selections, the system updates the schedule for the Student using the selected course offerings.",1
+51,This use case allows a Student to view his or her report card for the previously completed semester.,1
+52,The student is added to the system.,1
+53,This use case allows the Registrar to maintain professor information in the registration system.,1
+54,The system requests that the Registrar enter the student information.,1
+55,"If so, the system commits the course offering for each schedule that contains it.",1
+56,"Once the Registrar updates the necessary information, the system updates the professor record.",1
+57,The Student can also update or delete course selections if changes are made within the add or drop period at the beginning of the semester.,1
+58,Professors cannot change the course offerings they teach after registration for the current semester has been closed.,1
+59,"At the beginning of each semester, students may request a course catalogue containing a list of course offerings for the semester.",1
+60,"If, in the Basic Flow, the system cannot find any grade information from the previous semester for the Student, a message is displayed.",1
+61,"If the system is unable to communicate with the Course Catalog System, the system will display an error message to the Student.",1
+62,The system requests that the Registrar enter the professor id.,1
+63,"In addition, the professors will be able to record the grades for the students in each class.",1
+64,The system retrieves a list of all students who were registered for the course offering.,1
+65,"This use case starts when the Registrar wishes to add, change, possibly and possibly delete student information in the system.",1
+66,The Registrar enters the professor id.,1
+67,This use case allows a Registrar to close the registration process.,1
+68,"If the use case was successful, the professor information is added, updated, or deleted from the system.",1
+69,The system retrieves and displays the list of course offerings the professor is eligible to teach for the current semester.,1
+70,The system requests that the Registrar enter the student id,1
+71,The system retrieves and displays the grade information for each of the course offerings the Student completed during the previous semester.,1
+72,"The system verifies that the selected offerings do not conflict (i.e., have the same dates and times) with each other or any course offerings that the professor has previously signed up to teach.",1
+73,The Student selects the course offerings to add from the list of available course offerings.,1
+74,The system will also indicate which are the conflicting courses.,1
+75,This use case allows a Professor to select the course offerings from the course catalog for the courses that he or she is eligible for and wishes to teach in the upcoming semester.,1
+76,The system then adds the Student to the selected course offering.,1
+77,"If the schedule contains “enrolled in” course offerings, the Student must be removed from the course offering.",1
+78,"This includes adding, modifying, and deleting professors from the system.",1
+79,The Registrar makes the desired changes to the professor information.,1
+80,Professors must be able to access the on-line system to indicate which courses they will be teaching.,1
+81,"If a course fills up during the actual registration process, the student must be notified of the change before submitting the schedule for processing.",1
+82,Students cannot register for course offerings after registration for the current semester has been closed.,1
+83,The system prompts the Registrar to confirm the deletion of the student.,1
+84,The system retrieves and displays the professor information.,1
+85,Students must be able to access the system during this time to add or drop courses.,1
+86,The system deletes the Schedule.,1
+87,"For each course offering, the system closes all course offerings.",1
+88,The Close Registration processing cannot be performed if registration is in progress.,1
+89,The Registrar makes the desired changes to the student information.,1
+90,The Registrar enters the student id.,1
+91,"The Billing System will send the bill to the students, which will include a copy of their final schedule.",1
+92,"Once the student has made his or her selections, the system creates a schedule for the Student containing the selected course offerings.",1
+93,"If the course offerings do not have at least three students at this point (some may have been added as a result of leveling), then the system cancels the course offering.",1
+94,"If the systems find a schedule conflict when trying to establish the course offerings the Professor should take, the system will display an error message indicating that a schedule conflict has occurred.",1
+95,"If the use case was successful, the student information is added, updated, or deleted from the system.",1
+96,"If, in the Basic Flow, the Professor did not teach any course offerings in the previous semester, the system will display an error message.",1
+97,"If, in the Basic Flow, the actor enters an invalid name possibly and possibly password, the system displays an error message.",1
+98,The actor enters his or her name and password.,1
+99,"If the system is unable to communicate with the Billing System, the system will attempt to re-send the request after a specified period.",1
+100,"The Professor can either resolve the schedule conflict (i.e., by canceling his selection to teach one of the course offerings)",1
+101,The Professor can cancel the operation,1
+102,any selections will be lost,1
+103,the use case ends.,1
+104,"For each student on the list, the Professor enters a grade: A, B, C, D, F, or I.",1
+105,The system records the student’s grade for the course offering.,1
+106,The Registrar can then enter a different id number,1
+107,"The Registrar can cancel the operation, at which point the use case ends.",1
+108,The Student can either select a different course offering and,1
+109,the use case continues,1
+110,"The Student save the schedule, as is (see Save a Schedule subflow)",1
+111,The Student can cancel the operation,1
+112,"If, in the Delete A Student sub-flow, the Registrar decides not to delete the student,",1
+113,the delete is cancelled,1
+114,the Basic Flow is re-started at the beginning.,1
+115,The Student acknowledges the error.,1
+116,The system must prevent students from changing any schedules other than their own,1
+117,The system must prevent professors from modifying assigned course offerings for other professors.,1
+118,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Student.",1
+119,"If it is, then a message is displayed to the Registrar",1
+120,The system calculates the tuition owed by each student for his current semester schedule,1
+121,The system sends a transaction to the Billing System.,1
+122,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Professor",1
+123,The system retrieves a list of available course offerings from the Course Catalog System,1
+124,The system displays the list to the Student.,1
+125,The new system will access course information from the legacy database,1
+126,The new system will not update access course information from the legacy database.,1
+127,The Student acknowledges the error message,1
+128,the use case terminates.,1
+129,Update a Schedule,0
+130,The courses a student has selected for the current semester.,0
+131,This use case starts when the actor wishes to log into the Course Registration System.,0
+132,A person enrolled in classes at the university.,0
+133,Register for Courses,0
+134,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",0
+135,Save a Schedule,0
+136,The system is in the login state and has the login screen displayed.,0
+137,"If the use case was successful, the course offerings a Professor is scheduled to teach have been updated.",0
+138,This use case describes how a user logs into the Course Registration System.,0
+139,Course offerings that do not have enough students are cancelled.,0
+140,"If the Student selected “Delete a Schedule”, the Delete a Schedule subflow is executed.",0
+141,"The system shall support up to 2000 simultaneous users against the central database at any given time, and up to 500 simultaneous users against the local servers at any one time.",0
+142,"If the Student selected “Create a Schedule”, the Create  a Schedule subflow is executed.",0
+143,This Supplementary Specification lists the requirements that are not readily captured in the use cases of the use- case model.,0
+144,"If the Registrar selected “Delete a Student”, the Delete a Student  subflow is executed.",0
+145,The registrar’s office will continue to maintain course information through another system.,0
+146,"Often, this document can be used as an informal data dictionary, capturing data definitions so that use-case descriptions and other project documents can focus on what the system must do with the information.",0
+147,Note: Risk-based prototypes have found that the legacy course catalog database cannot meet our performance needs without some creative use of mid-tier processing power,0
+148,The college will keep the existing course catalog database where all course information is maintained.,0
+149,Includes the days of the week and times it is offered.,0
+150,The Submit Schedule subflow is executed.,0
+151,(The functional requirements are defined in the Use Case Specifications.),0
+152,All the professors teaching at the university.,0
+153,"The history of the grades for all courses, for a particular student sent to the finance system, which in turn bills the students.",0
+154,A specific delivery of the course for a specific semester – you could run the same course in parallel sessions in the semester.,0
+155,"If this occurs, the Submit Schedule step is replaced with the following:",0
+156,"If the Registrar selected “update a professor”, the Update a Professor  subflow is executed.",0
+157,This database is an Ingres relational database running on a DEC VAX.,0
+158,Submit  Schedule,0
+159,The Select Offerings subflow is executed.,0
+160,"Since student grades are sensitive information, the system must employ extra security measures to prevent unauthorized access.",0
+161,This use case starts when the Registrar requests that the system close registration.,0
+162,The first available alternate course offerings will be selected.,0
+163,"The Professor acknowledges the message, and the use case ends.",0
+164,A person teaching classes at the university.,0
+165,Course offerings will have a maximum of ten students and a minimum of three students.,0
+166,"Once the Student acknowledges the message, the use case terminates.",0
+167,Maintain Professor Information,0
+168,"If not, the system state remains unchanged.",0
+169,"The actor can choose to either return to the beginning of the Basic Flow or cancel the login, at which point the use case ends.",0
+170,This includes:,0
+171,The purpose of this document is to define requirements of the Course Registration System.,0
+172,"Due to a decrease in federal funding, the college cannot afford to replace the entire system at once.",0
+173,"If the Registrar selected “Update a Student”, the Update a Student  subflow is executed.",0
+174,"This use case starts when a Student wishes to register for course offerings, or to change his or her existing course schedule.",0
+175,The system must be able to complete 80% of all transactions within 2 minutes.,0
+176,Create a Schedule,0
+177,The course offering is marked as enrolled in in the schedule.,0
+178,Update a Professor,0
+179,The Registrar must be logged onto the system before this use case begins.,0
+180,The system validates the entered name and password and logs the actor into the system.,0
+181,The system shall provide access to the legacy course catalog database with no more than a 10 second latency.,0
+182,Maintain Student Information,0
+183,All the students enrolled in a particular course offering.,0
+184,Add a Student,0
+185,A course offering with fewer than three students will be canceled.,0
+186,The Student must be logged onto the system before this use case begins.,0
+187,A class offered by the university.,0
+188,The Professor must be logged onto the system before this use case begins.,0
+189,The Supplementary Specifications and the use-case model together capture a complete set of requirements on the system.,0
+190,"If the Registrar selected “Add a Student”, the Add a Student  subflow is executed.",0
+191,The system shall provide a Windows-based desktop interface.,0
+192,"If a professor change is needed after registration has been closed, it is handled outside the scope of this system.",0
+193,The system used for processing billing information.,0
+194,"If the Registrar selected “Delete a Professor”, the Delete a Professor subflow is executed.",0
+195,Add a Professor,0
+196,"This includes adding, modifying, and deleting Students from the system.",0
+197,Multiple users must be able to perform their work concurrently.,0
+198,"If the use case was successful, the actor is now logged into the system.",0
+199,The professor acknowledges the message and the use case ends.,0
+200,The course offerings not marked as “enrolled in” are marked as “selected” in the schedule.,0
+201,As the head of information systems for Wylie College you are tasked with developing a new student registration system.,0
+202,"If the Student selected “update a schedule”, the Update a Schedule subflow is executed.",0
+203,"If the Registrar selected “Add a Professor”, the Add a Professor  subflow is executed.",0
+204,"When the Student indicates that he or she is done viewing the grades, the use case terminates.",0
+205,The Registrar must be logged onto the system in order for this use case to begin.,0
+206,"This specification defines the non-functional requirements of the system; such as reliability, usability, performance, and supportability, as well as functional requirements that are common across a number of use cases.",0
+207,Select Courses to Teach,0
+208,"This Supplementary Specification applies to the Course Registration System, which will be developed by the OOAD students.",0
+209,Update a Student,0
+210,"Once the Registrar provides the requested information, one of the sub flows is executed.",0
+211,"The system shall integrate with an existing legacy system, the Course Catalog System, which is an RDBMS database.",0
+212,The schedule is saved in the system.,0
+213,The system will continue to attempt to re-send until the Billing System becomes available.,0
+214,"If, in the Delete A Schedule sub-flow, the Student decides not to delete the schedule, the delete is cancelled, and the Basic Flow is re-started at the beginning.",0
+0,"For each patient from the monitoring list, the LHCP can edit blood pressure, glucose levels, height, weight and pedometer readings.",1
+1,The LHCP is able to view the comprehensive patient report.,1
+2,"The reports are viewed under the View My Records tab.",1
+3,"The input data, a timestamp and the fact are saved.",1
+4,"An LHCP views the height, weight and pedometer data monitoring details.",1
+5,"System presents a list of the patient's expired prescriptions, sorted by start date (the later date is ranked earlier closer to the top).",1
+6,"The appointments in the list shall be ordered by appointment date and time, the soonest upcoming first.",1
+7,An LHCP views a list of his upcoming appointments.,1
+8,An administrator maintains the hospital listing.,1
+9,System displays his appointments on the calendar.,1
+10,The HCP selects reasons out from the nine reasons listed here for the overriding.,1
+11,"A patient, personal health representative or HCP views laboratory procedure status.",1
+12,The HCP can add the prescription to the list of medications.,1
+13,The administrator is allowed to add a new entry for a reason.,1
+14,The HCP can edit the patient according to data format.,1
+15,The drug is checked against the patient's drug allergies.,1
+16,The user can select a laboratory procedure from the calendar to read the laboratory procedure's details.,1
+17,The LHCP obtains a printable report.,1
+18,An LHCP refers a patient to another receiving LHCP.,1
+19,The HCP notes about an office visit.,1
+20,System presents a listing of all immunizations for which he has been administered in the last 12 months.,1
+21,"An LHCP, patient and representative can sort his message inbox and message outbox.",1
+22,The HCP can disallow viewing access to the laboratory results.,1
+23,"The patient may optionally enter a zip code (match on first three numbers of zip code), in addition to the name possibly and possibly specialty.",1
+24,A public health agent selects a specific time period for which he would like to see a detailed listing of all adverse events related to prescription drugs or immunizations.,1
+25,The patient chooses My Diagnoses.,1
+26,"A patient, patient representative, or LHCP can sort messages in his message outbox by the recipient's last name or timestamp (but not both) in either ascending or descending order.",1
+27,"When an LHCP views a list of his upcoming appointments, system presents an option to edit or remove the appointment.",1
+28,The patient views his access log.,1
+29,"The admin must specify a specialty for a new LHCP (General Physician, Heart Surgeon, OB, GYN, Pediatrician, or Surgeon).",1
+30,The patient can undesignate any LHCP as being a DLHCP for them.,1
+31,A public health agent sees trends in adverse events relate to prescription drugs or immunizations.,1
+32,The data for personnel can be edited according to Data Format.,1
+33,"An LHCP, patient or representative can modify his messagedisplayingfilter by modifying the following filtering criteria.",1
+34,The administrator stores hospital Id number for the hospital and the name of the hospital.,1
+35,The HCP's medical identification number should also be maintained.,1
+36,The HCP selects a medication prescribed from a pull down list.,1
+37,A patient or personal representative may view medical records including family history.,1
+38,The LHCP then sends the request or to cancel.,1
+39,"A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID, drug, and symptoms.",1
+40,System presents a list of the patients.,1
+41,"A patient views basic information about his designated LHCPs, including the name, phone number, and contact email information.",1
+42,"Additionally, the HCP can document none, one, or more medications prescribed; none, one, or more lab procedures that are ordered (LOINC code, see Data Format 6.11); none, one, or more diagnoses (via the ICD-9CM code); none, one, or more medical procedures performed; and none, one, or more immunizations given chosen from appropriate pull-down lists.",1
+43,"System presents a list of the patients whose height, weight, or pedometer data type is specified to be under monitoring and for which he or she is allowed to report measurements.",1
+44,System displays his appointments in the current month.,1
+45,"System presents the patient’s name, patient’s address, and patient’s date of last office visit.",1
+46,The HCP does not have the ability to enter the patient's security question and password.,1
+47,"He can report the height, weight and pedometer reading for the patient.",1
+48,"The notification center also displays a list of the patient and patient representee upcoming appointments, the information of his designated HCP, and the number of unread messages from his message inbox.",1
+49,"A link of Older Activities shall be displayed.",1
+50,The administrator chooses a drug from each list to record an interaction between the two drugs.,1
+51,A LHCP creates UAPs.,1
+52,The LHCP views all patients with which he or she has ever had an office visit with.,1
+53,The HCP must remain on the office visit page.,1
+54,The patient can select a diagnosis.,1
+55,System displays the details for the laboratory procedure in a new page.,1
+56,System presents a listing of all drug interactions with that drug.,1
+57,An LHCP views the physiologic data monitoring details.,1
+58,The patient chooses prescription report.,1
+59,A user enters their MID and their password to gain role-based entry into iTrust.,1
+60,"The HCP can view a list of laboratory procedures and results, sorted by the date of the last status update, most recent first.",1
+61,The LHCP enters the representative's MID.,1
+62,"A patient inputs his weight, height or pedometer readings.",1
+63,"An LHCP can see the blood pressure and glucose levels, weight, height, and pedometer readings for the patients he or she is monitoring, with two separate lists for physiologic and height or weight or pedometer readings.",1
+64,"The user selects a prescription from the calendar to read its details by clicking the Read Details link beside or below the medication displayed for the prescription.",1
+65,System presents a listing of all his patients to view weight or pedometer data reported during the current date.,1
+66,An HCP creates patients.,1
+67,"The administrator stores the ICD-9CM code, a classification and the name of the diagnosis.",1
+68,"System presents a listing of all their own diagnoses, sorted by diagnosis date (more recent first).",1
+69,The administrator maintains a listing of allowable drugs.,1
+70,The LHCP can select a patient to obtain additional information about a patient.,1
+71,The administrator is allowed to set the length of this period of time.,1
+72,The administrator maintains the overriding reasons that an HCP can select from.,1
+73,"He can report the height, weight and pedometer readings for the patient.",1
+74,An LHCP or UAP creates a list of patients (by MID) for which he or she will monitor remotely.,1
+75,"The user selects a laboratory procedure from the calendar to read its details by clicking the Read Details link beside or below the LOINC code displayed for the laboratory procedure.",1
+76,"After a message is sent, the LHCP is directed to his message outbox.",1
+77,The patient or the personal representative can view a list of their own prescriptions or the prescriptions for whom the user is a person representative by choosing one patient from a a list of these patients.,1
+78,System presents a text box to HCP.,1
+79,"A UAP or patient representative can input the blood pressure, glucose levels, height, weight, or pedometer readings for a patient.",1
+80,The administrator is allowed to modify the reason name in an existing entry.,1
+81,The patient can add the HCP to their list of providers.,1
+82,The administrator maintains a listing of allowable immunizations.,1
+83,"A patient, personal representative or LHCP views prescription reports.",1
+84,"The patient views the list sorted by dates, most recent access first.",1
+85,"System displays the details for the visit in a new page, including date of office visit, note text, diagnoses (i.e., ICD-9CM codes), medical procedures performed (i.e., CPT code) , lab procedures ordered (LOINC code, see Data Format 6.11), medications prescribed (i.e., NDC, see Data Format 5.6), immunizations given (i.e., CPT Code, see UC15, S1), and the name of the doctor who prescribed the medication.",1
+86,The patient types the subject and the text of a message.,1
+87,The LHCP clicks the reply link above the message text.,1
+88,The representative views his message inbox.,1
+89,"The HCP can indicate that the patient has passed away, providing an appropriate diagnosis code.",1
+90,The user can select an office visit from the calendar to read the visit's details.,1
+91,"The LHCP, the patient or the representative clicks the Cancel button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter).",1
+92,The administrator records a drug interaction between two prescription drugs.,1
+93,The LHCP must confirm the delete.,1
+94,The administrator deletes a drug interaction between two prescription drugs.,1
+95,"The administrator adds a new entry for an appointment type, including its type name with up to 30 alpha characters and duration in the unit of minutes.",1
+96,The answers to the survey are stored.,1
+97,"A personal health representative views basic information about his designated LHCPs, including the name, phone number, and contact email information.",1
+98,An LHCP can delete a patient from his monitoring list by the LHCP typing the the patient's MID.,1
+99,"Any event which views, creates, edits or deletes information is logged.",1
+100,The administrator is not allowed to modify the reason ID number in an existing entry.,1
+101,The administrator can choose the hospitals.,1
+102,The administrator stores information of a LOINC code.,1
+103,The administrator is not allowed to modify the appointment type name in an existing entry.,1
+104,He can report the blood pressure and glucose levels for the patient.,1
+105,The administrator selects one drug.,1
+106,A patient's DLHCP adds a patient's personal representative by typing that person's MID.,1
+107,System presents a success or failure message to the editor.,1
+108,System presents the LHCPs in the patient's living area (based upon the first three numbers of their zip code) who have handled this diagnosis in the last three years.,1
+109,The patient then chooses the beginning and end date for the period of time.,1
+110,The data for personnel can be edited according to Data Format 6.2 (all fields mandatory except for associated MID and Street Address 2).,1
+111,The user can select a prescription from the calendar to read the prescription's details.,1
+112,"They can see diagnoses of blood pressure, high cholesterol, diabetes, cancer, heart disease, smoking, and the cause of death.",1
+113,A fake email is sent to the LHCP alerting the user that a new message has arrived.,1
+114,The administrator maintains a listing of allowable physical services (including laboratory procedures) that an HCP can use.,1
+115,"On the patient homepage, the Patient views a notification center.",1
+116,A patient inputs his blood pressure or glucose levels.,1
+117,"The user selects an office visit from the calendar to read its details by clicking the Read Details link beside or below the ICD-9CM code (i.e., diagnose).",1
+118,The notification center displays the message (You haven't entered remote monitoring information for today yet!),1
+119,"A patient or personal health representative can view a list of his upcoming appointments for himself or herself, as well as appointments for the patients he represents.",1
+120,A patient finds the LHCPs who have handled that condition.,1
+121,"The admin must specify a specialty for a new LHCP (one of: General Physician, Heart Surgeon, OB or GYN, Pediatrician, Surgeon).",1
+122,A message of the removal is sent to the adverse event reporter and to the LHCP.,1
+123,Both patients and LHCPs can view a list of their upcoming appointments.,1
+124,A LHCP enters an UAP as a user of system according to data format 6.2 (all fields mandatory).,1
+125,The patient chooses drugs for which to report the adverse event.,1
+126,"When the chosen patient satisfies the preconditions of the chosen chronic disease, the LHCP is provided with a warning message.",1
+127,"A patient can report height, weight and pedometer readings for those for whom he or she is a patient representative.",1
+128,A patient or personal health representative views his iTrust homepage.,1
+129,The HCP can allow viewing access to the laboratory results.,1
+130,Demographic information is entered.,1
+131,The administrator can select a particular pair of drugs.,1
+132,"LHCPs, patients and representatives may reply to messages.",1
+133,"A patient, patient representative, or LHCP can sort messages in his message inbox by either the sender's last name or timestamp (but not both) in either ascending or descending order (where timestamps in descending order would have the most recent first).",1
+134,"A UAP can report height, weight and pedometer measurements.",1
+135,System presents a list of pending referrals.,1
+136,Initially only the name and email are provided.,1
+137,Only the name and email are provided by the HCP.,1
+138,A patient's DLHCP deletes a patient's personal representative by typing that person's MID.,1
+139,The patient or personal health representative views an appointment.,1
+140,"An LHCP views a list of his upcoming appointments for the current date, with each appointment displayed in the format HH:MM AM or PM - AppointmentType.",1
+141,The patient can view contact information of a selected LHCP shown in the expired prescription list.,1
+142,The LHCP is not able to remove any past appointments.,1
+143,"An administrator maintains the standards list for immunizations, diagnoses, allowable drugs, or allowable physical services.",1
+144,He can report his blood pressure (systolic and diastolic) and glucose levels.,1
+145,A patient can report physiologic measurements.,1
+146,System presents a listing of all his patients.,1
+147,The LHCP schedules an appointment with a patient.,1
+148,An LHCP sends a message to a patient or representative (no multiple recipients allowed in a single message).,1
+149,An HCP enters a patient.,1
+150,"After a message is sent, the patient or personal representative is directed to his message outbox.",1
+151,The user provides a zip code or a hospital code and an physician type.,1
+152,A patient or personal representative for a patient sends a message to an LHCP.,1
+153,"A patient reports his height, weight and pedometer data.",1
+154,"The LHCP can see the patient’s name, patient’s phone number, patient’s personal representative, patient’s blood pressure, patient’s glucose levels, patient’s height, patient’s weight, and patient’s pedometer readings as well as whom reported the data (patient, UAP name, personal representative name) for that date range.",1
+155,The patient clicks the send button.,1
+156,"A patient can click the View Full Calendar link to view his appointments in the current month.",1
+157,An patient views his appointments in the current month.,1
+158,"A patient, patient representative, or LHCP then clicks the Sort button.",1
+159,The administrator is not allowed to delete an existing entry.,1
+160,System presents  a listing of all his patients.,1
+161,"By default, the messages in the list should be ordered by timestamp, the most recent first.",1
+162,"The HCP must provide instructions, or else they cannot add the prescription.",1
+163,The LHCP views the weight or pedometer monitoring details of his patients for the current date.,1
+164,A LHCP refers a patient to another receiving LHCP.,1
+165,"The user selects a message from the message inbox or outbox to read by clicking the Read link beside the row for the message, and then the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+166,"The LHCP can view a prescription list for that patient, sorted by start date.",1
+167,System displays only the applicable input entries to the patient.,1
+168,A prescription list is then displayed.,1
+169,The two drugs and a textual description of the possible effects of the interaction are stored.,1
+170,The administrator maintains a listing of allowable diagnoses.,1
+171,An LHCP sends a message to a patient or the patient’s personal representative.,1
+172,The patient can designate any LHCP as being a DLHCP for them.,1
+173,The administrator can delete the interaction between the two drugs.,1
+174,System displays only the applicable input entries to the UAP.,1
+175,An LHCP or UAP can add patients from his monitoring list.,1
+176,An LHCP reviews pending consultations.,1
+177,An HCP edits patient.,1
+178,"A patient, patient representative or LHCP opens his message inbox or outbox.",1
+179,HCPs can return to an office visit.,1
+180,System presents the actual operational profile of the operations of the iTrust.,1
+181,The system shall append 20 more activities to the end of the currently listed activities on the same page.,1
+182,The LHCP views his message inbox.,1
+183,An LHCP can schedule an appointment with a patient.,1
+184,A patient is added to the list by the LHCP or UAP through typing in the patient's MID or name.,1
+185,The HCP does not have the ability to edit the patient's security question and password.,1
+186,"System displays the details for the prescription in a new page, including the medications prescribed.",1
+187,The HCP must proceed with the prescription.,1
+188,The LHCP views the physiologic data monitoring details of his patients for the current date.,1
+189,"A secret key is personally provided to the user, with which the user can reset his or her password.",1
+190,An LHCP chooses a chronic disease and a patient.,1
+191,An administrator can manage a standardized list of appointment types.,1
+192,The LHCP views an appointment.,1
+193,The patient views his message inbox.,1
+194,System presents a menu of his patients and a menu of other LHCPs.,1
+195,"System presents the MID of the sending LHCP, the patient MID, and the referral details.",1
+196,"By default, the messages in the message inbox should be ordered by timestamp, the most recent first.",1
+197,"The HCP provides the dosage in milligrams, the start and end date for the prescription, and any special instructions.",1
+198,The administrator stores the National Drug Code.,1
+199,A user views physician satisfaction survey results.,1
+200,An LHCP or UAP can delete patients from his monitoring list.,1
+201,The representative clicks the send button.,1
+202,The administrator is not allowed to modify the hospital ID number in an existing entry.,1
+203,"In both cases, system presents the name of the patient.",1
+204,A user can request to change their password.,1
+205,The information is edited.,1
+206,Patients with a weight value 5% more or less than the immediate previously recorded weight value are highlighted.,1
+207,"The patient views the list sorted by the role of the accessor relative to the patient (personal health representative, DLHCP, LHCP, UAP, Emergency Responder; any order is fine as long as the list is sorted by role) as well as by date for each role type.",1
+208,The representative types the subject and the text of a message.,1
+209,"The user selects an appointment from the calendar to read its details by clicking the Read Details link beside or below the appointment type name.",1
+210,"On the LHCP homepage, the LHCP views a notification center with a list of his upcoming appointments for the current date, number of physiologic data monitoring reports of his patients for the current date, number of weight or pedometer data monitoring reports of his patients for the current date, number of unread messages from his message inbox.",1
+211,"System presents a listing of immunization-related adverse events for the time period that do not have a status of removed, sorted by CPT code .",1
+212,"An LHCP, patient and representative may view a message.",1
+213,The patient views all LHCPs the patient has ever had an office visit with and those whom he or she had designated.,1
+214,The LHCP can obtain additional information about a patient.,1
+215,"The LHCP name, specialty, and  address are provided.",1
+216,"An administrator enters a LHCP, an ER, or a public healh agent.",1
+217,An LHCP views the number of submitted weight data monitoring reports of his patients for the current date.,1
+218,The public health agent can see the detail of a specific report.,1
+219,System presents an approvel screen.,1
+220,System presents a list of his messages in the message inbox.,1
+221,The LHCP must confirm the add.,1
+222,The LHCP can view of the comprehensive patient report for the specified patient,1
+223,The HCP can edit the office visit in which the laboratory procedure was ordered.,1
+224,An LHCP views his iTrust homepage.,1
+225,System presents a listing of patients for whom they are a DLHCP who need care because of satisfying the one of preceding conditions.,1
+226,An HCP may document an office visit.,1
+227,A patient reports their physiologic data.,1
+228,"System presents a listing of prescription drug-related adverse events for the time period that do not have a status of removed, sorted by NDC.",1
+229,The LHCP opens the message to which he or she wishes to reply.,1
+230,"The patient or personal representative can see patient personal health information, immunizations, and office visit information for their own records and the records for whom the user is a personal representative.",1
+231,The drug is checked for interactions between other drugs currently taken by the patient.,1
+232,The LHCP requests a comprehensive patient report for a particular patient.,1
+233,An HCP edits an office visit.,1
+234,"The patient is sent a fake email.",1
+235,LHCP can edit future appointments.,1
+236,The LHCP confirms the patient's MID.,1
+237,"A patient, patient representative, or LHCP clicks this number to view his message inbox.",1
+238,The HCP prescribes a patient a drug by selecting its NDC and name.,1
+239,System presents a screen upon which he can choose a date range.,1
+240,"For the patient, the HCP can choose height or weight to graph.",1
+241,Demographic information is edited.,1
+242,The patient chooses the immunization for which to report the adverse event.,1
+243,System presents two lists of NDC codes or names.,1
+244,The patient can add also a LHCP to their provider list by searching for the name possibly and possibly specialty of a LHCP.,1
+245,"The LHCP, the patient or the representative clicks the Test Search button to search (i.e., displaying the message inbox including only the messages satisfying the specified filtering criteria).",1
+246,The HCP can graph height or weight of the patient over the last 3 calendar years.,1
+247,"A patient, patient representative, or LHCP selects one option out of the by order of labeled drop-down box (with options of ascending or descending).",1
+248,"HCPs can modify or delete the fields of the office visit information (date, hospital, notes, prescriptions, laboratory procedures, diagnoses, procedures, possibly and possibly immunizations).",1
+249,"An administrator enters a LHCP, an ER or a public health agent as a user of system.",1
+250,"The HCP can edit patient's historical values, patient's immunizations, patient's office visit information, patient's family history, and patient's BMI.",1
+251,"An admin creates a LHCP, an ER and a public health agent.",1
+252,The software tester authenticates himself in the iTrust.,1
+253,A patient views a list of his upcoming appointments.,1
+254,"An HCP identifies chronic patients who need an office visit, older patients who need a flu shot, or any patient who is overdue for an immunization.",1
+255,The administrator modifies the duration in an existing entry.,1
+256,The HCP is notified of drug allergy.,1
+257,"A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms.",1
+258,The patient’s MID can not be edited.,1
+259,The patient can view a list of laboratory procedures and status for their own records and the records for which the user is a personal representative.,1
+260,A fake email is sent to the LHCP alerting the LHCP that a new message reply has arrived.,1
+261,The HCP then documents the office visit date and hospital location of the office visit.,1
+262,A HCP edits a laboratory procedure.,1
+263,The public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).,1
+264,"The appointment details display the appointment type, appointment date and the start time, duration, the name of the patient, and appointment comments.",1
+265,An HCP chooses Office Visit Reminders.,1
+266,The HCP enters a patient as a new user of system.,1
+267,"A patient, patient representative, or LHCP views the number of unread messages from his message inbox.",1
+268,"The patient or personal representative can see an abbreviated health history of their siblings, parents, and both sets of grandparents for which MIDs are available in iTrust.",1
+269,The HCP does not have the ability to view the patient's security question and password.,1
+270,"System displays the details for the appointment in a new page, including the appointment type, the appointment date and start time, comment, and the name of either the patient (only for the user being an LHCP) or the LHCP (only for the user being a patient).",1
+271,"An LHCP, patient and representative can modify and save his message displaying filter.",1
+272,The patient can click this link.,1
+273,The information is viewed.,1
+274,System presents patient's name and patient’s home phone number (so that reminder calls can be made).,1
+275,An email notification is sent.,1
+276,An LHCP views the number of submitted physiologic data monitoring reports of his patients for the current date.,1
+277,System presents a menu of DLHCP.,1
+278,The patient or representative chooses one of these DLHCP.,1
+279,"The LHCP, the patient or the representative clicks the Save button to save the modified filter.",1
+280,"Upon reading the report, the public health agent can send a fake email message to the adverse event reporter to gain more information about the report.",1
+281,The HCP must cancel the prescription.,1
+282,An LHCP views his appointments in the current month.,1
+283,"Then, the LHCP can confirm the status setting or consultation entering or cancel.",1
+284,The LHCP confirms the representative's MID.,1
+285,"A patient, patient representative, or LHCP selects one option out of the Sort by labeled drop-down box (with options of Sender or Recipient or Timestamp).",1
+286,The system shall store reason id number for the reason and the name of the reason.,1
+287,An LHCP views his message inbox.,1
+288,A LHCP reviews the consultation.,1
+289,The administrator stores the CPT code and the name of the immunization.,1
+290,System presents a list of the patients for which he is allowed to report measurements.,1
+291,An LHCP views additional information for a patient.,1
+292,The LHCP is not able to edit any past appointments.,1
+293,System presents a listing of all his patients to view physiologic data reported during the current date.,1
+294,"The status of the consultation being sent is set as pending.",1
+295,LHCP selects a patient from the list of requested reports.,1
+296,A patient reports an event related to a prescription drug or immunization reaction.,1
+297,The message displays the risk factors that the patients exhibit.,1
+298,A patient's personal representative or a patient or personal representative sends a message to DLHCP or that of a person they are representing.,1
+299,A patient or personal representative can answer any of the following questions relative to a previous office visit.,1
+300,"Also, the public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).",1
+301,The administrator shall be allowed to assign a LHCP to multiple hospitals.,1
+302,System presents a listing of all prescription drugs for which he has been prescribed and has taken in the last 12 months.,1
+303,The LHCP then selects a referral to view details.,1
+304,A HCP reviews consultations.,1
+305,The user can select an appointment from the calendar to read the appointment's details.,1
+306,"A patient views his appointments in the current month together with his office visit dates, prescription dates, and lab procedure dates of the current month on a calendar for the current month.",1
+307,"An LHCP or patient can click the View Appointment Calendar link to view his appointments in the current month.",1
+308,System presents an automatically-calculated value of BMI calculated based on the formula.,1
+309,A UAP can report physiologic measurements.,1
+310,The user opens his upcoming appointment list.,1
+311,"An email alert is sent out to the iTrust user in the event of a changed password, status change in laboratory procedure, comprehensive report requested and generated.",1
+312,"When the patient and LHCP are chosen, system presents the MID of the patient that will be sent to the receiving HCP.",1
+313,The LHCP enters the patient's MID.,1
+314,"System presents a line chart giving the chosen measurements (either height or weight) of the patient spanning the last 3 calendar years of data, averaged by quarters (January-March, April-June, July-September, October-December).",1
+315,A fake email is sent to the patient alerting the patient that a new message reply has arrived.,1
+316,LHCP can delete future appointments.,1
+317,The patient is then able to write a textual description.,1
+318,The event is logged  to verify his changes.,1
+319,the HCP is returned in the specific office visit record to verify his changes.,1
+320,"System presents an option (finish, decline, pending with pending as default value) to mark the status of the consultation",1
+321,System presents a text box to enter the details of the consultation.,1
+322,The LHCP or ER enters a MID,1
+323,The LHCP or ER confirms the input.,1
+324,"The representative enters the text of the response message (up to 1000 characters),",1
+325,then The representative clicks the send button.,1
+326,"The patient opens the message to which he or she wishes to reply,",1
+327,and The patient clicks the reply link above the message text.,1
+328,"A patient renews the patient's expired prescriptions (i.e., prescriptions' end dates are earlier than the current date)",1
+329,and therefore A patient finds the LHCPs who earlier wrote the patient's expired prescriptions (it is assumed that the doctors who wrote prescriptions are all LHCPs so no LHCP checks on the prescription-writing doctors are needed).,1
+330,The HCP enters a MID  or name of a patient,1
+331,The HCP confirms their selection.,1
+332,The LHCP enters a patient's MID,1
+333,The LHCP confirms his input.,1
+334,The patient may type a last name or partial last name,1
+335,The patient optionally reduces the list of choices by providing the specialty.,1
+336,"The representative opens the message to which he or she wishes to reply,",1
+337,The representative clicks the reply link above the message text.,1
+338,The administrator adds a new entry for a hospital,1
+339,The administrator modify the hospital name in an existing entry.,1
+340,The patient enters the text of the response message (up to 1000 characters),1
+341,The patient clicks the send button.,1
+342,The HCP enters a MID of a patient,1
+343,The HCP confirms their input.,1
+344,The LHCP enters the text of the response message (up to 1000 characters),1
+345,The LHCP clicks the send button.,1
+346,A LHCP or ER views an emergency report,1
+347,A LHCP or ER provides an MID.,1
+348,The HCP can view a list of laboratory procedures,1
+349,The HCP can update the status and comments.,1
+350,The editor may correct the form,1
+351,The editor add more information.,1
+352,The health care personnel enters a MID of a patient,1
+353,The health care personnel confirms their selection.,1
+354,The LHCP types the subject (up to 100 characters) and the text of a message (up to 1000 characters),1
+355,The LHCP clicks the send button.,1
+356,(If a patient or personal representative has not taken an office visit satisfaction survey for an office visit yet) The patient may take the survey for an office visit,1
+357,"(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey).",1
+358,"(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey).",1
+359,"The LHCP enters the patient MID,",1
+360,"The LHCP selects the type of appointment from a pull-down menu of the existing appointment types,",1
+361,"The LHCP enters the appointment date and time,",1
+362,The LHCP enters comment (optional) up to 1000 characters such as reason for the appointment.,1
+363,"The user selects a message from the list to read by clicking the Read link beside the row for the message,",1
+364,"the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+365,He can select a patient,1
+366,He can enter data.,1
+367,The list is sorted by the date of the last office visit.,0
+368,Each row for an unread message in the message inbox is bolded.,0
+369,The HCP is notified of possible interactions.,0
+370,"The input data, a timestamp and the fact  and his MID are saved.",0
+371,"Similarly a link of Older Activities shall be further displayed and so on.",0
+372,UC18 Maintain a Hospital Listing Use Case,0
+373,All events are logged.,0
+374,The data in the database is analyzed.,0
+375,UC16 Identify Risk of Chronic Disease Use Case,0
+376,Patients with blood pressure or glucose level out of range are highlighted (normal blood pressure: systolic 90-140; diastolic 60-90; normal glucose 70-150).,0
+377,UC17 Proactively Determine Needed Patient Care Use Case,0
+378,"The appointments are listed in the format MM/DD/YYYY - AppointmentType.",0
+379,"Loggin failures, valid authentication and log outs are also logged.",0
+380,UC4 Enter or Edit Demographics Use Case,0
+381,"The adverse event report changes to a status of removed.",0
+382,An authenticated session ends when the user logs out or closes the iTrust application.,0
+383,A prescription list is sorted by start date.,0
+384,Currently available risk factors for chronic diseases are defined for Diabetes and Type 1 and Type2 and Heart Disease.,0
+385,The list is sorted by the date of the last office visit (most recent first).,0
+386,"Electronic sessions must terminate after a pre-determined period of inactivity.",0
+387,Patients with no information for the current day are highlighted.,0
+388,"The list is sorted based on the alphabetical order of the patients' last names, and then first names.",0
+389,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database.,0
+390,The prescription report is titled with the patient name.,0
+391,"The list is sorted by date of the last status update, most recent first.",0
+392,The user's associated filter initially has all empty inputs for the filtering criteria before the user modifies it.,0
+393,The patient is provided with the name for each physician.,0
+394,Only the most recent 20 activities are listed in the user page after login.,0
+395,"By default, all types of information are selected for monitoring.",0
+396,The list is ranked by the quantity of patients the LHCP has treated for that diagnosis (each patient is only counted once regardless of the number of office visits).,0
+397,Only laboratory procedures for which the HCP has allowed viewing access are shown.,0
+398,A message is sent to the patient and their personal representative.,0
+399,Patients with no information for the current day are highlighted in red.,0
+400,The user interface shall be initially populated with the values of the filtering criteria from the previously saved filter.,0
+401,"The LHCP's name, specialty, address, date of office visit, and whether or not the LHCP is a DLHCP for this patient is indicated.",0
+402,The input data and a timestamp and the fact and their MID are saved.,0
+403,The event is logged.,0
+404,The list is sorted by the dates of the last status update.,0
+405,These audit codes are summarized in the Audit & Transaction Codetable.,0
+406,The row for each conflicting appointment is highlighted in bold.,0
+407,UC29 Find LHCPs with Experience with a Diagnosis,0
+408,Each user is associated with only one filter (being saved across login sessions) and applies only this saved filter.,0
+409,A session that has been inactive for too long is terminated.,0
+410,"The input data, a timestamp, and the fact and his MID are saved.",0
+411,"The instructions can contain numbers, characters, symbols, blankspace and carriage return.",0
+412,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database (data format 5.11).,0
+413,"The input data, a timestamp, and the fact and their MID are saved.",0
+414,An activity feed is displayed.,0

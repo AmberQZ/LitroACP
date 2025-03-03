@@ -1,0 +1,227 @@
+index,input,acp
+0,"To support reviewers with making choices, CyberChair provides them with several webpages containing overviews of  the submitted abstracts.",1
+1,CyberChair generates a paper distribution proposal for the PCC.,1
+2,"As soon as the full paper deadline has passed, the papers can be assigned to the reviewers.",1
+3,"In step 2, the full paper must be submitted by uploading it.",1
+4,"Although CyberChair is not something to sit in (please refer to www.cyberchair.com if you are looking for that), when you are a program chair, you can sit back, relax and watch the progress of the submission and review process.",1
+5,"For this process to work smoothly, the abstracts should be submitted at least one week  before the full paper is submitted.",1
+6,"Usually, people are allowed to send their submission by email.",1
+7,"Reviewers can indicate whether they are an expert on the topic (X), no expert, but knowledgable in the subject area (Y), or an informed outsider (Z).",1
+8,Downloading of papers by the reviewers can start as soon as papers are submitted.,1
+9,"The current implementation collects the preferences (bids), expertise levels and willingness to review papers on certain topics and the conflicts of interest of the reviewers.",1
+10,"In the first step, authors must fill in a webform shown by figures 1 and 2, on which they state their names and contact information, the title of their paper, an abstract of the paper, and indicate which conference topics their paper covers.",1
+11,"In case there are less than 4 reviewers, this process is repeated with the list of reviewers who indicated a low preference for the paper.",1
+12,"The level of agreement among reviewers is indicated on each reviewer's personal page, using a coloring scheme.",1
+13,"After the meeting, the reviewers’ comments are sent back to the authors, so that they can improve their paper.",1
+14,The review process can be monitored by the chair.,1
+15,His or her personal webpage will then be updated automatically.,1
+16,"For each paper that a reviewer would like to review, the corresponding checkbox in the left part of the window should be marked.",1
+17,Other reasons are that authors are forced to use it to submit their paper.,1
+18,"You may also want to take a look at 2 posters: an overview (, 140 Kb) and a picture containing screenshots (, 1.71 Mb).",1
+19,It generates several overviews based on the reviews which support the Program Committee (PC) in selecting the best papers.,1
+20,"This is used to discover papers that have only been reviewed by non-experts, so that the PCC may ask another reviewer to review the paper.",1
+21,These overviews are currently updated at 5 minutes before the hour.,1
+22,"After the PC meeting, the PCC must inform the maintainer about the accepted papers, so that the notifications can be sent to the authors.",1
+23,Authors can submit their abstracts and papers using the web (uploading).,1
+24,"After the program committee meeting has taken place, and papers have been selected, the (anonymous) comments can be automatically sent to the authors.",1
+25,"Further, it allows reviewers to learn about each other’s opinions, which provides means for good preparation for the PC meeting.",1
+26,The authors must use the login and password combination sent after phase 1.,1
+27,"Reviews can either be submitted via a webpage, or filled in off-line and emailed.",1
+28,"To be able to protect the reviews from outsiders, each reviewer gets his or her own directory on the webserver.",1
+29,"Following Nierstrasz’s pattern Make Champions Explicit , the reviewers are asked to fill in the classification of papers on the review form.",1
+30,"When a reviewer reaches this maximum, he or she will not be part of the preference lists, because apparently his or her expertise is needed to review ’less popular’ papers.",1
+31,"Further, a high or low priority should be chosen, to indicate how eager they are to review the paper.",1
+32,The submitted bids are accumulated.,1
+33,The 4 reviewers with the least number of papers assigned so far ’get’ the paper.,1
+34,"In case the ’expertise-value’ is equal, the reviewer with the least number of papers assigned so far ’gets’ the paper.",1
+35,These overviews can be printed in case reviewers want to read the abstracts offline.,1
+36,"All review files a reviewer needs, such as the review form and other reviewers’ reviews, are written in the reviewer’s directory.",1
+37,"CyberChair supports preparation of the proceedings by generating the table of contents and author index, based on the input of the authors.",1
+38,Authors must submit their paper in two steps.,1
+39,"Finally, after the camera-ready papers have been submitted, the proceedings must be prepared by the maintainer by entering the conference sessions and the numbers of the papers within those sections in a specific template file.",1
+40,The reviewer can be added to the list of reviewers for that paper.,1
+41,The pages of the reviewers are generated once by the maintainer when the paper distribution has been done.,1
+42,"Based on the preferences and the reviewers' expertise, CyberChair calculates a paper assignment proposal for the chair, where as many as possible preferences of the reviewers are honored, provided that all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers.",1
+43,"In case a reviewer has already submitted a review of the selected paper, hyperlinks to the reviews of the other reviewers are shown, so that the reviewer can read their opinion.",1
+44,"When all submissions have arrived, suitable members of the Program Committee (PC) must be selected to review each paper.",1
+45,Reviewers are also asked to inform the maintainer of papers they do not want to review because of a conflict of interest.,1
+46,The state is based on the classification given to papers by the reviewers.,1
+47,"CyberChair provides direct reflection on submitted reviews (for easy comparison with the other reviewers' opinions), without the maintainer's interference.",1
+48,A copy of the message is sent to the PCC.,1
+49,"As soon as the reviewer has submitted his or her review, the review will be the default to be displayed in this frame when the reviewer clicks on the paper number in the top frame.",1
+50,The reviewers’ reviews are compared to the other reviews to detect conflicts.,1
+51,"This list is sorted, based on the number of papers the reviewers have already been assigned so far.",1
+52,"Moreover, since we chose to regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes, this would make it almost impossible for reviewers to enter a review form.",1
+53,"Following the patterns Experts Review Papers and Champions Review Papers , papers should be matched to domain experts in the PC.",1
+54,"It helps the PC to select the best papers for the conference, which makes it a group decision support system.",1
+55,"In case not enough reviewers can be found to review a paper, this is an indication that the script should be better tuned.",1
+56,"To avoid 'pollution' of the demo data, uploading of files has been blocked.",1
+57,The reviewers are asked to indicated their expertise of the conference topics and their willingness to review papers on those topics.,1
+58,You will see a list of overviews that are available to the chair.,1
+59,"For each paper, a list of the reviewers who indicated a high preference for the paper is generated.",1
+60,"After the review process, the authors of submitted papers should submit a camera-ready version of their paper, analogous to step 2.",1
+61,"Each time the reviewer clicks on a paper number in the top frame, CyberChair checks if the reviewer has already submitted his or her review.",1
+62,"CyberChair is composed of a set of Common Gateway Interface (CGI) scripts, which are activated by the webforms that are used by the authors and reviewers.",1
+63,"When displaying a review, the date and time of the last update of the review is shown as extra check.",1
+64,The authors may make corrections or changes to the  information that was submitted in step 1.,1
+65,"CyberChair collects abstracts, papers and reviews and can therefore be regarded as a system that provides a shared workspace.",1
+66,Reviews can be updated.,1
+67,"To enter the review process, authors must send their paper to the Program Committee Chair (PCC).",1
+68,"This way, the reviewer can always look at the latest version of the reviews.",1
+69,"If this is the case, then the reviews of the other reviewers for this paper are copied into the reviewer’s directory.",1
+70,"Reviewers can browse the overviews by conference topic, to quickly identify the papers that match their interest  and expertise (Figure 3).",1
+71,The highest and lowest classification given to a paper are taken into account.,1
+72,"The submission form in phase 2 is the same as the submission form in phase 1, except that authors must use it to upload their full paper file.",1
+73,"After clicking on a paper number several hyperlinks are generated to allow the paper to be downloaded, to display the abstract and to submit or update a review.",1
+74,Papers that have not received enough bids should be assigned based on the expertise of the reviewers.,1
+75,"Each reviewer gets a personal, password-protected webpage, that contains links to the papers (s)he is assigned to review, so they can be downloaded.",1
+76,"If the publisher allows electronic versions, the maintainer should send or upload the proceedings, for further preparation by the publisher.",1
+77,"After the paper distribution, CyberChair generates a personal, password-protected webpage for each reviewer.",1
+78,CyberChair provides web pages for the reviewers to indicate their preference for papers they would like to review.,1
+79,"Papers are classified, using the highest and the lowest classification given by the reviewers (A to D), as described in the paper mentioned above.",1
+80,The maintainer should make sure that enough disk space is available to store the papers.,1
+81,"In addition, the reviewers must indicate their overall expertise on the topics that a paper covers.",1
+82,"In case conflicting reviews exist, the reviewers can use the hyperlink that enables easy communication to the other reviewers by email.",1
+83,"When the level of agreement differs too much, the reviewers and chair may give it special attention, even before the PC meeting takes place.",1
+84,CyberChair supports PCs by using these patterns in its implementation.,1
+85,"The current version of CyberChair supports all phases of the review process, including preparation of the proceedings in the electronic format prescribed by the publisher.",1
+86,Not all reviewers like to fill in review forms on-line.,1
+87,"CyberChair significantly reduces the workload of the PC, by doing all necessary bookkeeping.",1
+88,In The Information Lens  the authors focus on sharing information among a group of people to solve problems.,1
+89,"Reviewer - Use the first and last name (in lowercase) as login and password, respectively.",1
+90,CyberChair points out conflicting reviews,1
+91,CyberChair offers the reviewers means to easily communicate to solve these conflicts.,1
+92,CyberChair assigns a unique identification to the submission and,1
+93,CyberChair sends a login and password combination for step 2 to the contact person’s email address.,1
+94,Other scripts are so-called administrative scripts which are started by the maintainer.,1
+95,Other scripts are so-called administrative scripts which are started automatically at regular intervals by the system (e.g. crontab on Unix systems).,1
+96,"After submission of a review, reviewers will be able to read the other reviewers' reviews.",1
+97,"After submission of a review, reviewers will be able to prepare for the PC meeting.",1
+98,You can submit reviews.,1
+99,You can find out what happens.,1
+100,"When a reviewer has submitted all his reviews and has time to review more papers, he may look at the overview containing all papers.",1
+101,"When a reviewer has submitted all his reviews and has time to review more papers, he may select papers for which conflicting reviews exist.",1
+102,The table of contents and author index of the proceedings are generated by CyberChair for electronic delivery to the publisher.,1
+103,The camera-ready papers are prepared for electronic delivery to the publisher.,1
+104,CyberChair can handle the paper distribution.,1
+105,CyberChair collects and categorizes all reviews.,1
+106,CyberChair prepares overviews of reviews which can be used during the PC meeting.,1
+107,CyberChair checks the review forms for correctness.,1
+108,"Further, the maintainer may need to convert submitted papers to other formats.",1
+109,"Further, the maintainer may need to ask the authors to submit the paper in another format.",1
+110,The PCC sends the papers and review forms to the reviewers.,1
+111,Reviewers must fill in the review forms.,1
+112,Reviewers must send review forms to the PCC.,1
+113,CyberChair deals with most administrative tasks that are involved in the review process.,1
+114,"CyberChair stores author information, abstracts, (camera-ready) papers and reviews.",1
+115,"If there are still not enough reviewers for the paper, the expertise level of reviewers of all topics the paper covers is calculated.",1
+116,"If there are still not enough reviewers for the paper, the paper is assigned to the reviewers with the highest overall expertise.",1
+117,"The authors of accepted papers may submit a brushed-up version of their paper, in so-called camera-ready format to the PCC.",1
+118,"PCC will send camera-ready format, together with the preface and the table of contents to the publisher to have the proceedings printed.",1
+119,CyberChair transforms review forms into a format that can be used for display in a browser.,1
+120,Other formats will be included in future versions of CyberChair.,0
+121,(Deprication warnings indicate that certain language constructs may no longer be supported in next versions of the language.),0
+122,"Moreover, collecting, maintaining and comparing reviews by the program committee chair may also become quite tedious, if not troublesome, due to the large amount of material, even when submitted by email.",0
+123,The Artefact Framework  uses html frames like Cyber-Chair.,0
+124,"CyberChair is based on the paper Identify the Champion, an organisational pattern language for programme committees, by Professor Oscar Nierstrasz (University of Berne, Switzerland).",0
+125,"In his paper Identify the Champion , O. Nierstrasz describes this review process in terms of a pattern language.",0
+126,Those parts are explained in this section.,0
+127,"at 'No', because each 'reviewer' has been assigned a bogus email address, which will bounce.",0
+128,"Using a coloring scheme, the state of reviews is indicated.",0
+129,"Typically, the review process ends by organizing a Program Committee meeting, prepared by the PCC, where papers are discussed and accepted or rejected for presentation at the conference.",0
+130,"The result is a significant decrease of the work-load of the program chair and the ease of submitting author information, papers and reviews instantly in electronic form.",0
+131,The maintainer (who might be the same person as the PCC) installs CyberChair.,0
+132,Reviewers may bid in several stages.,0
+133,Other conferences have used older versions of CyberChair.,0
+134,"We decided to automate this and provide electronic review forms, by using the World Wide Web (WWW), since all reviewers were now able to use this emerging technology.",0
+135,"There is also support for the preparation of the proceedings (using the format required for Springer Verlag, the publisher of the proceedings of ECOOP).",0
+136,The version that is currently available for download was introduced for ECOOP 2000.,0
+137,Monitoring the review process,0
+138,"For the frame to display the current state of reviews, the URL is not the name of a file, but the name of a CGI script which recalculates the state of all papers and ’prints’ its output in the frame.",0
+139,There is no need to wait until the submission process has finished.,0
+140,"Therefore, a template is provided to the reviewers which they can use to fill in reviews off-line and send them by email.",0
+141,"If a reviewer wishes, he or she may send reviews by email, and never look at his or her webpage.",0
+142,The Table of Contents and Author Index are automatically generated.,0
+143,", Springer, March 2001 (section 6.4.1, page 168).",0
+144,"As far as we know from the comments of its users, CyberChair is the only system that has implemented the patterns identified by Nierstrasz.",0
+145,Below is a description of the latest version of CyberChair.,0
+146,We showed that browsers of today are able to send requests without the user taking action.,0
+147,The authors claim that there is no provision for a server to send asynchronous updates.,0
+148,Sites like Amazon  use this style and regenerate a complete new page after every mouse click.,0
+149,Author - This only allows submission of abstracts.,0
+150,The maintainer also makes sure that overviews are generated at regular intervals.,0
+151,"Using the WWW, a commonality these days, the ones involved in the process can collaboratively use CyberChair to store possibly and possibly retrieve data from password-protected areas controlled by CyberChair.",0
+152,"When the reviewer clicks on a paper number, this causes the activation of a CGI script that in its turn generates a frameset, consisting of 3 frames (See figure 4).",0
+153,"The CGI scripts have been written in Python, a very powerful, easy-to-learn programming language, which allows rapid implementation.",0
+154,CyberChair is written in the Python programming language.,0
+155,"Nowadays it is common practise to use electronic submissions for conferences, workshops and journals.",0
+156,Other conferences and workshops that use(d) CyberChair can be found on an overview.,0
+157,"Using frames allows for updates on specific parts of the screen, so that only data that has changed can be updated without the need to refresh the complete screen.",0
+158,"The next years the system was improved and more features, such as uploading of papers, were included in the system to support the process.",0
+159,"You may try a demonstration version of CyberChair, by acting as:",0
+160,"Although, compared to sending hardcopies by surface mail, this is a big step forward, it may still be quite cumbersome to maintain the administration.",0
+161,"BSCW could therefore be used to store abstracts, papers and reviews.",0
+162,"As mentioned before, a reviewer’s page consists of several frames (a frame set).",0
+163,"The following administrative tasks can be identified during a typical review process: Author information, abstract and paper submission, paper-to-reviewer assignment, paper distribution, filling in and sending review forms, collecting review forms and ordering them, preparing the PC meeting, returning the reviewers’ comments to the authors, camera-ready paper submission and preparation of proceedings.",0
+164,"It is known to run on versions 1.5.2, 2.0.1 and 2.1.3, be it that the latter may cause deprication warnings (2.1 does not, while 2.2.1 does for sure).",0
+165,"This includes editing the files that contain the templates for the PCC and reviewer information, the file containing the main topics of the conference, and setting up a website.",0
+166,"The conflict detection and coloring scheme used to indicate the state of reviews has, as far as we know, not been used in other systems that handle review processes.",0
+167,"In this paper we describe CyberChair, a web-based group­ware application that supports the review process for technical contributions to conferences.",0
+168,Here is an overview of the activities CyberChair supports or carries out.,0
+169,"As of this writing, CyberChair has been used successfully for 10 conferences or workshops, while currently half a dozen other conferences are planning to use it.",0
+170,The tasks mentioned above have been automated by CyberChair.,0
+171,"Depending on how busy our webserver is, the copying may not be completed before you click on a link.",0
+172,Please put or leave the 'Would you like to receive a copy of your review per e-mail?',0
+173,"More conference management systems exist , although we could not find publications about them in the litterature.",0
+174,"The problematic use of groupware applications, as reported in several publications  is not affecting CyberChair.",0
+175,The reviewers' pages are regenerated frequently in order to reflect changes (such as conflicting reviews).,0
+176,"In short, CyberChair fully supports all activities that come with the review process: the abstract and (camera-ready) paper submission, the reviewer assignment (based on the reviewers' preferences and expertise), the review submission process, the notifications of acceptance and rejection, the preparation of the proceedings (according to the Springer-Verlag procedure), and the abstracts for the conference website and program booklet.",0
+177,Identifying the right reviewers for papers is a difficult task.,0
+178,"Up until its 1996 edition, the European Conference on Object-Oriented Programming (ECOOP) used hard-copy review forms.",0
+179,"When email is used for the submission of papers and reviews, the physical distribution of papers, which is still used for many conferences, is no longer needed.",0
+180,The size of this pool is influenced by the maximum number of papers that is assigned to reviewers based on their preferences.,0
+181,This problem is handled by CyberChair by the conflict detection mechanism and availability of other reviewers’ reviews.,0
+182,"When done by hand, the paper assignment usually is a very time consuming job.",0
+183,"The top frame is automatically updated every 5 minutes, to reflect the current state of the reviews of the papers.",0
+184,Figure 7 shows a part of a paper distribution as generated by CyberChair.,0
+185,"The original poster is in B1 format, so you may need to zoom in to read all details.",0
+186,"For each conference or workshop the tuning should be considered carefully, since it heavily depends on the number of submissions, the number of reviewers, their expertise and the number of papers per reviewer.",0
+187,This information is used for the paper distribution.,0
+188,"Jean-Guy Schneider, Markus Lumpe and Oscar Nierstrasz describe CyberChair in Agent Coordination via Scripting Languages, Chapter 6 of the book Coordination of Internet Agents: Models, Technologies and Applications, Andrea Omic, Fanco Zambonelli, Matthias Klusch and Robert Tolksdorf (Eds.)",0
+189,Especially that part of the browser window must be left as is while the reviewer is filling in the review form.,0
+190,We are aware that the pages could also have been created by using tables.,0
+191,Members of the PC are also called ’reviewers’,0
+192,"March 2000, CyberChair was regularly updated to include new ideas, and suggestions by its users.",0
+193,CyberChair takes care of the rest.,0
+194,"The colored boxes indicate the state of the reviews, which is determined each time a review is submitted by any of the reviewers.",0
+195,Chair -  Use chair or chair as login & password combination.,0
+196,The pattern Identify the Conflicts  is used to determine the state of the reviews.,0
+197,This section explains how the CyberChair handles the administration and supports its users during the complete reviewing process.,0
+198,"CyberChair's functionality is described in detail in a paper, which is titled CyberChair: A Web-Based Groupware Application to Facilitate the Paper Reviewing Process.",0
+199,The script is currently optimally tuned for ECOOP 2000.,0
+200,"All you have to do is prepare the PC meeting, write acceptance and rejection messages, and the preface of the proceedings.",0
+201,"This is done by showing the options for the kinds of users of CyberChair: the maintainer, the authors, the PCC and the reviewers.",0
+202,Just retry a few seconds later if this happens.,0
+203,Each of these frames is filled by using the name of a CGI script in the SRC tag of the frame definition.,0
+204,"We hope, by describing CyberChair, to have answered",0
+205,This page consists of several dynamically generated HTML frames.,0
+206,A commonality between BSCW  and CyberChair is that both provide a shared workspace.,0
+207,"This is quite inefficient, because much of the data that did not change is also regenerated.",0
+208,A commonality between CyberChair and gIBIS  is that both systems provide means to make high-quality decisions by providing the group members’ arguments to each other.,0
+209,"Further, overviews are available that contain, per conference topic, all abstracts, and an overview that contains all abstracts.",0
+210,"If you'd like to use CyberChair, but would rather not be bugged by installing and customizing CyberChair yourself (and use the latest, greatest version of CyberChairPRO, which is easier to work with, which has more tools, and streamlined versions of existing tools), you might want to consider delegating the submission and review process organization to a spin-off company specialized in managing this process, set up by the author of CyberChair: Borbala Online Conference Services.",0
+211,It is not clear to us if BSCW could also be used to create a dynamic review system.,0
+212,Like Java it runs on a virtual machine and is available for many platforms.,0
+213,"Furthermore, there is support for the preparation of the proceedings.",0
+214,Graph theory (nodes with labeled edges) is used to solve this assignment problem.,0
+215,"It eases the submission of author information, papers and reviews instantly in electronic form, using the web.",0
+216,"Although more conference management systems exist  and many conferences use electronic uploading and some kind of reviewing system, no such system was found in the literature.",0
+217,"After that, only bugfixes were made.",0
+218,"It was first developed for ECOOP'97, and has been extended since, based on new ideas and the suggestions and remarks of its users (the chairs, the reviewers and submitters).",0
+219,"Currently the script is tuned to assign as much as possible papers to reviewers based on their preferences, provided that all papers are assigned to exactly 4 reviewers and all reviewers are assigned approximately the same number of papers.",0
+220,"The top frame, containing the paper numbers in colored boxes, is updated every 5 minutes by using a so-called meta tag containing the ’refresh’ option.",0
+221,A very important issue for the conference organization is that using CyberChair will save them a lot of money on copying papers and mailing the papers to the reviewers (which might open up room to delegate the management of the submission and review process - see below).,0
+222,The version described in this paper was used for ECOOP 2000 and  the International Workshop on Software Specification and  Design (IWSSD-10).,0
+223,The resulting TeX file is according to Springer's editor's instructions.,0
+224,"If you'd like to use CyberChair, which is free software (GNU General Public License), please fill in a customization form.",0
+225,"Further, links are provided that contain all reviews of the reviewer, and all reviews of all reviewers of the paper, respectively.",0

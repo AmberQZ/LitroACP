@@ -1,0 +1,216 @@
+index,input,acp
+0,"The system retrieves and displays the Student’s current schedule (e.g., the schedule for the current semester).",1
+1,The system cancels the course offering for each schedule that contains it.,1
+2,"The system requests that the Registrar specify the function he or she would like to perform (either Add a Student, Update a Student, or Delete a Student)",1
+3,They will also need to see which students signed up for their course offerings.,1
+4,"If no alternates are available, then no substitution will be made.",1
+5,The Student also selects any course offerings to delete from the existing schedule.,1
+6,"If a course offering becomes full while a student is building a schedule including that offering, the student must be notified.",1
+7,Only Professors can enter grades for students.,1
+8,The professor selects possibly and possibly de-selects the course offerings that he or she wishes to teach for the upcoming semester.,1
+9,The professor is added to the system.,1
+10,The Student selects 4 primary course offerings and 2 alternate course offerings from the list of available offerings.,1
+11,This use case allows the Registrar to maintain student information in the registration system.,1
+12,The Student verifies the deletion.,1
+13,"If, in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist, the system displays an error message.",1
+14,Professors will be able to access the system to sign up to teach courses as well as record grades.,1
+15,"If, in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist, the system displays an error message.",1
+16,"For each selected course offering on the schedule not already marked as “enrolled in”, the system verifies that the Student has the necessary prerequisites, that the course offering is open, and that there are no schedule conflicts.",1
+17,"If, in the Update a Schedule or Delete a Schedule sub-flows, the system is unable to retrieve the Student’s schedule, an error message is displayed.",1
+18,The system requests that the Registrar enter the professor id,1
+19,"At the end of the semester, the student will be able to access the system to view an electronic report card.",1
+20,The system requests that the Registrar enter the student id.,1
+21,The system deletes the student from the system.,1
+22,"In addition, each student will indicate two alternative choices in case the student cannot be assigned to a primary selection.",1
+23,The system displays a list of course offerings the Professor taught in the previous semester.,1
+24,"If there is no conflict, the system updates the course offering information for each offering the professor selects (i.e., records the professor as the instructor for the course offering).",1
+25,"If, in the Basic Flow, the professor is not eligible to teach any course offerings in the upcoming semester, the system will display an error message.",1
+26,The system requests that the Registrar enter the professor information.,1
+27,This use case allows a Professor to submit student grades for one or more classes completed in the previous semester.,1
+28,"If the Professor wishes to skip a particular student, the grade information can be left blank and filled in at a later time.",1
+29,"Once the registration process is completed for a student, the registration system sends information to the billing system so the student can be billed for the semester.",1
+30,The Professor selects a course offering.,1
+31,The system also retrieves and displays the list of courses the professor has previously selected to teach.,1
+32,"If, in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts, an error message is displayed.",1
+33,The system retrieves and displays the student information.,1
+34,"If, in the Delete A Student  sub-flow, the Registrar decides not to delete the student, the delete is cancelled and the Basic Flow is re-started at the beginning.",1
+35,The system displays each student and any grade that was previously assigned for the offering.,1
+36,"If the use case was successful, student grades for a course offering are updated.",1
+37,The system removes the professor from teaching the de-selected course offerings.,1
+38,The system prompts the Registrar to confirm the deletion of the professor.,1
+39,"If the use case was successful, the student schedule is created, updated, or deleted.",1
+40,The system provides the Registrar with the new professor id.,1
+41,The system provides the Registrar with the new student id.,1
+42,The Professor may also change the grade for a student by entering a new grade.,1
+43,The Student may update the course selections on the current selection by deleting and adding new course offerings.,1
+44,This use case allows a Student to register for course offerings in the current semester.,1
+45,"Once the Registrar updates the necessary information, the system updates the student information.",1
+46,Only the Registrar is allowed to change any student information.,1
+47,The Registrar verifies the deletion.,1
+48,The system deletes the professor from the system.,1
+49,"For each semester, there is a period of time that students can change their schedule.",1
+50,"Once the student has made his or her selections, the system updates the schedule for the Student using the selected course offerings.",1
+51,This use case allows a Student to view his or her report card for the previously completed semester.,1
+52,The student is added to the system.,1
+53,This use case allows the Registrar to maintain professor information in the registration system.,1
+54,The system requests that the Registrar enter the student information.,1
+55,"If so, the system commits the course offering for each schedule that contains it.",1
+56,"Once the Registrar updates the necessary information, the system updates the professor record.",1
+57,The Student can also update or delete course selections if changes are made within the add or drop period at the beginning of the semester.,1
+58,Professors cannot change the course offerings they teach after registration for the current semester has been closed.,1
+59,"At the beginning of each semester, students may request a course catalogue containing a list of course offerings for the semester.",1
+60,"If, in the Basic Flow, the system cannot find any grade information from the previous semester for the Student, a message is displayed.",1
+61,"If the system is unable to communicate with the Course Catalog System, the system will display an error message to the Student.",1
+62,The system requests that the Registrar enter the professor id.,1
+63,"In addition, the professors will be able to record the grades for the students in each class.",1
+64,The system retrieves a list of all students who were registered for the course offering.,1
+65,"This use case starts when the Registrar wishes to add, change, possibly and possibly delete student information in the system.",1
+66,The Registrar enters the professor id.,1
+67,This use case allows a Registrar to close the registration process.,1
+68,"If the use case was successful, the professor information is added, updated, or deleted from the system.",1
+69,The system retrieves and displays the list of course offerings the professor is eligible to teach for the current semester.,1
+70,The system requests that the Registrar enter the student id,1
+71,The system retrieves and displays the grade information for each of the course offerings the Student completed during the previous semester.,1
+72,"The system verifies that the selected offerings do not conflict (i.e., have the same dates and times) with each other or any course offerings that the professor has previously signed up to teach.",1
+73,The Student selects the course offerings to add from the list of available course offerings.,1
+74,The system will also indicate which are the conflicting courses.,1
+75,This use case allows a Professor to select the course offerings from the course catalog for the courses that he or she is eligible for and wishes to teach in the upcoming semester.,1
+76,The system then adds the Student to the selected course offering.,1
+77,"If the schedule contains “enrolled in” course offerings, the Student must be removed from the course offering.",1
+78,"This includes adding, modifying, and deleting professors from the system.",1
+79,The Registrar makes the desired changes to the professor information.,1
+80,Professors must be able to access the on-line system to indicate which courses they will be teaching.,1
+81,"If a course fills up during the actual registration process, the student must be notified of the change before submitting the schedule for processing.",1
+82,Students cannot register for course offerings after registration for the current semester has been closed.,1
+83,The system prompts the Registrar to confirm the deletion of the student.,1
+84,The system retrieves and displays the professor information.,1
+85,Students must be able to access the system during this time to add or drop courses.,1
+86,The system deletes the Schedule.,1
+87,"For each course offering, the system closes all course offerings.",1
+88,The Close Registration processing cannot be performed if registration is in progress.,1
+89,The Registrar makes the desired changes to the student information.,1
+90,The Registrar enters the student id.,1
+91,"The Billing System will send the bill to the students, which will include a copy of their final schedule.",1
+92,"Once the student has made his or her selections, the system creates a schedule for the Student containing the selected course offerings.",1
+93,"If the course offerings do not have at least three students at this point (some may have been added as a result of leveling), then the system cancels the course offering.",1
+94,"If the systems find a schedule conflict when trying to establish the course offerings the Professor should take, the system will display an error message indicating that a schedule conflict has occurred.",1
+95,"If the use case was successful, the student information is added, updated, or deleted from the system.",1
+96,"If, in the Basic Flow, the Professor did not teach any course offerings in the previous semester, the system will display an error message.",1
+97,"If, in the Basic Flow, the actor enters an invalid name possibly and possibly password, the system displays an error message.",1
+98,The actor enters his or her name and password.,1
+99,"If the system is unable to communicate with the Billing System, the system will attempt to re-send the request after a specified period.",1
+100,"The Professor can either resolve the schedule conflict (i.e., by canceling his selection to teach one of the course offerings)",1
+101,The Professor can cancel the operation,1
+102,any selections will be lost,1
+103,the use case ends.,1
+104,"For each student on the list, the Professor enters a grade: A, B, C, D, F, or I.",1
+105,The system records the student’s grade for the course offering.,1
+106,The Registrar can then enter a different id number,1
+107,"The Registrar can cancel the operation, at which point the use case ends.",1
+108,The Student can either select a different course offering and,1
+109,the use case continues,1
+110,"The Student save the schedule, as is (see Save a Schedule subflow)",1
+111,The Student can cancel the operation,1
+112,"If, in the Delete A Student sub-flow, the Registrar decides not to delete the student,",1
+113,the delete is cancelled,1
+114,the Basic Flow is re-started at the beginning.,1
+115,The Student acknowledges the error.,1
+116,The system must prevent students from changing any schedules other than their own,1
+117,The system must prevent professors from modifying assigned course offerings for other professors.,1
+118,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Student.",1
+119,"If it is, then a message is displayed to the Registrar",1
+120,The system calculates the tuition owed by each student for his current semester schedule,1
+121,The system sends a transaction to the Billing System.,1
+122,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Professor",1
+123,The system retrieves a list of available course offerings from the Course Catalog System,1
+124,The system displays the list to the Student.,1
+125,The new system will access course information from the legacy database,1
+126,The new system will not update access course information from the legacy database.,1
+127,The Student acknowledges the error message,1
+128,the use case terminates.,1
+129,Update a Schedule,0
+130,The courses a student has selected for the current semester.,0
+131,This use case starts when the actor wishes to log into the Course Registration System.,0
+132,A person enrolled in classes at the university.,0
+133,Register for Courses,0
+134,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",0
+135,Save a Schedule,0
+136,The system is in the login state and has the login screen displayed.,0
+137,"If the use case was successful, the course offerings a Professor is scheduled to teach have been updated.",0
+138,This use case describes how a user logs into the Course Registration System.,0
+139,Course offerings that do not have enough students are cancelled.,0
+140,"If the Student selected “Delete a Schedule”, the Delete a Schedule subflow is executed.",0
+141,"The system shall support up to 2000 simultaneous users against the central database at any given time, and up to 500 simultaneous users against the local servers at any one time.",0
+142,"If the Student selected “Create a Schedule”, the Create  a Schedule subflow is executed.",0
+143,This Supplementary Specification lists the requirements that are not readily captured in the use cases of the use- case model.,0
+144,"If the Registrar selected “Delete a Student”, the Delete a Student  subflow is executed.",0
+145,The registrar’s office will continue to maintain course information through another system.,0
+146,"Often, this document can be used as an informal data dictionary, capturing data definitions so that use-case descriptions and other project documents can focus on what the system must do with the information.",0
+147,Note: Risk-based prototypes have found that the legacy course catalog database cannot meet our performance needs without some creative use of mid-tier processing power,0
+148,The college will keep the existing course catalog database where all course information is maintained.,0
+149,Includes the days of the week and times it is offered.,0
+150,The Submit Schedule subflow is executed.,0
+151,(The functional requirements are defined in the Use Case Specifications.),0
+152,All the professors teaching at the university.,0
+153,"The history of the grades for all courses, for a particular student sent to the finance system, which in turn bills the students.",0
+154,A specific delivery of the course for a specific semester – you could run the same course in parallel sessions in the semester.,0
+155,"If this occurs, the Submit Schedule step is replaced with the following:",0
+156,"If the Registrar selected “update a professor”, the Update a Professor  subflow is executed.",0
+157,This database is an Ingres relational database running on a DEC VAX.,0
+158,Submit  Schedule,0
+159,The Select Offerings subflow is executed.,0
+160,"Since student grades are sensitive information, the system must employ extra security measures to prevent unauthorized access.",0
+161,This use case starts when the Registrar requests that the system close registration.,0
+162,The first available alternate course offerings will be selected.,0
+163,"The Professor acknowledges the message, and the use case ends.",0
+164,A person teaching classes at the university.,0
+165,Course offerings will have a maximum of ten students and a minimum of three students.,0
+166,"Once the Student acknowledges the message, the use case terminates.",0
+167,Maintain Professor Information,0
+168,"If not, the system state remains unchanged.",0
+169,"The actor can choose to either return to the beginning of the Basic Flow or cancel the login, at which point the use case ends.",0
+170,This includes:,0
+171,The purpose of this document is to define requirements of the Course Registration System.,0
+172,"Due to a decrease in federal funding, the college cannot afford to replace the entire system at once.",0
+173,"If the Registrar selected “Update a Student”, the Update a Student  subflow is executed.",0
+174,"This use case starts when a Student wishes to register for course offerings, or to change his or her existing course schedule.",0
+175,The system must be able to complete 80% of all transactions within 2 minutes.,0
+176,Create a Schedule,0
+177,The course offering is marked as enrolled in in the schedule.,0
+178,Update a Professor,0
+179,The Registrar must be logged onto the system before this use case begins.,0
+180,The system validates the entered name and password and logs the actor into the system.,0
+181,The system shall provide access to the legacy course catalog database with no more than a 10 second latency.,0
+182,Maintain Student Information,0
+183,All the students enrolled in a particular course offering.,0
+184,Add a Student,0
+185,A course offering with fewer than three students will be canceled.,0
+186,The Student must be logged onto the system before this use case begins.,0
+187,A class offered by the university.,0
+188,The Professor must be logged onto the system before this use case begins.,0
+189,The Supplementary Specifications and the use-case model together capture a complete set of requirements on the system.,0
+190,"If the Registrar selected “Add a Student”, the Add a Student  subflow is executed.",0
+191,The system shall provide a Windows-based desktop interface.,0
+192,"If a professor change is needed after registration has been closed, it is handled outside the scope of this system.",0
+193,The system used for processing billing information.,0
+194,"If the Registrar selected “Delete a Professor”, the Delete a Professor subflow is executed.",0
+195,Add a Professor,0
+196,"This includes adding, modifying, and deleting Students from the system.",0
+197,Multiple users must be able to perform their work concurrently.,0
+198,"If the use case was successful, the actor is now logged into the system.",0
+199,The professor acknowledges the message and the use case ends.,0
+200,The course offerings not marked as “enrolled in” are marked as “selected” in the schedule.,0
+201,As the head of information systems for Wylie College you are tasked with developing a new student registration system.,0
+202,"If the Student selected “update a schedule”, the Update a Schedule subflow is executed.",0
+203,"If the Registrar selected “Add a Professor”, the Add a Professor  subflow is executed.",0
+204,"When the Student indicates that he or she is done viewing the grades, the use case terminates.",0
+205,The Registrar must be logged onto the system in order for this use case to begin.,0
+206,"This specification defines the non-functional requirements of the system; such as reliability, usability, performance, and supportability, as well as functional requirements that are common across a number of use cases.",0
+207,Select Courses to Teach,0
+208,"This Supplementary Specification applies to the Course Registration System, which will be developed by the OOAD students.",0
+209,Update a Student,0
+210,"Once the Registrar provides the requested information, one of the sub flows is executed.",0
+211,"The system shall integrate with an existing legacy system, the Course Catalog System, which is an RDBMS database.",0
+212,The schedule is saved in the system.,0
+213,The system will continue to attempt to re-send until the Billing System becomes available.,0
+214,"If, in the Delete A Schedule sub-flow, the Student decides not to delete the schedule, the delete is cancelled, and the Basic Flow is re-started at the beginning.",0

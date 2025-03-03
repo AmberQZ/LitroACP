@@ -1,0 +1,416 @@
+index,input,acp
+0,"For each patient from the monitoring list, the LHCP can edit blood pressure, glucose levels, height, weight and pedometer readings.",1
+1,The LHCP is able to view the comprehensive patient report.,1
+2,"The reports are viewed under the View My Records tab.",1
+3,"The input data, a timestamp and the fact are saved.",1
+4,"An LHCP views the height, weight and pedometer data monitoring details.",1
+5,"System presents a list of the patient's expired prescriptions, sorted by start date (the later date is ranked earlier closer to the top).",1
+6,"The appointments in the list shall be ordered by appointment date and time, the soonest upcoming first.",1
+7,An LHCP views a list of his upcoming appointments.,1
+8,An administrator maintains the hospital listing.,1
+9,System displays his appointments on the calendar.,1
+10,The HCP selects reasons out from the nine reasons listed here for the overriding.,1
+11,"A patient, personal health representative or HCP views laboratory procedure status.",1
+12,The HCP can add the prescription to the list of medications.,1
+13,The administrator is allowed to add a new entry for a reason.,1
+14,The HCP can edit the patient according to data format.,1
+15,The drug is checked against the patient's drug allergies.,1
+16,The user can select a laboratory procedure from the calendar to read the laboratory procedure's details.,1
+17,The LHCP obtains a printable report.,1
+18,An LHCP refers a patient to another receiving LHCP.,1
+19,The HCP notes about an office visit.,1
+20,System presents a listing of all immunizations for which he has been administered in the last 12 months.,1
+21,"An LHCP, patient and representative can sort his message inbox and message outbox.",1
+22,The HCP can disallow viewing access to the laboratory results.,2
+23,"The patient may optionally enter a zip code (match on first three numbers of zip code), in addition to the name possibly and possibly specialty.",1
+24,A public health agent selects a specific time period for which he would like to see a detailed listing of all adverse events related to prescription drugs or immunizations.,1
+25,The patient chooses My Diagnoses.,1
+26,"A patient, patient representative, or LHCP can sort messages in his message outbox by the recipient's last name or timestamp (but not both) in either ascending or descending order.",1
+27,"When an LHCP views a list of his upcoming appointments, system presents an option to edit or remove the appointment.",1
+28,The patient views his access log.,1
+29,"The admin must specify a specialty for a new LHCP (General Physician, Heart Surgeon, OB, GYN, Pediatrician, or Surgeon).",1
+30,The patient can undesignate any LHCP as being a DLHCP for them.,1
+31,A public health agent sees trends in adverse events relate to prescription drugs or immunizations.,1
+32,The data for personnel can be edited according to Data Format.,1
+33,"An LHCP, patient or representative can modify his messagedisplayingfilter by modifying the following filtering criteria.",1
+34,The administrator stores hospital Id number for the hospital and the name of the hospital.,1
+35,The HCP's medical identification number should also be maintained.,1
+36,The HCP selects a medication prescribed from a pull down list.,1
+37,A patient or personal representative may view medical records including family history.,1
+38,The LHCP then sends the request or to cancel.,1
+39,"A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID, drug, and symptoms.",1
+40,System presents a list of the patients.,1
+41,"A patient views basic information about his designated LHCPs, including the name, phone number, and contact email information.",1
+42,"Additionally, the HCP can document none, one, or more medications prescribed; none, one, or more lab procedures that are ordered (LOINC code, see Data Format 6.11); none, one, or more diagnoses (via the ICD-9CM code); none, one, or more medical procedures performed; and none, one, or more immunizations given chosen from appropriate pull-down lists.",1
+43,"System presents a list of the patients whose height, weight, or pedometer data type is specified to be under monitoring and for which he or she is allowed to report measurements.",1
+44,System displays his appointments in the current month.,1
+45,"System presents the patient’s name, patient’s address, and patient’s date of last office visit.",1
+46,The HCP does not have the ability to enter the patient's security question and password.,2
+47,"He can report the height, weight and pedometer reading for the patient.",1
+48,"The notification center also displays a list of the patient and patient representee upcoming appointments, the information of his designated HCP, and the number of unread messages from his message inbox.",1
+49,"A link of Older Activities shall be displayed.",1
+50,The administrator chooses a drug from each list to record an interaction between the two drugs.,1
+51,A LHCP creates UAPs.,1
+52,The LHCP views all patients with which he or she has ever had an office visit with.,1
+53,The HCP must remain on the office visit page.,1
+54,The patient can select a diagnosis.,1
+55,System displays the details for the laboratory procedure in a new page.,1
+56,System presents a listing of all drug interactions with that drug.,1
+57,An LHCP views the physiologic data monitoring details.,1
+58,The patient chooses prescription report.,1
+59,A user enters their MID and their password to gain role-based entry into iTrust.,1
+60,"The HCP can view a list of laboratory procedures and results, sorted by the date of the last status update, most recent first.",1
+61,The LHCP enters the representative's MID.,1
+62,"A patient inputs his weight, height or pedometer readings.",1
+63,"An LHCP can see the blood pressure and glucose levels, weight, height, and pedometer readings for the patients he or she is monitoring, with two separate lists for physiologic and height or weight or pedometer readings.",1
+64,"The user selects a prescription from the calendar to read its details by clicking the Read Details link beside or below the medication displayed for the prescription.",1
+65,System presents a listing of all his patients to view weight or pedometer data reported during the current date.,1
+66,An HCP creates patients.,1
+67,"The administrator stores the ICD-9CM code, a classification and the name of the diagnosis.",1
+68,"System presents a listing of all their own diagnoses, sorted by diagnosis date (more recent first).",1
+69,The administrator maintains a listing of allowable drugs.,1
+70,The LHCP can select a patient to obtain additional information about a patient.,1
+71,The administrator is allowed to set the length of this period of time.,1
+72,The administrator maintains the overriding reasons that an HCP can select from.,1
+73,"He can report the height, weight and pedometer readings for the patient.",1
+74,An LHCP or UAP creates a list of patients (by MID) for which he or she will monitor remotely.,1
+75,"The user selects a laboratory procedure from the calendar to read its details by clicking the Read Details link beside or below the LOINC code displayed for the laboratory procedure.",1
+76,"After a message is sent, the LHCP is directed to his message outbox.",1
+77,The patient or the personal representative can view a list of their own prescriptions or the prescriptions for whom the user is a person representative by choosing one patient from a a list of these patients.,1
+78,System presents a text box to HCP.,1
+79,"A UAP or patient representative can input the blood pressure, glucose levels, height, weight, or pedometer readings for a patient.",1
+80,The administrator is allowed to modify the reason name in an existing entry.,1
+81,The patient can add the HCP to their list of providers.,1
+82,The administrator maintains a listing of allowable immunizations.,1
+83,"A patient, personal representative or LHCP views prescription reports.",1
+84,"The patient views the list sorted by dates, most recent access first.",1
+85,"System displays the details for the visit in a new page, including date of office visit, note text, diagnoses (i.e., ICD-9CM codes), medical procedures performed (i.e., CPT code) , lab procedures ordered (LOINC code, see Data Format 6.11), medications prescribed (i.e., NDC, see Data Format 5.6), immunizations given (i.e., CPT Code, see UC15, S1), and the name of the doctor who prescribed the medication.",1
+86,The patient types the subject and the text of a message.,1
+87,The LHCP clicks the reply link above the message text.,1
+88,The representative views his message inbox.,1
+89,"The HCP can indicate that the patient has passed away, providing an appropriate diagnosis code.",1
+90,The user can select an office visit from the calendar to read the visit's details.,1
+91,"The LHCP, the patient or the representative clicks the Cancel button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter).",1
+92,The administrator records a drug interaction between two prescription drugs.,1
+93,The LHCP must confirm the delete.,1
+94,The administrator deletes a drug interaction between two prescription drugs.,1
+95,"The administrator adds a new entry for an appointment type, including its type name with up to 30 alpha characters and duration in the unit of minutes.",1
+96,The answers to the survey are stored.,1
+97,"A personal health representative views basic information about his designated LHCPs, including the name, phone number, and contact email information.",1
+98,An LHCP can delete a patient from his monitoring list by the LHCP typing the the patient's MID.,1
+99,"Any event which views, creates, edits or deletes information is logged.",1
+100,The administrator is not allowed to modify the reason ID number in an existing entry.,2
+101,The administrator can choose the hospitals.,1
+102,The administrator stores information of a LOINC code.,1
+103,The administrator is not allowed to modify the appointment type name in an existing entry.,2
+104,He can report the blood pressure and glucose levels for the patient.,1
+105,The administrator selects one drug.,1
+106,A patient's DLHCP adds a patient's personal representative by typing that person's MID.,1
+107,System presents a success or failure message to the editor.,1
+108,System presents the LHCPs in the patient's living area (based upon the first three numbers of their zip code) who have handled this diagnosis in the last three years.,1
+109,The patient then chooses the beginning and end date for the period of time.,1
+110,The data for personnel can be edited according to Data Format 6.2 (all fields mandatory except for associated MID and Street Address 2).,1
+111,The user can select a prescription from the calendar to read the prescription's details.,1
+112,"They can see diagnoses of blood pressure, high cholesterol, diabetes, cancer, heart disease, smoking, and the cause of death.",1
+113,A fake email is sent to the LHCP alerting the user that a new message has arrived.,1
+114,The administrator maintains a listing of allowable physical services (including laboratory procedures) that an HCP can use.,1
+115,"On the patient homepage, the Patient views a notification center.",1
+116,A patient inputs his blood pressure or glucose levels.,1
+117,"The user selects an office visit from the calendar to read its details by clicking the Read Details link beside or below the ICD-9CM code (i.e., diagnose).",1
+118,The notification center displays the message (You haven't entered remote monitoring information for today yet!),1
+119,"A patient or personal health representative can view a list of his upcoming appointments for himself or herself, as well as appointments for the patients he represents.",1
+120,A patient finds the LHCPs who have handled that condition.,1
+121,"The admin must specify a specialty for a new LHCP (one of: General Physician, Heart Surgeon, OB or GYN, Pediatrician, Surgeon).",1
+122,A message of the removal is sent to the adverse event reporter and to the LHCP.,1
+123,Both patients and LHCPs can view a list of their upcoming appointments.,1
+124,A LHCP enters an UAP as a user of system according to data format 6.2 (all fields mandatory).,1
+125,The patient chooses drugs for which to report the adverse event.,1
+126,"When the chosen patient satisfies the preconditions of the chosen chronic disease, the LHCP is provided with a warning message.",1
+127,"A patient can report height, weight and pedometer readings for those for whom he or she is a patient representative.",1
+128,A patient or personal health representative views his iTrust homepage.,1
+129,The HCP can allow viewing access to the laboratory results.,1
+130,Demographic information is entered.,1
+131,The administrator can select a particular pair of drugs.,1
+132,"LHCPs, patients and representatives may reply to messages.",1
+133,"A patient, patient representative, or LHCP can sort messages in his message inbox by either the sender's last name or timestamp (but not both) in either ascending or descending order (where timestamps in descending order would have the most recent first).",1
+134,"A UAP can report height, weight and pedometer measurements.",1
+135,System presents a list of pending referrals.,1
+136,Initially only the name and email are provided.,1
+137,Only the name and email are provided by the HCP.,1
+138,A patient's DLHCP deletes a patient's personal representative by typing that person's MID.,1
+139,The patient or personal health representative views an appointment.,1
+140,"An LHCP views a list of his upcoming appointments for the current date, with each appointment displayed in the format HH:MM AM or PM - AppointmentType.",1
+141,The patient can view contact information of a selected LHCP shown in the expired prescription list.,1
+142,The LHCP is not able to remove any past appointments.,2
+143,"An administrator maintains the standards list for immunizations, diagnoses, allowable drugs, or allowable physical services.",1
+144,He can report his blood pressure (systolic and diastolic) and glucose levels.,1
+145,A patient can report physiologic measurements.,1
+146,System presents a listing of all his patients.,1
+147,The LHCP schedules an appointment with a patient.,1
+148,An LHCP sends a message to a patient or representative (no multiple recipients allowed in a single message).,1
+149,An HCP enters a patient.,1
+150,"After a message is sent, the patient or personal representative is directed to his message outbox.",1
+151,The user provides a zip code or a hospital code and an physician type.,1
+152,A patient or personal representative for a patient sends a message to an LHCP.,1
+153,"A patient reports his height, weight and pedometer data.",1
+154,"The LHCP can see the patient’s name, patient’s phone number, patient’s personal representative, patient’s blood pressure, patient’s glucose levels, patient’s height, patient’s weight, and patient’s pedometer readings as well as whom reported the data (patient, UAP name, personal representative name) for that date range.",1
+155,The patient clicks the send button.,1
+156,"A patient can click the View Full Calendar link to view his appointments in the current month.",1
+157,An patient views his appointments in the current month.,1
+158,"A patient, patient representative, or LHCP then clicks the Sort button.",1
+159,The administrator is not allowed to delete an existing entry.,2
+160,System presents  a listing of all his patients.,1
+161,"By default, the messages in the list should be ordered by timestamp, the most recent first.",1
+162,"The HCP must provide instructions, or else they cannot add the prescription.",2
+163,The LHCP views the weight or pedometer monitoring details of his patients for the current date.,1
+164,A LHCP refers a patient to another receiving LHCP.,1
+165,"The user selects a message from the message inbox or outbox to read by clicking the Read link beside the row for the message, and then the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+166,"The LHCP can view a prescription list for that patient, sorted by start date.",1
+167,System displays only the applicable input entries to the patient.,1
+168,A prescription list is then displayed.,1
+169,The two drugs and a textual description of the possible effects of the interaction are stored.,1
+170,The administrator maintains a listing of allowable diagnoses.,1
+171,An LHCP sends a message to a patient or the patient’s personal representative.,1
+172,The patient can designate any LHCP as being a DLHCP for them.,1
+173,The administrator can delete the interaction between the two drugs.,1
+174,System displays only the applicable input entries to the UAP.,1
+175,An LHCP or UAP can add patients from his monitoring list.,1
+176,An LHCP reviews pending consultations.,1
+177,An HCP edits patient.,1
+178,"A patient, patient representative or LHCP opens his message inbox or outbox.",1
+179,HCPs can return to an office visit.,1
+180,System presents the actual operational profile of the operations of the iTrust.,1
+181,The system shall append 20 more activities to the end of the currently listed activities on the same page.,1
+182,The LHCP views his message inbox.,1
+183,An LHCP can schedule an appointment with a patient.,1
+184,A patient is added to the list by the LHCP or UAP through typing in the patient's MID or name.,1
+185,The HCP does not have the ability to edit the patient's security question and password.,2
+186,"System displays the details for the prescription in a new page, including the medications prescribed.",1
+187,The HCP must proceed with the prescription.,1
+188,The LHCP views the physiologic data monitoring details of his patients for the current date.,1
+189,"A secret key is personally provided to the user, with which the user can reset his or her password.",1
+190,An LHCP chooses a chronic disease and a patient.,1
+191,An administrator can manage a standardized list of appointment types.,1
+192,The LHCP views an appointment.,1
+193,The patient views his message inbox.,1
+194,System presents a menu of his patients and a menu of other LHCPs.,1
+195,"System presents the MID of the sending LHCP, the patient MID, and the referral details.",1
+196,"By default, the messages in the message inbox should be ordered by timestamp, the most recent first.",1
+197,"The HCP provides the dosage in milligrams, the start and end date for the prescription, and any special instructions.",1
+198,The administrator stores the National Drug Code.,1
+199,A user views physician satisfaction survey results.,1
+200,An LHCP or UAP can delete patients from his monitoring list.,1
+201,The representative clicks the send button.,1
+202,The administrator is not allowed to modify the hospital ID number in an existing entry.,2
+203,"In both cases, system presents the name of the patient.",1
+204,A user can request to change their password.,1
+205,The information is edited.,1
+206,Patients with a weight value 5% more or less than the immediate previously recorded weight value are highlighted.,1
+207,"The patient views the list sorted by the role of the accessor relative to the patient (personal health representative, DLHCP, LHCP, UAP, Emergency Responder; any order is fine as long as the list is sorted by role) as well as by date for each role type.",1
+208,The representative types the subject and the text of a message.,1
+209,"The user selects an appointment from the calendar to read its details by clicking the Read Details link beside or below the appointment type name.",1
+210,"On the LHCP homepage, the LHCP views a notification center with a list of his upcoming appointments for the current date, number of physiologic data monitoring reports of his patients for the current date, number of weight or pedometer data monitoring reports of his patients for the current date, number of unread messages from his message inbox.",1
+211,"System presents a listing of immunization-related adverse events for the time period that do not have a status of removed, sorted by CPT code .",1
+212,"An LHCP, patient and representative may view a message.",1
+213,The patient views all LHCPs the patient has ever had an office visit with and those whom he or she had designated.,1
+214,The LHCP can obtain additional information about a patient.,1
+215,"The LHCP name, specialty, and  address are provided.",1
+216,"An administrator enters a LHCP, an ER, or a public healh agent.",1
+217,An LHCP views the number of submitted weight data monitoring reports of his patients for the current date.,1
+218,The public health agent can see the detail of a specific report.,1
+219,System presents an approvel screen.,1
+220,System presents a list of his messages in the message inbox.,1
+221,The LHCP must confirm the add.,1
+222,The LHCP can view of the comprehensive patient report for the specified patient,1
+223,The HCP can edit the office visit in which the laboratory procedure was ordered.,1
+224,An LHCP views his iTrust homepage.,1
+225,System presents a listing of patients for whom they are a DLHCP who need care because of satisfying the one of preceding conditions.,1
+226,An HCP may document an office visit.,1
+227,A patient reports their physiologic data.,1
+228,"System presents a listing of prescription drug-related adverse events for the time period that do not have a status of removed, sorted by NDC.",1
+229,The LHCP opens the message to which he or she wishes to reply.,1
+230,"The patient or personal representative can see patient personal health information, immunizations, and office visit information for their own records and the records for whom the user is a personal representative.",1
+231,The drug is checked for interactions between other drugs currently taken by the patient.,1
+232,The LHCP requests a comprehensive patient report for a particular patient.,1
+233,An HCP edits an office visit.,1
+234,"The patient is sent a fake email.",1
+235,LHCP can edit future appointments.,1
+236,The LHCP confirms the patient's MID.,1
+237,"A patient, patient representative, or LHCP clicks this number to view his message inbox.",1
+238,The HCP prescribes a patient a drug by selecting its NDC and name.,1
+239,System presents a screen upon which he can choose a date range.,1
+240,"For the patient, the HCP can choose height or weight to graph.",1
+241,Demographic information is edited.,1
+242,The patient chooses the immunization for which to report the adverse event.,1
+243,System presents two lists of NDC codes or names.,1
+244,The patient can add also a LHCP to their provider list by searching for the name possibly and possibly specialty of a LHCP.,1
+245,"The LHCP, the patient or the representative clicks the Test Search button to search (i.e., displaying the message inbox including only the messages satisfying the specified filtering criteria).",1
+246,The HCP can graph height or weight of the patient over the last 3 calendar years.,1
+247,"A patient, patient representative, or LHCP selects one option out of the by order of labeled drop-down box (with options of ascending or descending).",1
+248,"HCPs can modify or delete the fields of the office visit information (date, hospital, notes, prescriptions, laboratory procedures, diagnoses, procedures, possibly and possibly immunizations).",1
+249,"An administrator enters a LHCP, an ER or a public health agent as a user of system.",1
+250,"The HCP can edit patient's historical values, patient's immunizations, patient's office visit information, patient's family history, and patient's BMI.",1
+251,"An admin creates a LHCP, an ER and a public health agent.",1
+252,The software tester authenticates himself in the iTrust.,1
+253,A patient views a list of his upcoming appointments.,1
+254,"An HCP identifies chronic patients who need an office visit, older patients who need a flu shot, or any patient who is overdue for an immunization.",1
+255,The administrator modifies the duration in an existing entry.,1
+256,The HCP is notified of drug allergy.,1
+257,"A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms.",1
+258,The patient’s MID can not be edited.,2
+259,The patient can view a list of laboratory procedures and status for their own records and the records for which the user is a personal representative.,1
+260,A fake email is sent to the LHCP alerting the LHCP that a new message reply has arrived.,1
+261,The HCP then documents the office visit date and hospital location of the office visit.,1
+262,A HCP edits a laboratory procedure.,1
+263,The public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).,1
+264,"The appointment details display the appointment type, appointment date and the start time, duration, the name of the patient, and appointment comments.",1
+265,An HCP chooses Office Visit Reminders.,1
+266,The HCP enters a patient as a new user of system.,1
+267,"A patient, patient representative, or LHCP views the number of unread messages from his message inbox.",1
+268,"The patient or personal representative can see an abbreviated health history of their siblings, parents, and both sets of grandparents for which MIDs are available in iTrust.",1
+269,The HCP does not have the ability to view the patient's security question and password.,2
+270,"System displays the details for the appointment in a new page, including the appointment type, the appointment date and start time, comment, and the name of either the patient (only for the user being an LHCP) or the LHCP (only for the user being a patient).",1
+271,"An LHCP, patient and representative can modify and save his message displaying filter.",1
+272,The patient can click this link.,1
+273,The information is viewed.,1
+274,System presents patient's name and patient’s home phone number (so that reminder calls can be made).,1
+275,An email notification is sent.,1
+276,An LHCP views the number of submitted physiologic data monitoring reports of his patients for the current date.,1
+277,System presents a menu of DLHCP.,1
+278,The patient or representative chooses one of these DLHCP.,1
+279,"The LHCP, the patient or the representative clicks the Save button to save the modified filter.",1
+280,"Upon reading the report, the public health agent can send a fake email message to the adverse event reporter to gain more information about the report.",1
+281,The HCP must cancel the prescription.,1
+282,An LHCP views his appointments in the current month.,1
+283,"Then, the LHCP can confirm the status setting or consultation entering or cancel.",1
+284,The LHCP confirms the representative's MID.,1
+285,"A patient, patient representative, or LHCP selects one option out of the Sort by labeled drop-down box (with options of Sender or Recipient or Timestamp).",1
+286,The system shall store reason id number for the reason and the name of the reason.,1
+287,An LHCP views his message inbox.,1
+288,A LHCP reviews the consultation.,1
+289,The administrator stores the CPT code and the name of the immunization.,1
+290,System presents a list of the patients for which he is allowed to report measurements.,1
+291,An LHCP views additional information for a patient.,1
+292,The LHCP is not able to edit any past appointments.,1
+293,System presents a listing of all his patients to view physiologic data reported during the current date.,1
+294,"The status of the consultation being sent is set as pending.",1
+295,LHCP selects a patient from the list of requested reports.,1
+296,A patient reports an event related to a prescription drug or immunization reaction.,1
+297,The message displays the risk factors that the patients exhibit.,1
+298,A patient's personal representative or a patient or personal representative sends a message to DLHCP or that of a person they are representing.,1
+299,A patient or personal representative can answer any of the following questions relative to a previous office visit.,1
+300,"Also, the public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).",1
+301,The administrator shall be allowed to assign a LHCP to multiple hospitals.,1
+302,System presents a listing of all prescription drugs for which he has been prescribed and has taken in the last 12 months.,1
+303,The LHCP then selects a referral to view details.,1
+304,A HCP reviews consultations.,1
+305,The user can select an appointment from the calendar to read the appointment's details.,1
+306,"A patient views his appointments in the current month together with his office visit dates, prescription dates, and lab procedure dates of the current month on a calendar for the current month.",1
+307,"An LHCP or patient can click the View Appointment Calendar link to view his appointments in the current month.",1
+308,System presents an automatically-calculated value of BMI calculated based on the formula.,1
+309,A UAP can report physiologic measurements.,1
+310,The user opens his upcoming appointment list.,1
+311,"An email alert is sent out to the iTrust user in the event of a changed password, status change in laboratory procedure, comprehensive report requested and generated.",1
+312,"When the patient and LHCP are chosen, system presents the MID of the patient that will be sent to the receiving HCP.",1
+313,The LHCP enters the patient's MID.,1
+314,"System presents a line chart giving the chosen measurements (either height or weight) of the patient spanning the last 3 calendar years of data, averaged by quarters (January-March, April-June, July-September, October-December).",1
+315,A fake email is sent to the patient alerting the patient that a new message reply has arrived.,1
+316,LHCP can delete future appointments.,1
+317,The patient is then able to write a textual description.,1
+318,The event is logged  to verify his changes.,1
+319,the HCP is returned in the specific office visit record to verify his changes.,1
+320,"System presents an option (finish, decline, pending with pending as default value) to mark the status of the consultation",1
+321,System presents a text box to enter the details of the consultation.,1
+322,The LHCP or ER enters a MID,1
+323,The LHCP or ER confirms the input.,1
+324,"The representative enters the text of the response message (up to 1000 characters),",1
+325,then The representative clicks the send button.,1
+326,"The patient opens the message to which he or she wishes to reply,",1
+327,and The patient clicks the reply link above the message text.,1
+328,"A patient renews the patient's expired prescriptions (i.e., prescriptions' end dates are earlier than the current date)",1
+329,and therefore A patient finds the LHCPs who earlier wrote the patient's expired prescriptions (it is assumed that the doctors who wrote prescriptions are all LHCPs so no LHCP checks on the prescription-writing doctors are needed).,1
+330,The HCP enters a MID  or name of a patient,1
+331,The HCP confirms their selection.,1
+332,The LHCP enters a patient's MID,1
+333,The LHCP confirms his input.,1
+334,The patient may type a last name or partial last name,1
+335,The patient optionally reduces the list of choices by providing the specialty.,1
+336,"The representative opens the message to which he or she wishes to reply,",1
+337,The representative clicks the reply link above the message text.,1
+338,The administrator adds a new entry for a hospital,1
+339,The administrator modify the hospital name in an existing entry.,1
+340,The patient enters the text of the response message (up to 1000 characters),1
+341,The patient clicks the send button.,1
+342,The HCP enters a MID of a patient,1
+343,The HCP confirms their input.,1
+344,The LHCP enters the text of the response message (up to 1000 characters),1
+345,The LHCP clicks the send button.,1
+346,A LHCP or ER views an emergency report,1
+347,A LHCP or ER provides an MID.,1
+348,The HCP can view a list of laboratory procedures,1
+349,The HCP can update the status and comments.,1
+350,The editor may correct the form,1
+351,The editor add more information.,1
+352,The health care personnel enters a MID of a patient,1
+353,The health care personnel confirms their selection.,1
+354,The LHCP types the subject (up to 100 characters) and the text of a message (up to 1000 characters),1
+355,The LHCP clicks the send button.,1
+356,(If a patient or personal representative has not taken an office visit satisfaction survey for an office visit yet) The patient may take the survey for an office visit,1
+357,"(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey).",2
+358,"(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey).",2
+359,"The LHCP enters the patient MID,",1
+360,"The LHCP selects the type of appointment from a pull-down menu of the existing appointment types,",1
+361,"The LHCP enters the appointment date and time,",1
+362,The LHCP enters comment (optional) up to 1000 characters such as reason for the appointment.,1
+363,"The user selects a message from the list to read by clicking the Read link beside the row for the message,",1
+364,"the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",1
+365,He can select a patient,1
+366,He can enter data.,1
+367,The list is sorted by the date of the last office visit.,0
+368,Each row for an unread message in the message inbox is bolded.,0
+369,The HCP is notified of possible interactions.,0
+370,"The input data, a timestamp and the fact  and his MID are saved.",0
+371,"Similarly a link of Older Activities shall be further displayed and so on.",0
+372,UC18 Maintain a Hospital Listing Use Case,0
+373,All events are logged.,0
+374,The data in the database is analyzed.,0
+375,UC16 Identify Risk of Chronic Disease Use Case,0
+376,Patients with blood pressure or glucose level out of range are highlighted (normal blood pressure: systolic 90-140; diastolic 60-90; normal glucose 70-150).,0
+377,UC17 Proactively Determine Needed Patient Care Use Case,0
+378,"The appointments are listed in the format MM/DD/YYYY - AppointmentType.",0
+379,"Loggin failures, valid authentication and log outs are also logged.",0
+380,UC4 Enter or Edit Demographics Use Case,0
+381,"The adverse event report changes to a status of removed.",0
+382,An authenticated session ends when the user logs out or closes the iTrust application.,0
+383,A prescription list is sorted by start date.,0
+384,Currently available risk factors for chronic diseases are defined for Diabetes and Type 1 and Type2 and Heart Disease.,0
+385,The list is sorted by the date of the last office visit (most recent first).,0
+386,"Electronic sessions must terminate after a pre-determined period of inactivity.",0
+387,Patients with no information for the current day are highlighted.,0
+388,"The list is sorted based on the alphabetical order of the patients' last names, and then first names.",0
+389,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database.,0
+390,The prescription report is titled with the patient name.,0
+391,"The list is sorted by date of the last status update, most recent first.",0
+392,The user's associated filter initially has all empty inputs for the filtering criteria before the user modifies it.,0
+393,The patient is provided with the name for each physician.,0
+394,Only the most recent 20 activities are listed in the user page after login.,0
+395,"By default, all types of information are selected for monitoring.",0
+396,The list is ranked by the quantity of patients the LHCP has treated for that diagnosis (each patient is only counted once regardless of the number of office visits).,0
+397,Only laboratory procedures for which the HCP has allowed viewing access are shown.,0
+398,A message is sent to the patient and their personal representative.,0
+399,Patients with no information for the current day are highlighted in red.,0
+400,The user interface shall be initially populated with the values of the filtering criteria from the previously saved filter.,0
+401,"The LHCP's name, specialty, address, date of office visit, and whether or not the LHCP is a DLHCP for this patient is indicated.",0
+402,The input data and a timestamp and the fact and their MID are saved.,0
+403,The event is logged.,0
+404,The list is sorted by the dates of the last status update.,0
+405,These audit codes are summarized in the Audit & Transaction Codetable.,0
+406,The row for each conflicting appointment is highlighted in bold.,0
+407,UC29 Find LHCPs with Experience with a Diagnosis,0
+408,Each user is associated with only one filter (being saved across login sessions) and applies only this saved filter.,0
+409,A session that has been inactive for too long is terminated.,0
+410,"The input data, a timestamp, and the fact and his MID are saved.",0
+411,"The instructions can contain numbers, characters, symbols, blankspace and carriage return.",0
+412,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database (data format 5.11).,0
+413,"The input data, a timestamp, and the fact and their MID are saved.",0
+414,An activity feed is displayed.,0
